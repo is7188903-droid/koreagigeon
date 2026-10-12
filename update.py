@@ -22,27 +22,17 @@ def fetch(key,begin,end,page):
 
 
 def permitted_region(x):
-    """보수적 표시 규칙: 지역제한을 명시적으로 확인 가능한 공고만 노출."""
-    # '공사현장 위치'와 '입찰 참가 업체 소재지'는 서로 다릅니다.
-    fields=('prtcptLmtRgnNm','prtcptLmtRgnNms','bidPrtcptLmtRgnNm',
-            'rgnLmtNm','rgnLmtRgnNm','rgnLmtInfo','bidPrtcptLmtRgn')
-    raw=' '.join(str(x.get(k) or '').strip() for k in fields).strip()
-    if raw:
-        # 서로 충돌하는 지역 조건은 자동 허용하지 않습니다. 상세 공고와 다르면 상세 공고가 우선입니다.
-        disallowed=('경상남도','경남','경상북도','경북','부산','대구','울산','광주','전라남도','전남','전라북도','전북','충청남도','충남','충청북도','충북','강원','제주','서울','인천','대전','세종')
-        if any(word in raw for word in disallowed):return None
-        tokens=raw.replace('，',',').replace('·',',').replace(';',',')
-        parts=[p.strip() for p in tokens.split(',') if p.strip()]
-        if not parts:return None
-        # 조건에 제외·예외·다중 관할 등이 있으면 자동 확정하지 않음
-        if any(w in raw for w in ('제외','단,','단 ','예외','본점이전')):return None
-        if any(p.replace(' ','') in ('전국','지역제한없음','제한없음') for p in parts):return '전국'
-        # 수원시 등 다른 경기도 시군으로 좁게 제한된 건은 포함하지 않음
-        if any(p.replace(' ','') in ('경기','경기도','평택','평택시','경기도평택시','경기평택시') for p in parts):return '경기·평택'
+    """공고 목록의 참가제한지역만 판정. 상세에 다른 조건이 있으면 최종 확인 필요."""
+    raw=str(x.get('prtcptLmtRgnNm') or '').strip()
+    if not raw:
         return None
-    # 데이터에서 제한 없음이 명확히 드러난 경우만 전국 후보로 허용
-    if str(x.get('rgnLmtYn') or '').strip().upper()=='N':
-        return '전국(지역제한 없음 표시)'
+    v=''.join(raw.split())
+    if any(k in v for k in ('제외','예외','단,','본점이전','관할')):return None
+    # 지역 제한이 전국 또는 경기도 전체 또는 평택시로 직접 기재된 경우만 허용.
+    if v in ('전국','지역제한없음','제한없음','전지역'):return '전국'
+    if v in ('경기도','경기'):return '경기도'
+    if v in ('평택','평택시','경기도평택시','경기평택시'):return '평택시'
+    # 복수 지역 기재: 다른 시군 전용 조건을 섣불리 허용하지 않음
     return None
 
 def convert(x,now):
@@ -75,7 +65,7 @@ def main():
     for row in rows:
         b=convert(row,now)
         if b:candidates[b['id']]=b
-    result={'updated_at':now.isoformat(timespec='minutes'),'scanned':len(rows),'status':'경기·평택·전국 명시 공고만 후보 표시; 실적·면허·현장설명회 미검증','bids':[], 'review_count':len(candidates), 'review_candidates':sorted(candidates.values(),key=lambda b:b['deadline'])}
+    result={'updated_at':now.isoformat(timespec='minutes'),'scanned':len(rows),'status':'공고 목록에서 참가제한지역이 전국·경기도·평택시로 명시된 건만 검토 중. 자격 검증 필요','bids':[], 'review_count':len(candidates), 'review_candidates':sorted(candidates.values(),key=lambda b:b['deadline'])}
     f=pathlib.Path('docs/data.json');f.parent.mkdir(exist_ok=True)
     f.write_text(json.dumps(result,ensure_ascii=False,indent=2),encoding='utf-8')
     print('scanned',len(rows),'review_candidates',len(candidates),'verified_eligible',0)
