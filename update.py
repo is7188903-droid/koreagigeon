@@ -99,6 +99,14 @@ def region_check(row, diag):
     return '불가', text
 
 
+def needs_our_license(row):
+    """공사명과 무관하게 우리 면허(금속창호·지붕건축물조립 등)를 요구하는 공고인지."""
+    for x in DETAIL[LICENSE_OP].get(str(row.get('bidNtceNo') or ''), []):
+        if any(k in str(x.get('lcnsLmtNm') or '') for k in OUR_LICENSE):
+            return True
+    return False
+
+
 def license_check(row, diag):
     if str(row.get('indstrytyLmtYn') or '').upper() == 'N':
         return '적합', '업종제한 없음'
@@ -116,7 +124,7 @@ def license_check(row, diag):
 
 def convert(row, now, diag):
     title = str(row.get('bidNtceNm') or '').strip()
-    if not any(w in title for w in WORDS):
+    if not any(w in title for w in WORDS) and not needs_our_license(row):
         return None
     code = str(row.get('bidNtceNo') or '')
     try:
@@ -171,6 +179,8 @@ def main():
     for row in rows:
         if any(w in str(row.get('bidNtceNm') or '') for w in WORDS):
             diag['keyword_match'] += 1
+        elif needs_our_license(row):
+            diag['license_match'] = diag.get('license_match', 0) + 1
         b = convert(row, now, diag)
         if b:
             found[b['id'].rsplit('-', 1)[0]] = b  # 정정공고는 최신 차수만
