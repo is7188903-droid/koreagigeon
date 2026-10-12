@@ -339,9 +339,17 @@ function renderPartner() {
   const rows = S.partner.filter(b => [b.title, b.company].join(' ').toLowerCase().includes(q));
   $('tPartner').textContent = S.partner.length || '';
   if (!rows.length) { const p = el('div', null, 'empty'); p.append(el('b', '확인된 모집공고가 없어요'), document.createTextNode('건설사 협력업체 포털 자동연동은 준비 중입니다.')); box.append(p); return; }
+  const today = new Date().toISOString().slice(0, 10);
+  const isOpen = b => b.deadline && b.deadline >= today;
+  rows.sort((a, b) => (isOpen(b) - isOpen(a)) || String(a.next || '').localeCompare(String(b.next || '')));
   for (const b of rows) {
     const card = el('article', null, 'bid'); card.style.gridTemplateColumns = '1fr';
-    const body = el('div'); body.append(el('h3', b.title || '협력업체 모집'), el('p', [b.company, b.deadline, b.region].filter(Boolean).join(' · '), 'meta'));
+    const body = el('div'); body.append(el('h3', b.title || '협력업체 모집'), el('p', [b.company, b.period ? '접수 ' + b.period : b.deadline, b.region].filter(Boolean).join(' · '), 'meta'));
+    const checks = el('div', null, 'checks');
+    checks.append(isOpen(b) ? el('span', '접수 중', 'pill ok') : el('span', '마감' + (b.next ? ' · 다음 ' + b.next : ''), 'pill'));
+    if (b.our) { const w = el('span', '? ' + b.our, 'pill warn'); w.style.whiteSpace = 'normal'; checks.append(w); }
+    body.append(checks);
+    if (b.require) body.append(el('p', '자격: ' + b.require, 'meta'));
     const act = el('div', null, 'actions'), a = link(b.url, '모집 원문 ↗', 'btn primary'); if (a) act.append(a); body.append(act);
     card.append(body); box.append(card);
   }
