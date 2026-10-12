@@ -49,14 +49,14 @@ def bulk(op, begin, end, diag):
     out = DETAIL[op]
     try:
         for page in range(1, 41):
-            items, total = call(op, inqryDiv='1', inqryBgnDt=begin, inqryEndDt=end, pageNo=page)
+            items, total = call(op, inqryDiv='1', inqryBgnDt=begin, inqryEndDt=end, pageNo=page, numOfRows=999)
             if page == 1:
                 diag[op + '_total'] = total
                 if items:
                     diag[op + '_fields'] = ','.join(list(items[0].keys())[:12])
             for x in items:
                 out.setdefault(str(x.get('bidNtceNo') or ''), []).append(x)
-            if not items or 100 * page >= total:
+            if not items or 999 * page >= total:
                 break
     except Exception as e:
         diag['last_error'] = f'{op}: {str(e)[:120]}'
@@ -90,7 +90,11 @@ def region_check(row, diag):
     if not names:
         return '확인필요', '참가지역 정보 없음 · 원문 확인'
     text = ', '.join(names)
-    if any(any(k in n for k in OK_REGION) for n in names):
+    # 평택 업체가 들어갈 수 있는 경우만 통과: 전국 / 경기도 전체 / 평택시가 포함된 제한
+    def ok(n):
+        n = ''.join(n.split())
+        return n in ('전국', '경기도', '경기') or '평택' in n
+    if any(ok(n) for n in names):
         return '적합', text
     return '불가', text
 
