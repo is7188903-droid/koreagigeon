@@ -28,6 +28,9 @@ def permitted_region(x):
             'rgnLmtNm','rgnLmtRgnNm','rgnLmtInfo','bidPrtcptLmtRgn')
     raw=' '.join(str(x.get(k) or '').strip() for k in fields).strip()
     if raw:
+        # 서로 충돌하는 지역 조건은 자동 허용하지 않습니다. 상세 공고와 다르면 상세 공고가 우선입니다.
+        disallowed=('경상남도','경남','경상북도','경북','부산','대구','울산','광주','전라남도','전남','전라북도','전북','충청남도','충남','충청북도','충북','강원','제주','서울','인천','대전','세종')
+        if any(word in raw for word in disallowed):return None
         tokens=raw.replace('，',',').replace('·',',').replace(';',',')
         parts=[p.strip() for p in tokens.split(',') if p.strip()]
         if not parts:return None
