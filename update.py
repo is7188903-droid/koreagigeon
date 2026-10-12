@@ -1,6 +1,7 @@
 """나라장터 공사 키워드 후보 모니터링. 참가 가능 자격은 확인되지 않았음."""
 import datetime as dt, json, os, pathlib, urllib.parse, urllib.request
 from kapt import collect as collect_kapt
+from news import collect as collect_news
 from zoneinfo import ZoneInfo
 
 TZ=ZoneInfo('Asia/Seoul')
@@ -70,5 +71,6 @@ def main():
     result={'apartment_bids':apartment_bids,'apartment_status':apartment_status,'updated_at':now.isoformat(timespec='minutes'),'scanned':len(rows),'status':'공고 목록에서 참가제한지역이 전국·경기도·평택시로 명시된 건만 검토 중. 자격 검증 필요','bids':[], 'review_count':len(candidates), 'review_candidates':sorted(candidates.values(),key=lambda b:b['deadline'])}
     f=pathlib.Path('docs/data.json');f.parent.mkdir(exist_ok=True)
     f.write_text(json.dumps(result,ensure_ascii=False,indent=2),encoding='utf-8')
+    pathlib.Path('docs/news.json').write_text(json.dumps(collect_news(),ensure_ascii=False,indent=2),encoding='utf-8')
     print('scanned',len(rows),'review_candidates',len(candidates),'apartment_candidates',len(apartment_bids),'apartment_status',apartment_status,'verified_eligible',0)
 if __name__=='__main__':main()
