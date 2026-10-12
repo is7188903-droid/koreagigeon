@@ -11,6 +11,7 @@ def grab(key, term, page):
     url=ROOT+'getBidPblAncNmSearchV3?'+urllib.parse.urlencode(params)
     with urllib.request.urlopen(url, timeout=25) as resp:
         data=json.load(resp)
+    if not isinstance(data,dict):raise RuntimeError('응답이 JSON 객체가 아닙니다')
     return data
 def parse_rows(data):
     if not isinstance(data,dict):return []
@@ -47,6 +48,8 @@ def collect():
             data=grab(key,term,1)
             items=parse_rows(data)
             rows.extend(items)
+            if not items:
+                errors.append(term+': 응답목록 0건 / 응답필드 '+','.join(str(k) for k in list(data.keys())[:6]))
             hdr=(data.get('response') or {}).get('header') or {}
             code=str(hdr.get('resultCode','00'))
             if code not in ('00','0'):errors.append(term+': API 응답 '+code+' '+str(hdr.get('resultMsg','')))
@@ -55,7 +58,7 @@ def collect():
     for x in rows:
         v=format_bid(x)
         if v:output[v['id']]=v
-    state='수집 '+str(len(rows))+'개 · 점검필요 '+str(len(output))+'건'
+    state='API 원시자료 '+str(len(rows))+'개 · 공사명 관련 '+str(len(output))+'건 (0건이면 정상 수집 미확인)'
     if errors:state+=' · 일부 호출 오류: '+' / '.join(errors[:2])
     return list(output.values()),state
 if __name__=='__main__':
