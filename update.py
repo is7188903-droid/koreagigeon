@@ -33,8 +33,9 @@ def permitted_region(x):
         if not parts:return None
         # 조건에 제외·예외·다중 관할 등이 있으면 자동 확정하지 않음
         if any(w in raw for w in ('제외','단,','단 ','예외','본점이전')):return None
-        if any(w in raw for w in ('전국','지역제한없음','지역제한 없음','제한없음')):return '전국'
-        if any(w in raw for w in ('평택','경기도','경기')):return '경기·평택'
+        if any(p.replace(' ','') in ('전국','지역제한없음','제한없음') for p in parts):return '전국'
+        # 수원시 등 다른 경기도 시군으로 좁게 제한된 건은 포함하지 않음
+        if any(p.replace(' ','') in ('경기','경기도','평택','평택시','경기도평택시','경기평택시') for p in parts):return '경기·평택'
         return None
     # 데이터에서 제한 없음이 명확히 드러난 경우만 전국 후보로 허용
     if str(x.get('rgnLmtYn') or '').strip().upper()=='N':
