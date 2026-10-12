@@ -20,9 +20,32 @@ def fetch(key,begin,end,page):
     if isinstance(items,dict):items=[items]
     return items,int(body.get('totalCount') or 0)
 
+
+def permitted_region(x):
+    """보수적 표시 규칙: 지역제한을 명시적으로 확인 가능한 공고만 노출."""
+    # '공사현장 위치'와 '입찰 참가 업체 소재지'는 서로 다릅니다.
+    fields=('prtcptLmtRgnNm','prtcptLmtRgnNms','bidPrtcptLmtRgnNm',
+            'rgnLmtNm','rgnLmtRgnNm','rgnLmtInfo','bidPrtcptLmtRgn')
+    raw=' '.join(str(x.get(k) or '').strip() for k in fields).strip()
+    if raw:
+        tokens=raw.replace('，',',').replace('·',',').replace(';',',')
+        parts=[p.strip() for p in tokens.split(',') if p.strip()]
+        if not parts:return None
+        # 조건에 제외·예외·다중 관할 등이 있으면 자동 확정하지 않음
+        if any(w in raw for w in ('제외','단,','단 ','예외','본점이전')):return None
+        if any(w in raw for w in ('전국','지역제한없음','지역제한 없음','제한없음')):return '전국'
+        if any(w in raw for w in ('평택','경기도','경기')):return '경기·평택'
+        return None
+    # 데이터에서 제한 없음이 명확히 드러난 경우만 전국 후보로 허용
+    if str(x.get('rgnLmtYn') or '').strip().upper()=='N':
+        return '전국(지역제한 없음 표시)'
+    return None
+
 def convert(x,now):
     title=str(x.get('bidNtceNm') or '').strip()
     if not any(w in title for w in WORDS):return None
+    region=permitted_region(x)
+    if not region:return None
     d=str(x.get('bidClseDt') or '').strip()
     try: deadline=dt.datetime.fromisoformat(d.replace(' ','T')).replace(tzinfo=TZ)
     except ValueError:return None
@@ -31,7 +54,7 @@ def convert(x,now):
     if not code:return None
     inst=str(x.get('ntceInsttNm') or x.get('dminsttNm') or '')
     category='학교' if any(w in title+inst for w in ('학교','교육청','교육지원청','대학교')) else '공공'
-    return {'id':code+'-'+str(x.get('bidNtceOrd') or '00'),'title':title,'agency':inst,'category':category,'deadline':d,'amount':x.get('presmptPrce') or x.get('asignBdgtAmt') or None,'url':str(x.get('bidNtceDtlUrl') or ''),'status':'점검필요'}
+    return {'id':code+'-'+str(x.get('bidNtceOrd') or '00'),'title':title,'agency':inst,'category':category,'region':region,'deadline':d,'amount':x.get('presmptPrce') or x.get('asignBdgtAmt') or None,'url':str(x.get('bidNtceDtlUrl') or ''),'status':'점검필요'}
 
 def main():
     key=os.environ.get('G2B_API_KEY','').strip()
@@ -48,7 +71,7 @@ def main():
     for row in rows:
         b=convert(row,now)
         if b:candidates[b['id']]=b
-    result={'updated_at':now.isoformat(timespec='minutes'),'scanned':len(rows),'status':'참가자격 및 필수 현장설명회 미검증','bids':sorted(candidates.values(),key=lambda b:b['deadline'])}
+    result={'updated_at':now.isoformat(timespec='minutes'),'scanned':len(rows),'status':'경기·평택·전국 명시 공고만 후보 표시; 실적·면허·현장설명회 미검증','bids':sorted(candidates.values(),key=lambda b:b['deadline'])}
     f=pathlib.Path('docs/data.json');f.parent.mkdir(exist_ok=True)
     f.write_text(json.dumps(result,ensure_ascii=False,indent=2),encoding='utf-8')
     print('scanned',len(rows),'candidates',len(candidates))
