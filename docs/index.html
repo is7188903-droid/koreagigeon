@@ -77,6 +77,7 @@ a{color:var(--brand)}
 .meta{font-size:13.5px;color:var(--sub);margin-top:3px}
 .checks{display:flex;flex-wrap:wrap;gap:6px;margin-top:9px}
 .pill{font-size:12.5px;border-radius:7px;padding:3px 9px;background:var(--bg);color:var(--sub);max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+button.pill{border:0;font:inherit;font-size:12.5px;cursor:pointer}.pill.open{white-space:normal;text-align:left}
 .pill.ok{background:var(--ok-soft);color:var(--ok)}.pill.warn{background:var(--warn-soft);color:var(--warn)}
 .actions{display:flex;flex-wrap:wrap;gap:6px;margin-top:11px}
 .btn{border:1px solid var(--line);background:var(--card);border-radius:9px;padding:7px 12px;font-size:13.5px;cursor:pointer;text-decoration:none;color:var(--ink)}
@@ -272,6 +273,15 @@ function renderBin() {
 $('binBtn').onclick = () => { const showing = !$('binList').classList.contains('hidden'); $('binList').classList.toggle('hidden', showing); $('bidList').classList.toggle('hidden', !showing); if (!showing) renderBin(); $('binBtn').textContent = showing ? `숨긴 공고 (${Object.keys(bin()).length})` : '공고 목록으로 돌아가기'; };
 
 /* ---------- 입찰공고 ---------- */
+function residencyPill(days) {
+  const short = days < 0 ? '? 소재기간 확인' : `? 소재 ${days}/90일`;
+  const long = days < 0
+    ? '공고일을 못 읽었습니다. 원문에서 본점 소재 90일 요건이 있는지 확인하세요.'
+    : `공고일 기준 본점 소재 ${days}일입니다. 원문에 '90일 이상' 요건이 있으면 미달입니다. (11/18 이후 공고부터 충족)`;
+  const p = el('button', short, 'pill warn'); p.type = 'button'; p.title = long;
+  p.onclick = () => { const on = p.textContent === short; p.textContent = on ? long : short; p.classList.toggle('open', on); };
+  return p;
+}
 function pill(status, label) { return el('span', (status === '적합' ? '✓ ' : '? ') + label, 'pill ' + (status === '적합' ? 'ok' : 'warn')); }
 function renderBids() {
   const hidden = bin(), q = $('q').value.trim().toLowerCase(), cat = $('cat').value, near = $('near').checked;
@@ -304,6 +314,7 @@ function renderBids() {
     body.append(el('p', [b.agency || '발주처 미확인', b.site && b.site !== b.agency ? '현장 ' + b.site : '', shortWon(b.amount)].filter(Boolean).join(' · '), 'meta'));
     const checks = el('div', null, 'checks');
     checks.append(pill(b.region_status, '지역 ' + (b.region || '확인 필요')), pill(b.license_status, '면허 ' + (b.license || '확인 필요')));
+    if (b.residency_days != null) checks.append(residencyPill(b.residency_days));
     if (b.source && b.source !== '나라장터') checks.append(el('span', b.source, 'pill'));
     body.append(checks);
     const act = el('div', null, 'actions');

@@ -113,17 +113,16 @@ def notice_date(row):
     return None
 
 
-def residency_check(row, region_status, region_text):
-    """지역제한 공고에서 본점 소재 기간(90일) 요건을 아직 못 채웠을 수 있으면 '확인필요'로 낮춘다."""
+def residency_check(row, region_status):
+    """지역제한 공고에서 본점 소재 90일 요건을 아직 못 채웠을 수 있는지.
+    반환: None(해당 없음·충족) / 공고일 기준 소재일수(90 미만) / -1(공고일 미확인)"""
     if region_status != '적합' or str(row.get('rgnLmtYn') or '').upper() == 'N':
-        return region_status, region_text
+        return None
     day = notice_date(row)
     if day is None:
-        return '확인필요', region_text + ' · 공고일 미확인(본점 소재 90일 요건 확인)'
+        return -1
     days = (day - COMPANY_BASE_DATE).days
-    if days < RESIDENCY_DAYS:
-        return '확인필요', region_text + f' · 공고일 기준 본점 소재 {days}일(90일 요건 있으면 미달)'
-    return region_status, region_text
+    return days if days < RESIDENCY_DAYS else None
 
 
 def needs_our_license(row):
@@ -166,11 +165,11 @@ def convert(row, now, diag):
     if region_status == '불가':
         diag['region_rejected'] += 1
         return None
-    region_status, region_text = residency_check(row, region_status, region_text)
+    residency_days = residency_check(row, region_status)
     license_status, license_text = license_check(row, diag)
     inst = str(row.get('ntceInsttNm') or row.get('dminsttNm') or '')
     site = str(row.get('cnstrtsiteRgnNm') or '').strip()
-    fit = '적합' if region_status == license_status == '적합' else '확인필요'
+    fit = '적합' if region_status == license_status == '적합' and residency_days is None else '확인필요'
     return {
         'id': code + '-' + str(row.get('bidNtceOrd') or '00'),
         'title': title, 'agency': inst,
@@ -180,6 +179,7 @@ def convert(row, now, diag):
         'url': str(row.get('bidNtceDtlUrl') or ''),
         'site': site, 'near': any(k in site for k in NEAR_SITE),
         'region_status': region_status, 'region': region_text,
+        'residency_days': residency_days,  # 본점 소재 90일 미달 시 일수, 공고일 미확인 -1, 해당 없음 None
         'license_status': license_status, 'license': license_text,
         'fit': fit, 'source': '나라장터',
     }
