@@ -43,7 +43,11 @@ def convert(x,now):
     title=str(x.get('bidNtceNm') or '').strip()
     if not any(w in title for w in WORDS):return None
     region=permitted_region(x)
-    if not region:return None
+    # 목록 API에 참가가능지역이 없으면 버리지 않고 미검증 검토함으로 보냅니다.
+    # 공사현장/발주처 지역으로 참가업체 소재지 제한을 추정하지 않습니다.
+    if not region:
+        if str(x.get('prtcptLmtRgnNm') or '').strip() or str(x.get('rgnLmtYn') or '').strip().upper()=='Y':return None
+        region='지역 원문 확인 필요'
     d=str(x.get('bidClseDt') or '').strip()
     try: deadline=dt.datetime.fromisoformat(d.replace(' ','T')).replace(tzinfo=TZ)
     except ValueError:return None
@@ -52,7 +56,7 @@ def convert(x,now):
     if not code:return None
     inst=str(x.get('ntceInsttNm') or x.get('dminsttNm') or '')
     category='학교' if any(w in title+inst for w in ('학교','교육청','교육지원청','대학교')) else '공공'
-    return {'id':code+'-'+str(x.get('bidNtceOrd') or '00'),'title':title,'agency':inst,'category':category,'region':region,'deadline':d,'amount':x.get('presmptPrce') or x.get('asignBdgtAmt') or None,'url':str(x.get('bidNtceDtlUrl') or ''),'status':'점검필요','eligible_verified':False,'eligibility_checks':{'지역':region,'면허':'원문 검증필요','무실적':'원문 검증필요','업력':'원문 검증필요','여성기업·중소기업':'해당 공고 요구사항 확인필요','자본금·재무요건':'원문 검증필요','현장설명·사전신청':'원문 검증필요'}}
+    return {'id':code+'-'+str(x.get('bidNtceOrd') or '00'),'title':title,'agency':inst,'category':category,'region':region,'deadline':d,'amount':x.get('presmptPrce') or x.get('asignBdgtAmt') or None,'url':str(x.get('bidNtceDtlUrl') or ''),'status':'확인 필요','eligible_verified':False,'eligibility_checks':{'지역':region,'면허':'원문 검증필요','무실적':'원문 검증필요','업력':'원문 검증필요','여성기업·중소기업':'해당 공고 요구사항 확인필요','자본금·재무요건':'원문 검증필요','현장설명·사전신청':'원문 검증필요'}}
 
 def main():
     key=os.environ.get('G2B_API_KEY','').strip()
@@ -78,7 +82,7 @@ def main():
             elif not permitted_region(row):stats['region_rejected']+=1
             else:stats['expired_or_invalid']+=1
     apartment_bids, apartment_status=collect_kapt()
-    result={'apartment_bids':apartment_bids,'apartment_status':apartment_status,'updated_at':now.isoformat(timespec='minutes'),'scanned':len(rows),'filter_stats':stats,'region_field_samples':region_field_samples,'status':'공고 목록에서 참가제한지역이 전국·경기도·평택시로 명시된 건만 검토 중. 자격 검증 필요','bids':[], 'review_count':len(candidates), 'review_candidates':sorted(candidates.values(),key=lambda b:b['deadline'])}
+    result={'apartment_bids':apartment_bids,'apartment_status':apartment_status,'updated_at':now.isoformat(timespec='minutes'),'scanned':len(rows),'filter_stats':stats,'region_field_samples':region_field_samples,'status':'목록 API 지역정보 없으면 미검증 후보로 별도 표시. 원문 참가가능지역·면허·현장설명 확인 전 참가 추천 아님','bids':[], 'review_count':len(candidates), 'review_candidates':sorted(candidates.values(),key=lambda b:b['deadline'])}
     f=pathlib.Path('docs/data.json');f.parent.mkdir(exist_ok=True)
     f.write_text(json.dumps(result,ensure_ascii=False,indent=2),encoding='utf-8')
     pathlib.Path('docs/news.json').write_text(json.dumps(collect_news(),ensure_ascii=False,indent=2),encoding='utf-8')
