@@ -41,16 +41,48 @@ def call(op, **params):
     return [x for x in items if isinstance(x, dict)], int(body.get('totalCount') or 0)
 
 
+DETAIL = {REGION_OP: {}, LICENSE_OP: {}}
+
+
+def bulk(op, begin, end, diag):
+    """조회기간 전체의 상세(지역·면허)를 한 번에 받아 공고번호별로 묶는다."""
+    out = DETAIL[op]
+    try:
+        for page in range(1, 41):
+            items, total = call(op, inqryDiv='1', inqryBgnDt=begin, inqryEndDt=end, pageNo=page)
+            if page == 1:
+                diag[op + '_total'] = total
+                if items:
+                    diag[op + '_fields'] = ','.join(list(items[0].keys())[:12])
+            for x in items:
+                out.setdefault(str(x.get('bidNtceNo') or ''), []).append(x)
+            if not items or 100 * page >= total:
+                break
+    except Exception as e:
+        diag['last_error'] = f'{op}: {str(e)[:120]}'
+
+
+def detail(op, row, diag, ok_key, fail_key):
+    no = str(row.get('bidNtceNo') or '')
+    if no in DETAIL[op]:
+        diag[ok_key] += 1
+        return DETAIL[op][no]
+    try:  # 일괄 조회에 없으면 공고번호로 한 번 더
+        items, _ = call(op, inqryDiv='2', bidNtceNo=no)
+        diag[ok_key] += 1
+        return items
+    except Exception as e:
+        diag[fail_key] += 1
+        diag['last_error'] = str(e)[:120]
+        return None
+
+
 def region_check(row, diag):
-    """참가가능지역 상세 조회. 반환: (상태, 표시문구)"""
+    """참가가능지역 판정. 반환: (상태, 표시문구)"""
     if str(row.get('rgnLmtYn') or '').upper() == 'N':
         return '적합', '지역제한 없음'
-    try:
-        items, _ = call(REGION_OP, inqryDiv='2', bidNtceNo=row.get('bidNtceNo'))
-        diag['region_api_ok'] += 1
-    except Exception as e:  # 상세 API 미승인·오류
-        diag['region_api_fail'] += 1
-        diag['last_error'] = str(e)[:120]
+    items = detail(REGION_OP, row, diag, 'region_api_ok', 'region_api_fail')
+    if items is None:
         return '확인필요', '참가지역 조회 실패 · 원문 확인'
     ord_ = str(row.get('bidNtceOrd') or '')
     names = sorted({str(x.get('prtcptPsblRgnNm') or '').strip() for x in items
@@ -66,12 +98,8 @@ def region_check(row, diag):
 def license_check(row, diag):
     if str(row.get('indstrytyLmtYn') or '').upper() == 'N':
         return '적합', '업종제한 없음'
-    try:
-        items, _ = call(LICENSE_OP, inqryDiv='2', bidNtceNo=row.get('bidNtceNo'))
-        diag['license_api_ok'] += 1
-    except Exception as e:
-        diag['license_api_fail'] += 1
-        diag['last_error'] = str(e)[:120]
+    items = detail(LICENSE_OP, row, diag, 'license_api_ok', 'license_api_fail')
+    if items is None:
         return '확인필요', '면허조건 조회 실패 · 원문 확인'
     names = sorted({str(x.get('lcnsLmtNm') or '').strip() for x in items} - {''})
     if not names:
@@ -133,6 +161,8 @@ def main():
             break
     diag = {'scanned': len(rows), 'keyword_match': 0, 'closed': 0, 'bad_deadline': 0, 'region_rejected': 0,
             'region_api_ok': 0, 'region_api_fail': 0, 'license_api_ok': 0, 'license_api_fail': 0, 'last_error': ''}
+    bulk(REGION_OP, begin, end, diag)
+    bulk(LICENSE_OP, begin, end, diag)
     found = {}
     for row in rows:
         if any(w in str(row.get('bidNtceNm') or '') for w in WORDS):
