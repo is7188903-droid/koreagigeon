@@ -25,20 +25,35 @@ def value(x,*keys):
         v=x.get(k)
         if v not in (None,''):return str(v).strip()
     return ''
+def parse_close(value):
+    if not value:return None
+    digits=re.sub(r'\\D','',str(value))
+    try:
+        if len(digits)>=12:
+            return dt.datetime.strptime(digits[:12],'%Y%m%d%H%M').replace(tzinfo=TZ)
+        if len(digits)==8:
+            return dt.datetime.strptime(digits,'%Y%m%d').replace(hour=23,minute=59,tzinfo=TZ)
+    except ValueError:pass
+    try:return dt.datetime.fromisoformat(str(value).replace(' ','T')).replace(tzinfo=TZ)
+    except ValueError:return None
+
 def format_bid(x):
     title=value(x,'bidPblAncNm','bidTitle','bidNm','bidName')
     if not title or not any(w in title for w in KEYWORDS):return None
     no=value(x,'bidNum','bidNo','bidPblAncNo')
     apt=value(x,'hsmpNm','kaptName','aptNm','aptName')
     close=value(x,'bidClosDe','bidClseDt','bidEndDt','bidClosDt','bidEndDe')
-    region=value(x,'prtcptLmtRgnNm','bidAreaNm','bidArea','bidAreaName')
+    deadline=parse_close(close)
+    if not deadline or deadline <= dt.datetime.now(TZ):return None
+    # 단지 소재지역(bidArea 등)은 업체 참여 가능 지역이 아닙니다.
+    region=value(x,'prtcptLmtRgnNm')
     # 주소/시공지역 정보는 참여업체의 소재지 제한을 의미하지 않음
-    if region and region not in ('전국','경기','경기도','평택','평택시'):
+    if region and region not in ('전국','경기','경기도','평택','평택시','제한없음'):
         return None
     url=value(x,'bidPblAncDtlUrl','bidDtlUrl','bidUrl','url')
     # 원문 URL 확인 불가능한 경우에는 공고 목록 링크로 안내
     if not url.startswith('https://'):url='https://www.k-apt.go.kr/bid/bidList.do'
-    return {'id':'kapt-'+(no or re.sub(r'\W','',title+apt)[:55]),'title':title,'agency':apt,'category':'아파트','region':region or '지역제한 원문 점검필요','deadline':close,'amount':value(x,'bidAmt','bidAmount'),'url':url,'status':'점검필요','eligible_verified':False,'source':'공동주택 API'}
+    return {'id':'kapt-'+(no or re.sub(r'\W','',title+apt)[:55]),'title':title,'agency':apt,'category':'아파트','region':region or '지역제한 원문 점검필요','deadline':deadline.isoformat(timespec='minutes'),'amount':value(x,'bidAmt','bidAmount'),'url':url,'status':'점검필요','eligible_verified':False,'source':'공동주택 API'}
 def collect():
     key=os.getenv('KAPT_API_KEY','').strip()
     if not key:return [],'KAPT_API_KEY 비밀키 미등록'
