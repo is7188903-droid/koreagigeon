@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-13T01:57+09:00",
+  "updated_at": "2026-10-13T02:00+09:00",
   "status": "정상",
   "items": [
     {
@@ -21,13 +21,6 @@
       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE50VXRtOXJvQWFWM0Ryc0dKbi0wY0xCZ2ZDYl9DMG1XbDlGU2tQZUEzazByWW5XT3dZaTMyQXlrMnZSdWdESGlXelVPS1dhNXBEYUFrbjNyQmpkdjJmV2xDRzZBak8?oc=5",
       "date": "2026-10-12T17:27+09:00",
       "press": "경기신문",
-      "topic": "학교 시설 창호 교체"
-    },
-    {
-      "title": "당진 4개교 시설개선에 12억4600만원..어기구 의원 특별교부금 확보 - 당진신문",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9zaVdSajlUbnJmM21zeV9uQkZTS1pjMDluVVR3alBPbGoxaGRxa3ZIeXc2NnFaRUduSHJ1eWowbG9iMU9WSk9VVDE3S1d2eEJGSmtOcDBRdmpsdEp3bHN1cWlpeC1Lc2Mx?oc=5",
-      "date": "2026-10-12T15:44+09:00",
-      "press": "당진신문",
       "topic": "학교 시설 창호 교체"
     },
     {
@@ -80,6 +73,13 @@
       "topic": "금속창호 공사"
     },
     {
+      "title": "경기 노후 학교 건물 1768동 ‘전국 최다’…시설 개선 예산은 들쭉날쭉 - 경기신문",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5XbEtPWXp4N1J5TnVwdWdPU3BNVnFvRG1tRVZQbkNDZlA2QXl2elNOeTUzbGVfb3VlSjRkZVJQcTQ0U3hBZ2Y3WlB3RU5vU3pXLWNja2lEX1lZU1JUQWVnanJwcW4?oc=5",
+      "date": "2026-10-07T16:40+09:00",
+      "press": "경기신문",
+      "topic": "학교 시설 창호 교체"
+    },
+    {
       "title": "금속·창호·지붕·건축물협, 광주·전남 운영분과위와 간담회 개최 - 대한전문건설신문",
       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE83YXVXT1BHVGpCdTBHa0tOSUo3TldXVWM0YU5zQW5lc2xLM284WEpHV25oXzNidjVyemY0N3NWWEpHeXlsazNVTXJmWEZwMGhyUF9HRGZiTUM0UENYWUVDb3pIWDdNLVdy0gFsQVVfeXFMUDdpTGF3eGpjSHNGZ3FkTkg5WEpsY0RlU0x5UFhHWFdXdjdrbWxRbnYtYk5QaGJlQTJSTG5YSExRUTY2Y1Z4aHNnQm9aWUVsU0xNenVWb1FtOVVSTFVSMm1nY0sxbjNPWl92TElG?oc=5",
       "date": "2026-10-07T15:36+09:00",
@@ -101,10 +101,10 @@
       "topic": "금속창호 공사"
     },
     {
-      "title": "[이슈] '주계약자 공동도급제' 둘러싸고 업역 간 충돌…전문 \"상시화\"vs종합 \"대체 제도 있어“ - 팍스경제TV",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9xVkNQb0NkZ01lcUI0UjdEVWNqLWZONUVOM1VDcUNiT3lucHFtQlBqaU9fS3FJVW84RG5mb3FDSmVjb1lKZ1k3SndSblV4Q0kzeXpXNkd2WnlfLTNUU3VEc3ZUR2dQQms?oc=5",
-      "date": "2026-10-06T16:14+09:00",
-      "press": "팍스경제TV",
+      "title": "공사비 계속 뛰는데…‘공동도급’ 건설업 활로 될까? - 메트로신문",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE14cXl0R0pXQ095RzZHWnAzUmQ3TmY0dHlEeU91c01RZ2FJVDRJZmtoX1FNN0pMUWJjUC1SLVBOVW5paUJtUUxKRXptTzFkZEtJOWNOVmY5Wld0cTFzd0RJZQ?oc=5",
+      "date": "2026-10-06T14:55+09:00",
+      "press": "메트로신문",
       "topic": "전문건설 입찰 제도"
     },
     {
