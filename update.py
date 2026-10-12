@@ -55,7 +55,7 @@ def convert(x,now):
     if not code:return None
     inst=str(x.get('ntceInsttNm') or x.get('dminsttNm') or '')
     category='학교' if any(w in title+inst for w in ('학교','교육청','교육지원청','대학교')) else '공공'
-    return {'id':code+'-'+str(x.get('bidNtceOrd') or '00'),'title':title,'agency':inst,'category':category,'region':region,'deadline':d,'amount':x.get('presmptPrce') or x.get('asignBdgtAmt') or None,'url':str(x.get('bidNtceDtlUrl') or ''),'status':'점검필요'}
+    return {'id':code+'-'+str(x.get('bidNtceOrd') or '00'),'title':title,'agency':inst,'category':category,'region':region,'deadline':d,'amount':x.get('presmptPrce') or x.get('asignBdgtAmt') or None,'url':str(x.get('bidNtceDtlUrl') or ''),'status':'점검필요','eligible_verified':False,'eligibility_checks':{'지역':region,'면허':'원문 검증필요','무실적':'원문 검증필요','업력':'원문 검증필요','여성기업·중소기업':'해당 공고 요구사항 확인필요','자본금·재무요건':'원문 검증필요','현장설명·사전신청':'원문 검증필요'}}
 
 def main():
     key=os.environ.get('G2B_API_KEY','').strip()
@@ -72,8 +72,8 @@ def main():
     for row in rows:
         b=convert(row,now)
         if b:candidates[b['id']]=b
-    result={'updated_at':now.isoformat(timespec='minutes'),'scanned':len(rows),'status':'경기·평택·전국 명시 공고만 후보 표시; 실적·면허·현장설명회 미검증','bids':sorted(candidates.values(),key=lambda b:b['deadline'])}
+    result={'updated_at':now.isoformat(timespec='minutes'),'scanned':len(rows),'status':'경기·평택·전국 명시 공고만 후보 표시; 실적·면허·현장설명회 미검증','bids':[], 'review_count':len(candidates), 'review_candidates':sorted(candidates.values(),key=lambda b:b['deadline'])}
     f=pathlib.Path('docs/data.json');f.parent.mkdir(exist_ok=True)
     f.write_text(json.dumps(result,ensure_ascii=False,indent=2),encoding='utf-8')
-    print('scanned',len(rows),'candidates',len(candidates))
+    print('scanned',len(rows),'review_candidates',len(candidates),'verified_eligible',0)
 if __name__=='__main__':main()
