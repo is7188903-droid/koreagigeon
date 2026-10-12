@@ -1,19 +1,41 @@
-"""관련 업계 뉴스 RSS 제목과 원문 링크를 수집합니다. 선정적 기사나 입찰공고로 오인하지 않도록 별도 표시."""
+"""업계 뉴스 RSS 제목·링크 수집. 입찰공고가 아니므로 화면에서 별도 탭으로만 표시."""
 import urllib.request, urllib.parse, xml.etree.ElementTree as ET, datetime as dt
+from email.utils import parsedate_to_datetime
 from zoneinfo import ZoneInfo
-QUERY='금속창호 지붕판금 건설 입찰 OR 학교 시설 공사 OR 건설사 협력업체 모집'
+
+TZ = ZoneInfo('Asia/Seoul')
+QUERIES = ('금속창호 공사', '지붕 판금 공사', '학교 시설 창호 교체', '건설 협력업체 모집', '전문건설 입찰 제도')
+
+
+def fetch(q):
+    url = 'https://news.google.com/rss/search?' + urllib.parse.urlencode(
+        {'q': q + ' when:14d', 'hl': 'ko', 'gl': 'KR', 'ceid': 'KR:ko'})
+    req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0 (compatible; HKG-BidOffice/1.1)'})
+    with urllib.request.urlopen(req, timeout=20) as r:
+        return ET.fromstring(r.read()).findall('./channel/item')
+
+
 def collect():
-    url='https://news.google.com/rss/search?'+urllib.parse.urlencode({'q':QUERY,'hl':'ko','gl':'KR','ceid':'KR:ko'})
-    try:
-        req=urllib.request.Request(url,headers={'User-Agent':'Mozilla/5.0 (compatible; HKG-BidOffice/1.0)'})
-        with urllib.request.urlopen(req,timeout=20) as r:root=ET.fromstring(r.read())
-        items=[]
-        for node in root.findall('./channel/item')[:18]:
-            title=(node.findtext('title') or '').strip()
-            link=(node.findtext('link') or '').strip()
-            date=(node.findtext('pubDate') or '').strip()
-            if not title or not link.startswith('https://'):continue
-            items.append({'title':title,'url':link,'date':date,'source':'Google 뉴스 검색 RSS'})
-        return {'updated_at':dt.datetime.now(ZoneInfo('Asia/Seoul')).isoformat(timespec='minutes'),'status':'Google 뉴스 검색 RSS · 제목/링크만 표시, 개별 기사 내용 미검증','items':items}
-    except Exception as e:
-        return {'updated_at':dt.datetime.now(ZoneInfo('Asia/Seoul')).isoformat(timespec='minutes'),'status':'뉴스 수집 실패: '+type(e).__name__,'items':[]}
+    now = dt.datetime.now(TZ).isoformat(timespec='minutes')
+    items, seen, errors = [], set(), 0
+    for q in QUERIES:
+        try:
+            nodes = fetch(q)
+        except Exception:
+            errors += 1
+            continue
+        for n in nodes[:8]:
+            title = (n.findtext('title') or '').strip()
+            link = (n.findtext('link') or '').strip()
+            if not title or not link.startswith('https://') or title in seen:
+                continue
+            seen.add(title)
+            try:
+                date = parsedate_to_datetime(n.findtext('pubDate') or '').astimezone(TZ).isoformat(timespec='minutes')
+            except Exception:
+                date = ''
+            press = (n.findtext('source') or '').strip()
+            items.append({'title': title, 'url': link, 'date': date, 'press': press, 'topic': q})
+    items.sort(key=lambda x: x['date'], reverse=True)
+    status = '정상' if items else ('수집 실패' if errors == len(QUERIES) else '해당 기사 없음')
+    return {'updated_at': now, 'status': status, 'items': items[:30]}
