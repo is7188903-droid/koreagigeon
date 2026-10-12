@@ -1,5 +1,181 @@
 {
-  "updated_at": "2026-10-13T01:40+09:00",
-  "status": "Google 뉴스 검색 RSS · 제목/링크만 표시, 개별 기사 내용 미검증",
-  "items": []
+  "updated_at": "2026-10-13T01:49+09:00",
+  "status": "정상",
+  "items": [
+    {
+      "title": "임오경, 광명갑 학교 교육환경 개선 국비 42억9천만원 확보 - 광흥타임즈",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE93dzE0aUFqc292ZmFsQUVCUnVvN2FCVnRvcU1oREg1RXh1RGZtMFFIaGNkcWtCbGdGN0JndlBtTGt4UklMTDQ3bG1aY216Q2YzVEtTWmt4S0haQ2FCSjln?oc=5",
+      "date": "2026-10-12T23:23+09:00",
+      "press": "광흥타임즈",
+      "topic": "학교 시설 창호 교체"
+    },
+    {
+      "title": "경남도, 2026년도 지역 전문건설업체 역량강화 최종 워크숍 개최 - 경남도민신문",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5GclV6Rk1rbUVwYjVCeDNlYlI5d3BxQk05LWpyVU5ZZzdlb0ZyMUxSNHNJNXdkUnFrTl90S1V2c2hKRGd0aHF0UmRvUHoya1F0OTVqZUlXaW5IWkRSbkFYRkN2c2o3UjM2?oc=5",
+      "date": "2026-10-12T17:48+09:00",
+      "press": "경남도민신문",
+      "topic": "건설 협력업체 모집"
+    },
+    {
+      "title": "광명갑 5개 학교에 국비 42억…임오경, 교육환경 개선 예산 추가 확보 - 경기신문",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE50VXRtOXJvQWFWM0Ryc0dKbi0wY0xCZ2ZDYl9DMG1XbDlGU2tQZUEzazByWW5XT3dZaTMyQXlrMnZSdWdESGlXelVPS1dhNXBEYUFrbjNyQmpkdjJmV2xDRzZBak8?oc=5",
+      "date": "2026-10-12T17:27+09:00",
+      "press": "경기신문",
+      "topic": "학교 시설 창호 교체"
+    },
+    {
+      "title": "증평 각리중·비상초, 교육부 특별교부금 2억 9천만원 확보… 노후 창호 교체 본격화 - 피디언뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1hMFpQRnBGUG5MS3pKNDNvSC1FR3JMR3E2amlmOW5YMG5NSzREUHQ2WjJLYmhjODNMRWYyMFdnZkNvaHQzc2p3VjlOVVg2ajc2ck9BS0FYTW1EN09H?oc=5",
+      "date": "2026-10-12T15:21+09:00",
+      "press": "피디언뉴스",
+      "topic": "학교 시설 창호 교체"
+    },
+    {
+      "title": "구미시, 15일 삼성물산과 '지역건설업체 상생협력 매칭데이' 개최 - 뉴스1",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1LUDU3WDlBVGZ1dEZBLWk0QVE4OEtLVVRKZld1djBxbzRrSnlwSFFZaU85ZmwtZGhLdlNxOHhIaHdjRGRWd21OUThKYTVJa2s4Qm5DOGhLcXcxSzZVVVlj?oc=5",
+      "date": "2026-10-09T07:01+09:00",
+      "press": "뉴스1",
+      "topic": "건설 협력업체 모집"
+    },
+    {
+      "title": "경기도, 지역건설산업 활성화 위해 대형종합건설사와 지역전문건설사 만남의 장 마련 - 경기중앙신문",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1kM2pWS0otM2NmRmUwbWF0Vnk5VFNnbFdNNl91c21HNXo4ZUVIcVBtNnJ5R2E0OXhocEJEMHNrZy16TE9udm8wRzI1b1Y4a1VrQUUzUFdJQkZwUm5zLWFKUTF6SXpBRFVv?oc=5",
+      "date": "2026-10-08T18:35+09:00",
+      "press": "경기중앙신문",
+      "topic": "건설 협력업체 모집"
+    },
+    {
+      "title": "경기도, 대형건설사·지역전문건설사 상생협력 행사 개최 - 포커스경제",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5YQmZvWFZ3c2NYTGI0aS0wVThlQnhERFQzc2c5RDFFeC1pbndkRW9zdXZTV2hMNHFvdlVCcTFnOTFLMTFCRmJwM19qREYwRHFhT1FlRENFUE5YX0Jid082UDdmWklCcnRfR0NiRHp30gFwQVVfeXFMT0tlcXp0S1AzVHF5aDlUc1ZOeWFIWV9MTXo4QmRLNXZOSzV3Q0MySktIQWJFdHVFd2Eta3EyX0VCTkhNeUNjUnVMNFVJUGcxRndLLVZfMlNwWlM1anNVemdxQ0VBRFlPVzZOd0RuTG1Eeg?oc=5",
+      "date": "2026-10-08T13:58+09:00",
+      "press": "포커스경제",
+      "topic": "건설 협력업체 모집"
+    },
+    {
+      "title": "전남도회, 순천시장과 지역건설산업 활성화 간담회 개최 - 대한전문건설신문",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBRX0lBaWZVVTd3eEZsaFlQUWZCdjNLNVFleGVKWjJTZ1FNek1jSVZyX3lVVnpHWll1R1hNS2VSNVJBSVBhemNGLVowYmlLYlhWZk1UV1liUTBlb2pyV0s2NEZUa1NlZ3Qy0gFsQVVfeXFMTThTUmJ1QlFlLTM2anp6OG42bDFpYm9vQkZtaGRIbTJ3dDlsazdyZHhGN2puR2hjcFlnM3U3X19LVDNmbDFPTGtrSlZiejJwX3JRNVNvcFpqbDJVWDRJR25vem1ZdVQ5YlpncGVU?oc=5",
+      "date": "2026-10-08T10:49+09:00",
+      "press": "대한전문건설신문",
+      "topic": "전문건설 입찰 제도"
+    },
+    {
+      "title": "국회서도 주계약자 공동도급 유용성 인정…제도개선 의지 표명 - 기계설비신문",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9DeTdYaUFBbHI4QXV6WVJobFhsODkzc3JfZ3JsaFE0Q0RkUDlqekNoQnVfSFRKclFQWEpHLVpTbldTczVvajNhcU8zSGc4b3dOcHg3Yy05dnF0amtLcTZieXJzY1ZQenFJSS1aZQ?oc=5",
+      "date": "2026-10-08T10:00+09:00",
+      "press": "기계설비신문",
+      "topic": "전문건설 입찰 제도"
+    },
+    {
+      "title": "세봉특수산업, DSP 접합강판으로 금속 지붕·외장시장 새 해법 제시 - 스틸데일리",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0xMHJtZlJJSWE0Q04tTnJ4NFdENVd0RmZpLXEzNlg2TGVEbjM0Y3VpZU9PZEZnM2ZmRmdLX2tsbHRuZm1RNmNuQ2Q5c3d1SUQwVXlXNDN6RllOaWd6NlE2bDlwc0tiVnlLWjBIcXhjZ0_SAXRBVV95cUxPOU5FczdENnZMaTR5dm1jSjFYdUJJSW5KUGUyZmlQVmtFS1BkVVJRcy1OckFYS3ZBajdpdmVSanFOX2owMnlIQi1sV1pEa3JJVzdpai1jOUhxeTItZ3VtOEpLQ3VrSTNQQXZmdFNsVkVsdmE0TQ?oc=5",
+      "date": "2026-10-08T07:00+09:00",
+      "press": "스틸데일리",
+      "topic": "금속창호 공사"
+    },
+    {
+      "title": "경기 노후 학교 건물 1768동 ‘전국 최다’…시설 개선 예산은 들쭉날쭉 - 경기신문",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5XbEtPWXp4N1J5TnVwdWdPU3BNVnFvRG1tRVZQbkNDZlA2QXl2elNOeTUzbGVfb3VlSjRkZVJQcTQ0U3hBZ2Y3WlB3RU5vU3pXLWNja2lEX1lZU1JUQWVnanJwcW4?oc=5",
+      "date": "2026-10-07T16:40+09:00",
+      "press": "경기신문",
+      "topic": "학교 시설 창호 교체"
+    },
+    {
+      "title": "금속·창호·지붕·건축물협, 광주·전남 운영분과위와 간담회 개최 - 대한전문건설신문",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE83YXVXT1BHVGpCdTBHa0tOSUo3TldXVWM0YU5zQW5lc2xLM284WEpHV25oXzNidjVyemY0N3NWWEpHeXlsazNVTXJmWEZwMGhyUF9HRGZiTUM0UENYWUVDb3pIWDdNLVdy0gFsQVVfeXFMUDdpTGF3eGpjSHNGZ3FkTkg5WEpsY0RlU0x5UFhHWFdXdjdrbWxRbnYtYk5QaGJlQTJSTG5YSExRUTY2Y1Z4aHNnQm9aWUVsU0xNenVWb1FtOVVSTFVSMm1nY0sxbjNPWl92TElG?oc=5",
+      "date": "2026-10-07T15:36+09:00",
+      "press": "대한전문건설신문",
+      "topic": "금속창호 공사"
+    },
+    {
+      "title": "전남광주 학교 10곳 중 4곳 ‘30년 이상’…시설개선 예산 감소 - 남도일보",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE54OU03eEd6UmRJQXN4MWlsbnRrUmlOWUZ1SkhiV3pab0JNZ2k4U0dXckpseElaM2JGS0ducEc2d2Vod05POTdsb3hRU1RMTGZZMGZnOGN5M19vczhmVlN2S00yenBFdXROYVozRtIBcEFVX3lxTE9UR0NoUHkxaUd5YVAwOTJxV0tYQ2REcE9YTVpNSU9ZUGVzYUR5dHJ5SEtuWFJpTWNUUmRMWHVyMDNOOEpnMnZMaVJNbFhIQy1JbXVzdmRmQ0FDc3pldl9SaVJKVFNWYWlMN2pZLUg3d3o?oc=5",
+      "date": "2026-10-07T15:29+09:00",
+      "press": "남도일보",
+      "topic": "학교 시설 창호 교체"
+    },
+    {
+      "title": "진주시 하도급 계약, 올 상반기 48건 233억원…7월 이후 4건 - 경남미디어",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9aS1M4RDZNaUY1cmFQaUZkZ1U1ajg1Nm9fNkxDd1J2dXM4QWhTeFdmUENWUVhVV3dhWHNxdWxMbXluRGpOX0ctc1pCSWNiT2pVVlZmT1lFYVFzRXJ1NFBUSkJnR2tSXzNtNF9R?oc=5",
+      "date": "2026-10-07T14:49+09:00",
+      "press": "경남미디어",
+      "topic": "금속창호 공사"
+    },
+    {
+      "title": "공사비 계속 뛰는데…‘공동도급’ 건설업 활로 될까? - 메트로신문",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE14cXl0R0pXQ095RzZHWnAzUmQ3TmY0dHlEeU91c01RZ2FJVDRJZmtoX1FNN0pMUWJjUC1SLVBOVW5paUJtUUxKRXptTzFkZEtJOWNOVmY5Wld0cTFzd0RJZQ?oc=5",
+      "date": "2026-10-06T14:55+09:00",
+      "press": "메트로신문",
+      "topic": "전문건설 입찰 제도"
+    },
+    {
+      "title": "건설업 하도급 구조 개선해야…전문건설업계 \"주계약자 공동도급 법 명시해야\" - 조선일보",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPZkdBWmg3N2dRekh2elplR19uX0VHVDNfZ2htSHg1dF9UUzNtREhXUnhEU1FMdlgycDhtS1JuSFkwSXBYNmE3YzRyMExKT2FnTGdqbnFXT2dkc0xSbktZbk0yUTJOTjlaYTRIUUVSZHI2TDhpaU92NGZhZ2Q2a2d1N0ozUGVmTzFj?oc=5",
+      "date": "2026-10-06T14:46+09:00",
+      "press": "조선일보",
+      "topic": "전문건설 입찰 제도"
+    },
+    {
+      "title": "건설업계 \"주계약자 공동도급제도, 상시 법제화로 다단계 하도급 끊어야\" - 국토매일",
+      "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE5mUy03NlNGXzlySXh3YjR4VGk5emdrNzRsLWxlTUFkcFk4ck5ydUppYjc5a19XWHRuSC1PMDJVNXNHSVpt?oc=5",
+      "date": "2026-10-06T14:15+09:00",
+      "press": "국토매일",
+      "topic": "전문건설 입찰 제도"
+    },
+    {
+      "title": "4억3000만원 보호막 연말 사라진다… 전문건설업계 \"경영 악화 우려\" - 진일보",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1zT2RkSGtVeWpmZHdHUFA2dDhnMWdhaFFjWlpyTDNGQmw3bVlfSHczb0YtY0ZnLW1WTEdKNURNUzkyRmxBRXBtUWRkUW1YekZWSG1yQkd1bWNJdDl3emJHaU4xQjJmRFF6NXBDQk9YYw?oc=5",
+      "date": "2026-10-06T13:14+09:00",
+      "press": "진일보",
+      "topic": "전문건설 입찰 제도"
+    },
+    {
+      "title": "공공 '주계약자 공동도급' 연 7.8건…\"상시 제도로 바꿔야\" - 한국경제",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBvb0hMcEJHa05DSjJJU0VMNGpjYnV1Qy16bGJtSWpCYjlrY01TVFVlTW5Tbnp5Rm5tTXZJbDlXbzdxai15RVhLUnRTQ0dpUzRVY1RlNG85ZnV2UQ?oc=5",
+      "date": "2026-10-06T10:23+09:00",
+      "press": "한국경제",
+      "topic": "전문건설 입찰 제도"
+    },
+    {
+      "title": "구미시, 삼성SDS AI 데이터센터 건설에 지역업체 참여 기회 넓힌다 - 신아일보",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBRRHRtaGpWb3RpMGZGZzNqVlpCM0diUXNTejN5OEpHbk1wUU95OXN3RkFUUTRrZ0lmMUdJWXREX3NWbHljOEl1VXU2NkptVmxTSFpuVVhPTThBek1zS3loUzhtcmdFWkRnREpBdkhRcC0?oc=5",
+      "date": "2026-10-06T09:38+09:00",
+      "press": "신아일보",
+      "topic": "건설 협력업체 모집"
+    },
+    {
+      "title": "구미시, 대기업 투자와 지역업체 수주 잇는다…삼성물산 첫 매칭데이 - 경북일보",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBvdFBlTnBHWmVfOWx3bVZjYkNzTk8xemhXd2V0THIwZDBOWnVwU3lpckE4eUFEaFpZak5SMWsxbWIwaTRiSGtzU2Y3bjBSLThZNXFrS3FyODZmc1BCcTI5cnVmVmp4TWRFXzBCd1I4SQ?oc=5",
+      "date": "2026-10-05T18:06+09:00",
+      "press": "경북일보",
+      "topic": "건설 협력업체 모집"
+    },
+    {
+      "title": "오토시맨틱스, ‘AgentBox’ 사업 확대 - 칸(KHARN)",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBuTkVudTNiZThLYTJpYU9xSVBKTFY3b00tME1hSWZDX2x1SURraUh0bjF1czBDYWtrMjR6ZFNPcGw1OTZvWm1QSnRzUzlDRDRLbmkxSG53?oc=5",
+      "date": "2026-10-05T09:53+09:00",
+      "press": "칸(KHARN)",
+      "topic": "건설 협력업체 모집"
+    },
+    {
+      "title": "\"삼성물산 협력업체를 모집합니다\" 삼성SDS 구미 AI 데이터센터, 지역과 함께 짓는다 - 한국시사경제",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5pTUZZYVhsdzlSVW5MMF8tT0NKOTBEcXFWNXdnS1BwSllPN1hsdWc2Y2RxWC1rQkd2LTZ6NS12Snd0OXlHUTRRdHBaSWRPWU1zbTdSN3lnUUI2SlQ0UHV0YjVNQUs3anU4QlE?oc=5",
+      "date": "2026-10-02T12:53+09:00",
+      "press": "한국시사경제",
+      "topic": "건설 협력업체 모집"
+    },
+    {
+      "title": "중기중앙회·기계설비협회 맞손…기업승계 애로 발굴·차세대 CEO 교육 - Daum",
+      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9pRkRjclFlc3JadWxYQkk3T1IxelphSmNtRWVnQzlJcm1NUGVqVUFmRVFtUFlzNkRheTFNWTF3eXpzNmU2NGc?oc=5",
+      "date": "2026-09-30T14:02+09:00",
+      "press": "Daum",
+      "topic": "금속창호 공사"
+    },
+    {
+      "title": "전기ㆍ소방ㆍ감리까지…전문건설도‘면허 퇴출’ - 대한경제",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQM3dDTXhGMDNhMFJsbzlnRjdYR2Y2dnBJX2NHYnZpZWNEQmNTU2FYUDVHQ1VabVM2ZHZtRlJ2cVpGWmtPUDBiaTY2eFVpZVdvVzNEQnI0bDd5U0dLUWFncWhpd0Vfa3JLc2xuejRIbGhiUENtXzl4NTlLQWJ4OXA1YXUxaW10QQ?oc=5",
+      "date": "2026-09-29T06:00+09:00",
+      "press": "대한경제",
+      "topic": "전문건설 입찰 제도"
+    }
+  ]
 }
