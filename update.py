@@ -67,7 +67,10 @@ def main():
         if len(batch)==0 or 100*page>=total:break
     candidates={}
     stats={'no_region_data':0,'region_rejected':0,'expired_or_invalid':0}
+    region_field_samples=[]
     for row in rows:
+        if len(region_field_samples)<8 and any(w in str(row.get('bidNtceNm') or '') for w in WORDS):
+            region_field_samples.append({'bid_no':str(row.get('bidNtceNo') or ''),'region_related':{k:str(v)[:120] for k,v in row.items() if any(term in k.lower() for term in ('rgn','region','prtcpt','lmt'))},'bid_close':str(row.get('bidClseDt') or '')})
         b=convert(row,now)
         if b:candidates[b['id']]=b
         elif any(w in str(row.get('bidNtceNm') or '') for w in WORDS):
@@ -75,9 +78,10 @@ def main():
             elif not permitted_region(row):stats['region_rejected']+=1
             else:stats['expired_or_invalid']+=1
     apartment_bids, apartment_status=collect_kapt()
-    result={'apartment_bids':apartment_bids,'apartment_status':apartment_status,'updated_at':now.isoformat(timespec='minutes'),'scanned':len(rows),'filter_stats':stats,'status':'공고 목록에서 참가제한지역이 전국·경기도·평택시로 명시된 건만 검토 중. 자격 검증 필요','bids':[], 'review_count':len(candidates), 'review_candidates':sorted(candidates.values(),key=lambda b:b['deadline'])}
+    result={'apartment_bids':apartment_bids,'apartment_status':apartment_status,'updated_at':now.isoformat(timespec='minutes'),'scanned':len(rows),'filter_stats':stats,'region_field_samples':region_field_samples,'status':'공고 목록에서 참가제한지역이 전국·경기도·평택시로 명시된 건만 검토 중. 자격 검증 필요','bids':[], 'review_count':len(candidates), 'review_candidates':sorted(candidates.values(),key=lambda b:b['deadline'])}
     f=pathlib.Path('docs/data.json');f.parent.mkdir(exist_ok=True)
     f.write_text(json.dumps(result,ensure_ascii=False,indent=2),encoding='utf-8')
     pathlib.Path('docs/news.json').write_text(json.dumps(collect_news(),ensure_ascii=False,indent=2),encoding='utf-8')
+    print('filter_stats',stats,'region_field_samples',json.dumps(region_field_samples[:3],ensure_ascii=False))
     print('scanned',len(rows),'review_candidates',len(candidates),'apartment_candidates',len(apartment_bids),'apartment_status',apartment_status,'verified_eligible',0)
 if __name__=='__main__':main()
