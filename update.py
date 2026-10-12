@@ -21,6 +21,10 @@ WORDS = ('금속', '창호', '커튼월', '샷시', '새시', '지붕', '판금'
 OK_REGION = ('전국', '경기', '평택')
 OUR_LICENSE = ('금속창호', '지붕', '건축물조립', '금속구조물')
 NEAR_SITE = ('경기', '평택', '서울', '인천', '충청남도 아산', '충청남도 천안', '충남 아산', '충남 천안')
+# 지역제한 공고는 대개 '공고일 현재 본점 소재지 전입일 다음 날부터 90일 이상'을 요구한다.
+# 한국기건: 법인 설립(본점 등기) 2026-08-20, 건설업 등록 2026-09-23.
+COMPANY_BASE_DATE = dt.date(2026, 8, 20)
+RESIDENCY_DAYS = 90
 
 
 def call(op, **params):
@@ -99,6 +103,29 @@ def region_check(row, diag):
     return '불가', text
 
 
+def notice_date(row):
+    for k in ('bidNtceDt', 'rgstDt'):
+        v = str(row.get(k) or '').strip()[:10]
+        try:
+            return dt.date.fromisoformat(v)
+        except ValueError:
+            continue
+    return None
+
+
+def residency_check(row, region_status, region_text):
+    """지역제한 공고에서 본점 소재 기간(90일) 요건을 아직 못 채웠을 수 있으면 '확인필요'로 낮춘다."""
+    if region_status != '적합' or str(row.get('rgnLmtYn') or '').upper() == 'N':
+        return region_status, region_text
+    day = notice_date(row)
+    if day is None:
+        return '확인필요', region_text + ' · 공고일 미확인(본점 소재 90일 요건 확인)'
+    days = (day - COMPANY_BASE_DATE).days
+    if days < RESIDENCY_DAYS:
+        return '확인필요', region_text + f' · 공고일 기준 본점 소재 {days}일(90일 요건 있으면 미달)'
+    return region_status, region_text
+
+
 def needs_our_license(row):
     """공사명과 무관하게 우리 면허(금속창호·지붕건축물조립 등)를 요구하는 공고인지."""
     for x in DETAIL[LICENSE_OP].get(str(row.get('bidNtceNo') or ''), []):
@@ -139,6 +166,7 @@ def convert(row, now, diag):
     if region_status == '불가':
         diag['region_rejected'] += 1
         return None
+    region_status, region_text = residency_check(row, region_status, region_text)
     license_status, license_text = license_check(row, diag)
     inst = str(row.get('ntceInsttNm') or row.get('dminsttNm') or '')
     site = str(row.get('cnstrtsiteRgnNm') or '').strip()
