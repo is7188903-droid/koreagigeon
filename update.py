@@ -27,6 +27,8 @@ def permitted_region(x):
     """공고 목록의 참가제한지역만 판정. 상세에 다른 조건이 있으면 최종 확인 필요."""
     raw=str(x.get('prtcptLmtRgnNm') or '').strip()
     if not raw:
+        # 공고 목록에서 지역제한 여부가 '없음(N)'으로 확정된 경우 전국 허용
+        if str(x.get('rgnLmtYn') or '').strip().upper()=='N':return '전국'
         return None
     v=''.join(raw.split())
     if any(k in v for k in ('제외','예외','단,','본점이전','관할')):return None
@@ -59,16 +61,21 @@ def main():
     begin=(now-dt.timedelta(days=3)).strftime('%Y%m%d%H%M')
     end=now.strftime('%Y%m%d%H%M')
     rows=[]
-    for page in range(1,11):
+    for page in range(1,21):
         batch,total=fetch(key,begin,end,page)
         rows+=batch
         if len(batch)==0 or 100*page>=total:break
     candidates={}
+    stats={'no_region_data':0,'region_rejected':0,'expired_or_invalid':0}
     for row in rows:
         b=convert(row,now)
         if b:candidates[b['id']]=b
+        elif any(w in str(row.get('bidNtceNm') or '') for w in WORDS):
+            if not str(row.get('prtcptLmtRgnNm') or '').strip() and str(row.get('rgnLmtYn') or '').strip().upper()!='N':stats['no_region_data']+=1
+            elif not permitted_region(row):stats['region_rejected']+=1
+            else:stats['expired_or_invalid']+=1
     apartment_bids, apartment_status=collect_kapt()
-    result={'apartment_bids':apartment_bids,'apartment_status':apartment_status,'updated_at':now.isoformat(timespec='minutes'),'scanned':len(rows),'status':'공고 목록에서 참가제한지역이 전국·경기도·평택시로 명시된 건만 검토 중. 자격 검증 필요','bids':[], 'review_count':len(candidates), 'review_candidates':sorted(candidates.values(),key=lambda b:b['deadline'])}
+    result={'apartment_bids':apartment_bids,'apartment_status':apartment_status,'updated_at':now.isoformat(timespec='minutes'),'scanned':len(rows),'filter_stats':stats,'status':'공고 목록에서 참가제한지역이 전국·경기도·평택시로 명시된 건만 검토 중. 자격 검증 필요','bids':[], 'review_count':len(candidates), 'review_candidates':sorted(candidates.values(),key=lambda b:b['deadline'])}
     f=pathlib.Path('docs/data.json');f.parent.mkdir(exist_ok=True)
     f.write_text(json.dumps(result,ensure_ascii=False,indent=2),encoding='utf-8')
     pathlib.Path('docs/news.json').write_text(json.dumps(collect_news(),ensure_ascii=False,indent=2),encoding='utf-8')
