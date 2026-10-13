@@ -71,6 +71,10 @@ def detail(op, row, diag, ok_key, fail_key):
     if no in DETAIL[op]:
         diag[ok_key] += 1
         return DETAIL[op][no]
+    if diag.get('single_calls', 0) >= 40:  # 호출한도 보호
+        diag[fail_key] += 1
+        return None
+    diag['single_calls'] = diag.get('single_calls', 0) + 1
     try:  # 일괄 조회에 없으면 공고번호로 한 번 더
         items, _ = call(op, inqryDiv='2', bidNtceNo=no)
         diag[ok_key] += 1
@@ -194,11 +198,25 @@ def main():
     begin = (now - dt.timedelta(days=10)).strftime('%Y%m%d0000')
     end = now.strftime('%Y%m%d%H%M')
     rows = []
-    for page in range(1, 41):
-        batch, total = call(LIST_OP, inqryDiv='1', inqryBgnDt=begin, inqryEndDt=end, pageNo=page)
-        rows += batch
-        if not batch or 100 * page >= total:
-            break
+    try:
+        for page in range(1, 41):
+            batch, total = call(LIST_OP, inqryDiv='1', inqryBgnDt=begin, inqryEndDt=end, pageNo=page, numOfRows=999)
+            rows += batch
+            if not batch or 999 * page >= total:
+                break
+    except Exception as e:
+        # API 장애·일일 호출한도 초과 시: 이전 결과를 지우지 않고 오류만 기록
+        out = pathlib.Path('docs/data.json')
+        try:
+            prev = json.loads(out.read_text(encoding='utf-8'))
+        except Exception:
+            prev = {}
+        prev['g2b_status'] = '수집 오류'
+        prev.setdefault('diagnostics', {})['last_error'] = '공고목록 조회 실패(이전 결과 유지): ' + str(e)[:150]
+        prev['last_attempt'] = now.isoformat(timespec='minutes')
+        out.write_text(json.dumps(prev, ensure_ascii=False, indent=2), encoding='utf-8')
+        print('G2B list failed, kept previous data:', e)
+        return
     diag = {'scanned': len(rows), 'keyword_match': 0, 'closed': 0, 'bad_deadline': 0, 'region_rejected': 0,
             'region_api_ok': 0, 'region_api_fail': 0, 'license_api_ok': 0, 'license_api_fail': 0, 'last_error': ''}
     bulk(REGION_OP, begin, end, diag)
