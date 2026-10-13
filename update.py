@@ -6,7 +6,7 @@
 - 상세 조회 실패나 정보 누락은 '확인필요'로 표시하고, 명시적으로 다른 지역 전용인 공고만 '불가'로 숨긴다.
 - 어떤 경우에도 '참가 확정'은 사람이 원문을 확인한 뒤에만 가능하다.
 """
-import datetime as dt, json, os, pathlib, urllib.parse, urllib.request
+import datetime as dt, json, os, pathlib, time, urllib.parse, urllib.request
 from zoneinfo import ZoneInfo
 from kapt import collect as collect_kapt
 from news import collect as collect_news
@@ -30,8 +30,16 @@ RESIDENCY_DAYS = 90
 def call(op, **params):
     q = {'serviceKey': KEY, 'type': 'json', 'pageNo': 1, 'numOfRows': 100}
     q.update(params)
-    with urllib.request.urlopen(BASE + op + '?' + urllib.parse.urlencode(q), timeout=40) as r:
-        data = json.load(r)
+    url = BASE + op + '?' + urllib.parse.urlencode(q)
+    for attempt in range(3):  # 시간초과·접속오류는 잠시 쉬었다 재시도
+        try:
+            with urllib.request.urlopen(url, timeout=60) as r:
+                data = json.load(r)
+            break
+        except (OSError, ValueError):
+            if attempt == 2:
+                raise
+            time.sleep(4 * (attempt + 1))
     resp = data.get('response') or {}
     code = str((resp.get('header') or {}).get('resultCode', '00'))
     if code not in ('00', '0'):
@@ -46,21 +54,31 @@ def call(op, **params):
 
 
 DETAIL = {REGION_OP: {}, LICENSE_OP: {}}
+PREV = {}  # 직전 data.json의 공고번호별 판정 (조회 실패 시 재사용)
+
+
+def load_prev():
+    try:
+        d = json.loads(pathlib.Path('docs/data.json').read_text(encoding='utf-8'))
+        for b in d.get('bids', []):
+            PREV[str(b.get('id', '')).rsplit('-', 1)[0]] = b
+    except Exception:
+        pass
 
 
 def bulk(op, begin, end, diag):
     """조회기간 전체의 상세(지역·면허)를 한 번에 받아 공고번호별로 묶는다."""
     out = DETAIL[op]
     try:
-        for page in range(1, 41):
-            items, total = call(op, inqryDiv='1', inqryBgnDt=begin, inqryEndDt=end, pageNo=page, numOfRows=999)
+        for page in range(1, 81):
+            items, total = call(op, inqryDiv='1', inqryBgnDt=begin, inqryEndDt=end, pageNo=page, numOfRows=500)
             if page == 1:
                 diag[op + '_total'] = total
                 if items:
                     diag[op + '_fields'] = ','.join(list(items[0].keys())[:12])
             for x in items:
                 out.setdefault(str(x.get('bidNtceNo') or ''), []).append(x)
-            if not items or 999 * page >= total:
+            if not items or 500 * page >= total:
                 break
     except Exception as e:
         diag['last_error'] = f'{op}: {str(e)[:120]}'
@@ -91,6 +109,10 @@ def region_check(row, diag):
         return '적합', '지역제한 없음'
     items = detail(REGION_OP, row, diag, 'region_api_ok', 'region_api_fail')
     if items is None:
+        old = PREV.get(str(row.get('bidNtceNo') or ''))
+        if old and old.get('region_status') == '적합' and '실패' not in str(old.get('region')):
+            diag['region_reused'] = diag.get('region_reused', 0) + 1
+            return '적합', old.get('region')  # 직전 수집에서 확인된 결과 유지
         return '확인필요', '참가지역 조회 실패 · 원문 확인'
     ord_ = str(row.get('bidNtceOrd') or '')
     names = sorted({str(x.get('prtcptPsblRgnNm') or '').strip() for x in items
@@ -219,6 +241,7 @@ def main():
         return
     diag = {'scanned': len(rows), 'keyword_match': 0, 'closed': 0, 'bad_deadline': 0, 'region_rejected': 0,
             'region_api_ok': 0, 'region_api_fail': 0, 'license_api_ok': 0, 'license_api_fail': 0, 'last_error': ''}
+    load_prev()
     bulk(REGION_OP, begin, end, diag)
     bulk(LICENSE_OP, begin, end, diag)
     found = {}
