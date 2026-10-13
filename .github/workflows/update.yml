@@ -18,9 +18,14 @@ jobs:
           G2B_API_KEY: ${{ secrets.G2B_API_KEY }}
           KAPT_API_KEY: ${{ secrets.KAPT_API_KEY }}
         run: python update.py
+      - name: Fetch contract winners (sales targets)
+        continue-on-error: true
+        env:
+          G2B_API_KEY: ${{ secrets.G2B_API_KEY }}
+        run: python winners.py
       - name: Commit refreshed data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs/data.json docs/news.json
+          git add docs/data.json docs/news.json docs/winners.json 2>/dev/null || git add docs/data.json docs/news.json
           git diff --cached --quiet || (git commit -m "Update bids" && git push)
