@@ -1,20 +1,41 @@
 {
-  "updated_at": "2026-10-15T10:34+09:00",
+  "updated_at": "2026-10-15T16:31+09:00",
   "status": "정상",
   "items": [
+    {
+      "title": "조달청 입찰자격 사실조사, 내년 정보통신공사로 확대 - 정보통신신문",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE85cV9sb2g5Tm1KUzhCOFlESUxEQkprMHV2QUg3SER2cEtKT3liT2JJZnY0a2U5cXFtTjJFZnRrOEQxcy1WQzdRNkV3elV4VXVOUU9xZ1kxLTVJQjBTS2l4N05xT0JHb2V30gFsQVVfeXFMTTlmQUhfdGxITjR0UDNyYWVhZEkzb3FlaU9uS2NmMjFHYWhmcGJOV0J4YWhPU18ya1ZHa1FNVHZ5emRCSG5PRV95cUVlMWJWM21aQ2oyeElpLVRZcmh3cWFXVW0tTUt1UjJLY3Zv?oc=5",
+      "date": "2026-10-15T15:11+09:00",
+      "press": "정보통신신문",
+      "topic": "전문건설 입찰 제도"
+    },
+    {
+      "title": "양주시, 학교시설 개선 특별교부금 17억4700만원 확보 - 신아일보",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5LMUVzWDlaV2lRQjZNSHo4MDVSbnU3VVVETVpfOE1WbVdJdG1TYTZfNTh0TzQ4S3FqdF9FQ1JaYWFfaWpWYTlXMFdVU0VIbjgycldGNG1KcGdZMV84bGlxeXExVnVVelIyekoxNHZ1Y1g?oc=5",
+      "date": "2026-10-15T13:22+09:00",
+      "press": "신아일보",
+      "topic": "학교 시설 창호 교체"
+    },
+    {
+      "title": "교육부 문 두드린 양주시, 17억4,700만원 확보…학교 4곳 교육환경 개선 - 위키트리",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0wNkVnaDRNWERNVThhdjRhb0lNVzUtZVdUbW9vTGtOX1lLZGFYa1NvOWZhWUQ3ekxYSUszdEdNNExzdGgzQms1WWxEZk1NQnkxX3BQWnNn?oc=5",
+      "date": "2026-10-15T12:50+09:00",
+      "press": "위키트리",
+      "topic": "학교 시설 창호 교체"
+    },
+    {
+      "title": "양주시, 17억4천만원 특별교부금 확보해 학교 환경 개선 나선다 - 국제뉴스",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9kT1NNZDliQmczSWNHaFNLYTdfN2R3UjRSYVRVbnJYMlo5azdiZF9QSjRJZjJfODlPV2ctMzg5MGFCcnc4bndiU1VtMGtDQ3hESW9La1d5LU5EMVBMLUJ3UVkxeXZiV2JzWkNMcUNR?oc=5",
+      "date": "2026-10-15T11:38+09:00",
+      "press": "국제뉴스",
+      "topic": "학교 시설 창호 교체"
+    },
     {
       "title": "용인 반도체 용수공급공사 ‘속도’… 2공구 이어 1·3공구 발주 - MTN 머니투데이방송",
       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9yYXFqV0M4Und6NlFiaWx2cDFfUzNEM1NpRWQ3djN1c19aNVhkdFdJNVNTelBDLVo0WGFoZTg2LS16V2thRWNkSWxCTnJtRFYtMXBTV09UWUlTU3JlUFYzaHB3cUM?oc=5",
       "date": "2026-10-15T05:00+09:00",
       "press": "MTN 머니투데이방송",
       "topic": "금속창호 공사"
-    },
-    {
-      "title": "충남 72개 학교에 259억원 투입…비 새는 교실·노후 시설 개선 - 현대경제",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5pUEhmSTEzejNJVTlqRElkcnB0clV4SS1qSXNMcTNRSEZrdlQ5UkE2SF91M0MyY0t0TlRLM3JXVzFBZkowVnh6djJGQlFHOHEtWHdyQWRUU1BYVlZiV3U0NVlxNDNKZVZqTTJj?oc=5",
-      "date": "2026-10-14T12:22+09:00",
-      "press": "현대경제",
-      "topic": "학교 시설 창호 교체"
     },
     {
       "title": "박균택 의원, 학교 교육시설 개선비 15억 5,900만 원 확보 - 뉴스21 통신",
@@ -115,20 +136,6 @@
       "topic": "학교 시설 창호 교체"
     },
     {
-      "title": "임오경 의원 , 광명갑 학교 교육환경 개선 국비 42억9천만원 확보 - 경기매일",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB3WDUyZG85UTVzQWgwQ3VvZ19IajVfTmNDZ3RxWERiR0NCbHRRbW9MQ21fbm1iVGswMkZyMTBqWm5IMDBoeVR5YTlXNXYtT0dvNXZpa1A0dUhUb3RBUFZPWXlGbDNnQ2c?oc=5",
-      "date": "2026-10-12T14:43+09:00",
-      "press": "경기매일",
-      "topic": "학교 시설 창호 교체"
-    },
-    {
-      "title": "경기도, 공정입찰 건설업체 10곳 선정…행정 혜택 부여 - 디스커버리뉴스(DISCOVERYNEWS)",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9jWlVEb1lrby1raWhOSnpTNTdwVUd0djJLd3VpTTRrdHdybEE1aWNZdDlYTnB6bnBmenlfTTNuM0ttWlAtTTB6SUFDMkk4WmZSMEpnd2hROXpkRV95bnhqQnNyQlZzV2NjUjFfTjViNXF6dw?oc=5",
-      "date": "2026-10-12T08:23+09:00",
-      "press": "디스커버리뉴스(DISCOVERYNEWS)",
-      "topic": "전문건설 입찰 제도"
-    },
-    {
       "title": "“수주 절벽에 공사대금 회수 부담까지”…전문건설업계 ‘버티기’ 한계 - 녹색경제신문",
       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFAwdVkzQUxXa1Y2bVRFYmQ3bU5Bd19HNUJXM20yYnBUTE9va0hXTnZMVTdna3BKb3k1dDJtcDJRRzlyVXRlMzRuVnEyVEd0TDV3enBPbzBzUm1Sa0hxMi03NFRKQ1F5Qjk1?oc=5",
       "date": "2026-10-08T12:27+09:00",
@@ -148,13 +155,6 @@
       "date": "2026-10-08T07:00+09:00",
       "press": "스틸데일리",
       "topic": "금속창호 공사"
-    },
-    {
-      "title": "경기 노후 학교 건물 1768동 ‘전국 최다’…시설 개선 예산은 들쭉날쭉 - 경기신문",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5XbEtPWXp4N1J5TnVwdWdPU3BNVnFvRG1tRVZQbkNDZlA2QXl2elNOeTUzbGVfb3VlSjRkZVJQcTQ0U3hBZ2Y3WlB3RU5vU3pXLWNja2lEX1lZU1JUQWVnanJwcW4?oc=5",
-      "date": "2026-10-07T16:40+09:00",
-      "press": "경기신문",
-      "topic": "학교 시설 창호 교체"
     },
     {
       "title": "진주시 하도급 계약, 올 상반기 48건 233억원…7월 이후 4건 - 경남미디어",
