@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-10-16T16:14+09:00",
-  "status": "최근 45일 낙찰 12120건 중 건축공사 394건",
+  "updated_at": "2026-10-16T21:28+09:00",
+  "status": "최근 45일 낙찰 12400건 중 건축공사 399건",
   "diagnostics": {
-    "scanned": 12120,
-    "matched": 394,
+    "scanned": 12400,
+    "matched": 399,
     "error": "",
     "endpoint": "https://apis.data.go.kr/1230000/as/ScsbidInfoService/getScsbidListSttusCnstwk",
     "fields": "bidNtceNo,bidNtceOrd,bidClsfcNo,rbidNo,ntceDivCd,bidNtceNm,prtcptCnum,bidwinnrNm,bidwinnrBizno,bidwinnrCeoNm,bidwinnrAdrs,bidwinnrTelNo,sucsfbidAmt,sucsfbidRate,rlOpengDt,dminsttCd,dminsttNm,rgstDt,fnlSucsfDate,fnlSucsfCorpOfcl"
@@ -619,6 +619,19 @@
       "bizno": "2188100686",
       "near": true,
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01723888"
+    },
+    {
+      "title": "삼청공원 실내놀이복합문화공간 조성공사(건축, 토목, 기계)(장기계속)",
+      "agency": "서울특별시 종로구",
+      "amount": 1880241000,
+      "date": "2026-09-16",
+      "winner": "목인건설 주식회사",
+      "ceo": "박상구",
+      "address": "서울특별시 강북구 한천로170길 7-0 (수유동)3층목인빌딩",
+      "phone": "02-990-2351",
+      "bizno": "3098600482",
+      "near": true,
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01706130"
     },
     {
       "title": "(가칭)고덕3초 신축 기계설비공사",
@@ -1945,19 +1958,6 @@
       "bizno": "1278134202",
       "near": true,
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01749284"
-    },
-    {
-      "title": "부산캠퍼스 사회관 개축공사",
-      "agency": "부산대학교",
-      "amount": 18958158472,
-      "date": "2026-07-28",
-      "winner": "주식회사 일창건설",
-      "ceo": "안희상",
-      "address": "충청북도 청주시 흥덕구 2순환로1340번길 8-28 (가경동) 1층",
-      "phone": "043-287-9904",
-      "bizno": "3018174971",
-      "near": false,
-      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01605447"
     }
   ],
   "companies": [
@@ -2530,6 +2530,18 @@
       ]
     },
     {
+      "name": "목인건설 주식회사",
+      "ceo": "박상구",
+      "address": "서울특별시 강북구 한천로170길 7-0 (수유동)3층목인빌딩",
+      "phone": "02-990-2351",
+      "near": true,
+      "count": 1,
+      "total": 1880241000,
+      "projects": [
+        "삼청공원 실내놀이복합문화공간 조성공사(건축, 토목, 기계)(장기계속)"
+      ]
+    },
+    {
       "name": "주식회사 삼호이앤씨",
       "ceo": "신기섭",
       "address": "대구광역시 달성군 다사읍 세천로9길 21-0",
@@ -2912,18 +2924,6 @@
       "total": 665684380,
       "projects": [
         "(긴급)은혜고등학교 본관동 창호교체공사 전자입찰 공고"
-      ]
-    },
-    {
-      "name": "주식회사 공간사이",
-      "ceo": "원유진",
-      "address": "경기도 안성시 중앙대학로 335,  301호(세모야3층, 옥산동)",
-      "phone": "031-677-8904",
-      "near": true,
-      "count": 1,
-      "total": 658521740,
-      "projects": [
-        "권선구청 그린리모델링 공사(건축)"
       ]
     }
   ]
