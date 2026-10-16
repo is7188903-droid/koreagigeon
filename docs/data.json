@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-17T02:24+09:00",
-  "g2b_status": "수집 오류",
+  "updated_at": "2026-10-17T08:35+09:00",
+  "g2b_status": "정상",
   "apartment_status": "API 원시자료 0개 · 공사명 관련 0건 (0건이면 정상 수집 미확인) · 일부 호출 오류: 창호: 응답목록 0건 / 응답필드 response / 지붕: 응답목록 0건 / 응답필드 response",
   "diagnostics": {
     "scanned": 3882,
@@ -12,7 +12,7 @@
     "region_api_fail": 0,
     "license_api_ok": 14,
     "license_api_fail": 0,
-    "last_error": "공고목록 조회 실패(이전 결과 유지): <urlopen error timed out>",
+    "last_error": "",
     "getBidPblancListInfoPrtcptPsblRgn_total": 12278,
     "getBidPblancListInfoPrtcptPsblRgn_fields": "bidNtceNo,bidNtceOrd,lmtSno,prtcptPsblRgnNm,rgstDt,bsnsDivNm",
     "getBidPblancListInfoLicenseLimit_total": 13813,
@@ -274,6 +274,5 @@
       "source": "나라장터"
     }
   ],
-  "apartment_bids": [],
-  "last_attempt": "2026-10-17T06:08+09:00"
+  "apartment_bids": []
 }
