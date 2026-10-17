@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-10-17T08:40+09:00",
-  "status": "최근 45일 낙찰 10747건 중 건축공사 386건",
+  "updated_at": "2026-10-17T13:29+09:00",
+  "status": "최근 45일 낙찰 10776건 중 건축공사 382건",
   "diagnostics": {
-    "scanned": 10747,
-    "matched": 386,
+    "scanned": 10776,
+    "matched": 382,
     "error": "",
     "endpoint": "https://apis.data.go.kr/1230000/as/ScsbidInfoService/getScsbidListSttusCnstwk",
     "fields": "bidNtceNo,bidNtceOrd,bidClsfcNo,rbidNo,ntceDivCd,bidNtceNm,prtcptCnum,bidwinnrNm,bidwinnrBizno,bidwinnrCeoNm,bidwinnrAdrs,bidwinnrTelNo,sucsfbidAmt,sucsfbidRate,rlOpengDt,dminsttCd,dminsttNm,rgstDt,fnlSucsfDate,fnlSucsfCorpOfcl"
@@ -1388,19 +1388,6 @@
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01742845"
     },
     {
-      "title": "2026년 아산시 통합RPC 시설장비 및 환경개선 지원사업(맞춤형)",
-      "agency": "아산시농협쌀조합공동사업법인",
-      "amount": 443280000,
-      "date": "2026-06-25",
-      "winner": "한세엔지니어링 주식회사",
-      "ceo": "최성순",
-      "address": "경기도 하남시 하남대로249번길 20-1 (상산곡동)",
-      "phone": "031-796-4121",
-      "bizno": "1268168150",
-      "near": true,
-      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01586988"
-    },
-    {
       "title": "고양일산주차장 시설개선공사",
       "agency": "경기주택도시공사",
       "amount": 441268500,
@@ -1908,19 +1895,6 @@
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01648557"
     },
     {
-      "title": "(가칭)대전학하중학교 신축공사",
-      "agency": "대전광역시교육청",
-      "amount": 12950306000,
-      "date": "2026-08-04",
-      "winner": "새로운종합건설(주)",
-      "ceo": "강훈기",
-      "address": "대전광역시 중구 동서대로 1231-1,  3층 (태평동)",
-      "phone": "042-533-5600",
-      "bizno": "3058107149",
-      "near": false,
-      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01623964"
-    },
-    {
       "title": "고창갯벌 세계유산 지역센터건립 건축공사",
       "agency": "전북특별자치도 고창군",
       "amount": 9281411700,
@@ -1958,6 +1932,32 @@
       "bizno": "2738100214",
       "near": false,
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01689831"
+    },
+    {
+      "title": "한국폴리텍대학 전력기술교육원 복지관 증축 공사(건축) 계약",
+      "agency": "학교법인한국폴리텍 한국폴리텍Ⅴ대학전력기술교육원",
+      "amount": 7932431400,
+      "date": "2026-09-30",
+      "winner": "동준건설(주)",
+      "ceo": "정남철",
+      "address": "전남광주통합특별시 목포시 원형동로 53(상동,  씨지브이 별관 7층)",
+      "phone": "061-285-9801",
+      "bizno": "1328139121",
+      "near": false,
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01712606"
+    },
+    {
+      "title": "융복합 특수영상콘텐츠 클러스터 조성 기계설비공사",
+      "agency": "대전광역시 건설관리본부",
+      "amount": 7641297000,
+      "date": "2026-08-14",
+      "winner": "비씨종합건설 주식회사",
+      "ceo": "김우규",
+      "address": "대전광역시 서구 계룡로553번길 18, 1102호(탄방동, 조이빌딩)",
+      "phone": "070-4282-8890",
+      "bizno": "4028120351",
+      "near": false,
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01667000"
     }
   ],
   "companies": [
@@ -2732,19 +2732,6 @@
       ]
     },
     {
-      "name": "한세엔지니어링 주식회사",
-      "ceo": "최성순",
-      "address": "경기도 하남시 하남대로249번길 20-1 (상산곡동)",
-      "phone": "031-796-4121",
-      "near": true,
-      "count": 2,
-      "total": 998373000,
-      "projects": [
-        "2026년 종자은행 신축공사 [기계설비]",
-        "2026년 아산시 통합RPC 시설장비 및 환경개선 지원사업(맞춤형)"
-      ]
-    },
-    {
       "name": "남선건설(주)",
       "ceo": "이일원",
       "address": "서울특별시 송파구 중대로9길 34-0 (가락동),402호",
@@ -2922,6 +2909,18 @@
       "total": 645146700,
       "projects": [
         "관람동선 화장실 증축 및 리모델링 공사"
+      ]
+    },
+    {
+      "name": "유일테크(주)",
+      "ceo": "최태근",
+      "address": "경기도 김포시 하성면 월하로589번길 90-36",
+      "phone": "031-985-0294",
+      "near": true,
+      "count": 1,
+      "total": 639660130,
+      "projects": [
+        "산성동 행정복지센터 냉난방기(기계) 교체공사"
       ]
     }
   ]
