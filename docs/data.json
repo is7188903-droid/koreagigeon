@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-10-18T14:54+09:00",
+  "updated_at": "2026-10-18T20:04+09:00",
   "g2b_status": "정상",
   "apartment_status": "API 원시자료 0개 · 공사명 관련 0건 (0건이면 정상 수집 미확인) · 일부 호출 오류: 창호: 응답목록 0건 / 응답필드 response / 지붕: 응답목록 0건 / 응답필드 response",
   "diagnostics": {
-    "scanned": 3386,
+    "scanned": 3390,
     "keyword_match": 50,
     "closed": 51,
     "bad_deadline": 0,
@@ -13,9 +13,9 @@
     "license_api_ok": 14,
     "license_api_fail": 0,
     "last_error": "",
-    "getBidPblancListInfoPrtcptPsblRgn_total": 10684,
+    "getBidPblancListInfoPrtcptPsblRgn_total": 10692,
     "getBidPblancListInfoPrtcptPsblRgn_fields": "bidNtceNo,bidNtceOrd,lmtSno,prtcptPsblRgnNm,rgstDt,bsnsDivNm",
-    "getBidPblancListInfoLicenseLimit_total": 11766,
+    "getBidPblancListInfoLicenseLimit_total": 11780,
     "getBidPblancListInfoLicenseLimit_fields": "bidNtceNo,bidNtceOrd,lmtGrpNo,lmtSno,lcnsLmtNm,permsnIndstrytyList,indstrytyMfrcFldList,rgstDt,bsnsDivNm",
     "license_match": 138,
     "single_calls": 11
