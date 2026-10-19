@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-10-19T08:14+09:00",
-  "status": "최근 45일 낙찰 10114건 중 건축공사 358건",
+  "updated_at": "2026-10-19T10:21+09:00",
+  "status": "최근 45일 낙찰 10500건 중 건축공사 362건",
   "diagnostics": {
-    "scanned": 10114,
-    "matched": 358,
+    "scanned": 10500,
+    "matched": 362,
     "error": "",
     "endpoint": "https://apis.data.go.kr/1230000/as/ScsbidInfoService/getScsbidListSttusCnstwk",
     "fields": "bidNtceNo,bidNtceOrd,bidClsfcNo,rbidNo,ntceDivCd,bidNtceNm,prtcptCnum,bidwinnrNm,bidwinnrBizno,bidwinnrCeoNm,bidwinnrAdrs,bidwinnrTelNo,sucsfbidAmt,sucsfbidRate,rlOpengDt,dminsttCd,dminsttNm,rgstDt,fnlSucsfDate,fnlSucsfCorpOfcl"
@@ -359,6 +359,19 @@
       "bizno": "1248157453",
       "near": true,
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01730794"
+    },
+    {
+      "title": "한국관광고 체육관 및 급식소 증축공사",
+      "agency": "경기도교육청 한국관광고등학교",
+      "amount": 3298178080,
+      "date": "2026-10-08",
+      "winner": "건설라인 주식회사",
+      "ceo": "고영주",
+      "address": "경기도 화성시 팔탄면 무하로 271-9, 3층",
+      "phone": "031-409-3008",
+      "bizno": "2108173981",
+      "near": true,
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01755865"
     },
     {
       "title": "하안초 교사동 내진보강 및 환경개선공사(계속비)",
@@ -1687,6 +1700,19 @@
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01735868"
     },
     {
+      "title": "가락근린공원 환경개선사업",
+      "agency": "서울특별시 송파구",
+      "amount": 312000000,
+      "date": "2026-09-29",
+      "winner": "한연종합개발(주)",
+      "ceo": "김옥희",
+      "address": "서울특별시 서초구 서초중앙로2길 70, 서일빌딩 302 (서초동)",
+      "phone": "02-525-0777",
+      "bizno": "2148633502",
+      "near": true,
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01743217"
+    },
+    {
       "title": "문산동중 특별교실 증축 공사",
       "agency": "경기도파주교육청 문산동중학교",
       "amount": 310142550,
@@ -1789,6 +1815,19 @@
       "bizno": "3668703422",
       "near": false,
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01648557"
+    },
+    {
+      "title": "(가칭)해마루고등학교 신축공사(계속비)",
+      "agency": "경상북도교육청",
+      "amount": 14151274000,
+      "date": "2026-09-17",
+      "winner": "동신건설 주식회사",
+      "ceo": "김근한",
+      "address": "경상북도 안동시 서동문로 217 ()",
+      "phone": "070-8660-3015",
+      "bizno": "5088102200",
+      "near": false,
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01698132"
     },
     {
       "title": "고창갯벌 세계유산 지역센터건립 건축공사",
@@ -1919,45 +1958,6 @@
       "bizno": "4018119467",
       "near": false,
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01675848"
-    },
-    {
-      "title": "청룡초등학교 공간재구조화 리모델링 및 기타공사(계속비)",
-      "agency": "부산광역시교육청 부산광역시동래교육지원청",
-      "amount": 6906841000,
-      "date": "2026-09-16",
-      "winner": "주식회사 동인종합건설",
-      "ceo": "황인호",
-      "address": "부산광역시 부산진구 백양대로18번길 54, 4층 (부암동, 다온빌딩)",
-      "phone": "051-819-0482",
-      "bizno": "7578700242",
-      "near": false,
-      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01682318"
-    },
-    {
-      "title": "세계태권도연맹 본부 건립사업(건축)",
-      "agency": "강원특별자치도 춘천시",
-      "amount": 6861701835,
-      "date": "2026-08-19",
-      "winner": "주식회사 와이씨건설",
-      "ceo": "김영춘",
-      "address": "강원특별자치도 원주시 문막읍 문막시장3길 46",
-      "phone": "033-742-5413",
-      "bizno": "3168123606",
-      "near": false,
-      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01681667"
-    },
-    {
-      "title": "자인노인복지관 건립 건축공사",
-      "agency": "경상북도 경산시",
-      "amount": 6564139190,
-      "date": "2026-07-28",
-      "winner": "주식회사 삼호",
-      "ceo": "태원일",
-      "address": "경상북도 경산시 경안로 157,3층 (삼북동)",
-      "phone": "053-472-0302",
-      "bizno": "5158151863",
-      "near": false,
-      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01638096"
     }
   ],
   "companies": [
@@ -2285,6 +2285,18 @@
       "total": 3386213000,
       "projects": [
         "마장고 공간재구조화 리모델링공사"
+      ]
+    },
+    {
+      "name": "건설라인 주식회사",
+      "ceo": "고영주",
+      "address": "경기도 화성시 팔탄면 무하로 271-9, 3층",
+      "phone": "031-409-3008",
+      "near": true,
+      "count": 1,
+      "total": 3298178080,
+      "projects": [
+        "한국관광고 체육관 및 급식소 증축공사"
       ]
     },
     {
@@ -2910,18 +2922,6 @@
       "total": 580109200,
       "projects": [
         "신당데이케어센터 건축물 내진보강 공사(건축,기계)"
-      ]
-    },
-    {
-      "name": "에이원종합건설주식회사",
-      "ceo": "성민경",
-      "address": "충청남도 서산시 대산읍 독곶1로 60,   2층 201호",
-      "phone": "041-429-2588",
-      "near": true,
-      "count": 1,
-      "total": 546279800,
-      "projects": [
-        "태안중학교 2동교사 수선공사"
       ]
     }
   ]
