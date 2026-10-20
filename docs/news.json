@@ -1,7 +1,14 @@
 {
-  "updated_at": "2026-10-20T05:38+09:00",
+  "updated_at": "2026-10-20T09:23+09:00",
   "status": "정상",
   "items": [
+    {
+      "title": "울산 대형건설사·지역 업체 ‘만남의날’…공사참여 확대 협약·1대1 상담 시행 - 문화일보",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1mb0VkY0h3M0ZxTWd6dFdHcW9pcmo3eW1yT1lBVktZSmFPVmFfMHdOODQ1c21sWlJWX1FFQWhpVm5udTYyZTZWdUhCV3REMlFh?oc=5",
+      "date": "2026-10-20T09:16+09:00",
+      "press": "문화일보",
+      "topic": "건설 협력업체 모집"
+    },
     {
       "title": "공공공사 낙찰제도 개편…전문업계 ‘기대반 우려반’ - 기계설비신문",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9fZEVxeGYyNUJrU3dzTVN4MEJ5UGlueGNONEpRRVRXazdqbTFreXM4SnU4WTdKaUZZOUo5LVlINlI0WkNSRGtFWEtIVjNkaU9BaEdJcDA2M1lXSF9hbmlXRUZkVUg0MVZwYkp4Rg?oc=5",
@@ -122,18 +129,18 @@
       "topic": "학교 시설 창호 교체"
     },
     {
-      "title": "대원, '김포 칸타빌 에디션'에 홈플랫폼 '홈닉' 적용…입주민 원스톱 서비스 제공 - 팍스경제TV",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB0ZzhQTjBzQjRJTXF5WXpXcXVtdTl3M0R1WW9SQVgxWHFUNXlWRXY0TnFqQUtnV3dBdHNxaWNRNFV5SllBUUhQdFB4QTBiM1kta1EzVTBoRU03a0dsRW9WS3p2ZV9OVEE?oc=5",
-      "date": "2026-10-13T09:06+09:00",
-      "press": "팍스경제TV",
-      "topic": "건설 협력업체 모집"
-    },
-    {
       "title": "증평 각리중·비상초, 교육부 특별교부금 2억 9천만원 확보… 노후 창호 교체 본격화 - 피디언뉴스",
       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1hMFpQRnBGUG5MS3pKNDNvSC1FR3JMR3E2amlmOW5YMG5NSzREUHQ2WjJLYmhjODNMRWYyMFdnZkNvaHQzc2p3VjlOVVg2ajc2ck9BS0FYTW1EN09H?oc=5",
       "date": "2026-10-12T15:21+09:00",
       "press": "피디언뉴스",
       "topic": "학교 시설 창호 교체"
+    },
+    {
+      "title": "“수주 절벽에 공사대금 회수 부담까지”…전문건설업계 ‘버티기’ 한계 - 녹색경제신문",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFAwdVkzQUxXa1Y2bVRFYmQ3bU5Bd19HNUJXM20yYnBUTE9va0hXTnZMVTdna3BKb3k1dDJtcDJRRzlyVXRlMzRuVnEyVEd0TDV3enBPbzBzUm1Sa0hxMi03NFRKQ1F5Qjk1?oc=5",
+      "date": "2026-10-08T12:27+09:00",
+      "press": "녹색경제신문",
+      "topic": "전문건설 입찰 제도"
     },
     {
       "title": "세봉특수산업, DSP 접합강판으로 금속 지붕·외장시장 새 해법 제시 - 스틸데일리",
@@ -157,17 +164,17 @@
       "topic": "금속창호 공사"
     },
     {
-      "title": "건설업 하도급 구조 개선해야…전문건설업계 \"주계약자 공동도급 법 명시해야\" - 조선일보",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPZkdBWmg3N2dRekh2elplR19uX0VHVDNfZ2htSHg1dF9UUzNtREhXUnhEU1FMdlgycDhtS1JuSFkwSXBYNmE3YzRyMExKT2FnTGdqbnFXT2dkc0xSbktZbk0yUTJOTjlaYTRIUUVSZHI2TDhpaU92NGZhZ2Q2a2d1N0ozUGVmTzFj?oc=5",
-      "date": "2026-10-06T16:00+09:00",
-      "press": "조선일보",
-      "topic": "전문건설 입찰 제도"
-    },
-    {
       "title": "전문건설업 ‘수주 안전판’ 사라지나…업계 생존 비상 - 진일보 | 전남일보",
       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1zT2RkSGtVeWpmZHdHUFA2dDhnMWdhaFFjWlpyTDNGQmw3bVlfSHczb0YtY0ZnLW1WTEdKNURNUzkyRmxBRXBtUWRkUW1YekZWSG1yQkd1bWNJdDl3emJHaU4xQjJmRFF6NXBDQk9YYw?oc=5",
       "date": "2026-10-06T16:00+09:00",
       "press": "진일보 | 전남일보",
+      "topic": "전문건설 입찰 제도"
+    },
+    {
+      "title": "건설업 하도급 구조 개선해야…전문건설업계 \"주계약자 공동도급 법 명시해야\" - 조선일보",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPZkdBWmg3N2dRekh2elplR19uX0VHVDNfZ2htSHg1dF9UUzNtREhXUnhEU1FMdlgycDhtS1JuSFkwSXBYNmE3YzRyMExKT2FnTGdqbnFXT2dkc0xSbktZbk0yUTJOTjlaYTRIUUVSZHI2TDhpaU92NGZhZ2Q2a2d1N0ozUGVmTzFj?oc=5",
+      "date": "2026-10-06T16:00+09:00",
+      "press": "조선일보",
       "topic": "전문건설 입찰 제도"
     },
     {
@@ -182,13 +189,6 @@
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE14cXl0R0pXQ095RzZHWnAzUmQ3TmY0dHlEeU91c01RZ2FJVDRJZmtoX1FNN0pMUWJjUC1SLVBOVW5paUJtUUxKRXptTzFkZEtJOWNOVmY5Wld0cTFzd0RJZQ?oc=5",
       "date": "2026-10-06T16:00+09:00",
       "press": "메트로신문",
-      "topic": "전문건설 입찰 제도"
-    },
-    {
-      "title": "건설업계 \"주계약자 공동도급제도, 상시 법제화로 다단계 하도급 끊어야\" - 국토매일",
-      "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE5mUy03NlNGXzlySXh3YjR4VGk5emdrNzRsLWxlTUFkcFk4ck5ydUppYjc5a19XWHRuSC1PMDJVNXNHSVpt?oc=5",
-      "date": "2026-10-06T16:00+09:00",
-      "press": "국토매일",
       "topic": "전문건설 입찰 제도"
     }
   ]
