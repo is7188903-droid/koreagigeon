@@ -1,7 +1,14 @@
 {
-  "updated_at": "2026-10-21T05:39+09:00",
+  "updated_at": "2026-10-21T08:57+09:00",
   "status": "정상",
   "items": [
+    {
+      "title": "건설기술분야 눈엣가시 뿌리뽑는다…규제혁신TF ‘가동’ - 대한경제",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPVllsUlhfdURfZC1oRWdHR0NsS0VJZzZDSDVwRnhyN3h2QXhnQmM1aW82WEJDNklTWVVqQ0JhU0RfeDBObGExMk1xZzZFay1IbU8zMkVCWFFKMmRoSjBKc3dNUzM0LVpPSXZncDVGYkN6T3I0R1VodFRmMGdRRHNmV2FQS2tGZw?oc=5",
+      "date": "2026-10-21T01:52+09:00",
+      "press": "대한경제",
+      "topic": "전문건설 입찰 제도"
+    },
     {
       "title": "대형건설사 12곳, 울산 지역업체 하도급 참여 확대 ‘맞손’ - 울산매일 - 울산최초, 최고의 조간신문",
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5BNkZHQ3FNQi1CSS0tWGV3R2xRWWtGaXNqVVU1em4zcVdTR0MtTTN2WjZyS0NGS1k4c0lGQzBZU1BrNVp5a2EtVnJqVWktdEtMekRQSXBmbU5PeWdHVEFwQ2xKbmJ2bXNfZkhmYnJn0gFuQVVfeXFMTkE2RkdDcU1CLUJJLS1YZXdHbFFZa0Zpc2pVVTV6bjNxV1NHQy1NM3ZaNnJLQ0ZLWThzSUZDMFlTUGs1WnlrYS1WcmpVaS10S0x6RFBJcGZtTk95Z0dUQXBDbEpuYnZtc19mSGZicmc?oc=5",
@@ -57,13 +64,6 @@
       "date": "2026-10-15T11:38+09:00",
       "press": "국제뉴스",
       "topic": "학교 시설 창호 교체"
-    },
-    {
-      "title": "[가상발전소 특집]① 발전소 없이 전력을 잇는다…VPP, 예측 넘어 전력거래로 - ESG경제",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5NYVZQQnJ1UVN6cTNET3d3a1BzUDlhWnZTYzhlVEY5eDlZSnRaOXFLWUhsSmJrMXpaWEtvb3VxODhRZE40ZDdtaFhpY3ZZWjg5WFdKWDdEWGpQbTVNQS1tZzBZdDV5TWhDVmRXXw?oc=5",
-      "date": "2026-10-15T10:11+09:00",
-      "press": "ESG경제",
-      "topic": "전문건설 입찰 제도"
     },
     {
       "title": "용인 반도체 용수공급공사 ‘속도’… 2공구 이어 1·3공구 발주 - MTN 머니투데이방송",
@@ -143,6 +143,13 @@
       "topic": "학교 시설 창호 교체"
     },
     {
+      "title": "경기도, 연말 모범 입찰 건설업체 10곳 선정 - 대한전문건설신문",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBkMnpkY0YxSDVqX0NlRHA2bHlXelkyMGVTTG9icno1dkl2aFZWbjVTVTZoX01mMGprS3drT0NUcDAwSUhoeC04LTVhVzd1bEJLTDVTSUZkUHN4dTJrVzlsYk5BNTNBVktl0gFsQVVfeXFMTmxHdTk3a0NMQTV6UWI2TWV0NHVoTTVPWHd2TUNRNS1xUFhabXVfaVFYOE80RjN4TGtta1E3UWZfRGtXWGdHVllrald2dlIzLWdscWxsSHV2bGRYTXhsdUdIMWl3VXRBX2U5TlZD?oc=5",
+      "date": "2026-10-12T16:00+09:00",
+      "press": "대한전문건설신문",
+      "topic": "전문건설 입찰 제도"
+    },
+    {
       "title": "증평 각리중·비상초, 교육부 특별교부금 2억 9천만원 확보… 노후 창호 교체 본격화 - 피디언뉴스",
       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1hMFpQRnBGUG5MS3pKNDNvSC1FR3JMR3E2amlmOW5YMG5NSzREUHQ2WjJLYmhjODNMRWYyMFdnZkNvaHQzc2p3VjlOVVg2ajc2ck9BS0FYTW1EN09H?oc=5",
       "date": "2026-10-12T15:21+09:00",
@@ -150,17 +157,17 @@
       "topic": "학교 시설 창호 교체"
     },
     {
+      "title": "경기도, ‘바른입찰 모범건설업체 선발’ 시범사업 추진 - 메이킹뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9kYnd4bG5BYzZwdkR5SkpYSnlSOWJxMmYzOGt3NWpiZUFmdk9nbU43eHdyWWRFUmVpdklkSWE1MHc5WEhGYW9La2ZWZGJxdXBpTU5MQ0FPYzc5UGVvTk5lMTR3?oc=5",
+      "date": "2026-10-12T12:19+09:00",
+      "press": "메이킹뉴스",
+      "topic": "전문건설 입찰 제도"
+    },
+    {
       "title": "[단독] 수자원공사, AI로 재생에너지 발전량 예측…전력시장 입찰 대응 - 스트레이트뉴스",
       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5aTTVVTF82a21zSTl0VXFRNjJYUnp3LTFtQ0pmRXh1T1pfVHdNczFHWmx6eUtUcU1yMHJ1SERwTmhrUFhPdEQwNzQwbmUyV1RLLXVHaS0xYU9CaUVGQkNldUd5U083UlMtSDVDdm4xUWdGb2vSAXdBVV95cUxNTXVIOTF3STg4YzFoU0xicEczb1VCR3YzdG5kR0pvMlAtTF9IcE90UUhuZ2lQck1lSE5MNGVyb0hKR3k5NXFsRG8tQzdTMGpoVWQ3T0t3NWJQS3RRU0ZrRC1HR3A3YUVJbWdMbXMwM3pRekVnWm1Lcw?oc=5",
       "date": "2026-10-08T16:11+09:00",
       "press": "스트레이트뉴스",
-      "topic": "전문건설 입찰 제도"
-    },
-    {
-      "title": "국회서도 주계약자 공동도급 유용성 인정…제도개선 의지 표명 - 기계설비신문",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9DeTdYaUFBbHI4QXV6WVJobFhsODkzc3JfZ3JsaFE0Q0RkUDlqekNoQnVfSFRKclFQWEpHLVpTbldTczVvajNhcU8zSGc4b3dOcHg3Yy05dnF0amtLcTZieXJzY1ZQenFJSS1aZQ?oc=5",
-      "date": "2026-10-08T16:00+09:00",
-      "press": "기계설비신문",
       "topic": "전문건설 입찰 제도"
     },
     {
@@ -176,13 +183,6 @@
       "date": "2026-10-07T14:49+09:00",
       "press": "경남미디어",
       "topic": "금속창호 공사"
-    },
-    {
-      "title": "주계약자 공동도급, 상생·안전·품질 잡을 ‘현실적 대안’ - 기계설비신문",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8zSzN5MEFMVWMwRUZaOVZUUkMxR0tZZEZHbXpnbDBVZVUyaVZkNVI5bGlFYUFRRThRQlEyX2w1WEd4VzRVY1NyZ1FzckFzM2JROHNPWElvTU53U1JFbnpkei1MeXhmRjZUeTVvRg?oc=5",
-      "date": "2026-10-07T09:00+09:00",
-      "press": "기계설비신문",
-      "topic": "전문건설 입찰 제도"
     }
   ]
 }

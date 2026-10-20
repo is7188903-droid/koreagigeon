@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-10-21T05:39+09:00",
-  "status": "최근 45일 낙찰 10672건 중 건축공사 379건",
+  "updated_at": "2026-10-21T08:57+09:00",
+  "status": "최근 45일 낙찰 10736건 중 건축공사 380건",
   "diagnostics": {
-    "scanned": 10672,
-    "matched": 379,
+    "scanned": 10736,
+    "matched": 380,
     "error": "",
     "endpoint": "https://apis.data.go.kr/1230000/as/ScsbidInfoService/getScsbidListSttusCnstwk",
     "fields": "bidNtceNo,bidNtceOrd,bidClsfcNo,rbidNo,ntceDivCd,bidNtceNm,prtcptCnum,bidwinnrNm,bidwinnrBizno,bidwinnrCeoNm,bidwinnrAdrs,bidwinnrTelNo,sucsfbidAmt,sucsfbidRate,rlOpengDt,dminsttCd,dminsttNm,rgstDt,fnlSucsfDate,fnlSucsfCorpOfcl"
@@ -816,6 +816,19 @@
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01693729"
     },
     {
+      "title": "유니드비티플러스 군산공장 탄소무배출설비 설치공사",
+      "agency": "(주)유니드비티플러스(군산공장)",
+      "amount": 1010690000,
+      "date": "2026-10-15",
+      "winner": "현대글로벌 주식회사",
+      "ceo": "최종윤",
+      "address": "서울특별시 종로구 율곡로 194(연지동, 현대그룹빌딩 동관)",
+      "phone": "02-3782-7777",
+      "bizno": "6268801279",
+      "near": true,
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01746231"
+    },
+    {
       "title": "2026년 청계벽산 외 3개 단지 임대아파트 공용부 방화문 교체공사",
       "agency": "서울주택도시개발공사",
       "amount": 1006939140,
@@ -1401,6 +1414,19 @@
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01747156"
     },
     {
+      "title": "연천등기소 리모델링 공사(건축, 기계)",
+      "agency": "대법원 의정부지방법원",
+      "amount": 456621250,
+      "date": "2026-09-29",
+      "winner": "주식회사 서평",
+      "ceo": "김진승",
+      "address": "경기도 광주시 광주역9로 18 (역동) 4층",
+      "phone": "031-767-0562",
+      "bizno": "1268603171",
+      "near": true,
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01724383"
+    },
+    {
       "title": "남항 석탄부두 하역장비(2호기) 제어방식 개선공사",
       "agency": "인천항만공사",
       "amount": 452687153,
@@ -1932,32 +1958,6 @@
       "bizno": "2538100490",
       "near": true,
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01704512"
-    },
-    {
-      "title": "도고면 행정복지센터 앞 삼거리 회전교차로 설치공사",
-      "agency": "충청남도 아산시 미래도시관리사업소",
-      "amount": 304315000,
-      "date": "2026-09-22",
-      "winner": "에스앤티건설 (주)",
-      "ceo": "김선우",
-      "address": "충청남도 아산시 배방읍 월천2길 119-9(201호, 202호)",
-      "phone": "041-551-6620",
-      "bizno": "3138110169",
-      "near": true,
-      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01730627"
-    },
-    {
-      "title": "소유리 마을회관 증축공사(건축·기계)",
-      "agency": "경기도 여주시",
-      "amount": 303371000,
-      "date": "2026-10-08",
-      "winner": "동림이앤씨 주식회사",
-      "ceo": "안남순",
-      "address": "경기도 여주시 용강길 132-34 (매룡동)",
-      "phone": "031-886-1313",
-      "bizno": "1278134202",
-      "near": true,
-      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01749284"
     }
   ],
   "companies": [
@@ -2709,6 +2709,18 @@
       ]
     },
     {
+      "name": "현대글로벌 주식회사",
+      "ceo": "최종윤",
+      "address": "서울특별시 종로구 율곡로 194(연지동, 현대그룹빌딩 동관)",
+      "phone": "02-3782-7777",
+      "near": true,
+      "count": 1,
+      "total": 1010690000,
+      "projects": [
+        "유니드비티플러스 군산공장 탄소무배출설비 설치공사"
+      ]
+    },
+    {
       "name": "(주)한국쏠텍",
       "ceo": "최경일",
       "address": "서울특별시 강서구 양천로 583, 에이동 810호(염창동, 우림블루나인비즈니센터)",
@@ -2911,18 +2923,6 @@
       "total": 658521740,
       "projects": [
         "권선구청 그린리모델링 공사(건축)"
-      ]
-    },
-    {
-      "name": "대승종합건설주식회사",
-      "ceo": "정재원",
-      "address": "충청남도 천안시 동남구 목천읍 삼성3길 10-9, 301호",
-      "phone": "041-522-1260",
-      "near": true,
-      "count": 1,
-      "total": 645146700,
-      "projects": [
-        "관람동선 화장실 증축 및 리모델링 공사"
       ]
     }
   ]
