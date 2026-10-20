@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-10-20T15:05+09:00",
-  "status": "최근 45일 낙찰 12068건 중 건축공사 375건",
+  "updated_at": "2026-10-20T20:40+09:00",
+  "status": "최근 45일 낙찰 12994건 중 건축공사 379건",
   "diagnostics": {
-    "scanned": 12068,
-    "matched": 375,
+    "scanned": 12994,
+    "matched": 379,
     "error": "",
     "endpoint": "https://apis.data.go.kr/1230000/as/ScsbidInfoService/getScsbidListSttusCnstwk",
     "fields": "bidNtceNo,bidNtceOrd,bidClsfcNo,rbidNo,ntceDivCd,bidNtceNm,prtcptCnum,bidwinnrNm,bidwinnrBizno,bidwinnrCeoNm,bidwinnrAdrs,bidwinnrTelNo,sucsfbidAmt,sucsfbidRate,rlOpengDt,dminsttCd,dminsttNm,rgstDt,fnlSucsfDate,fnlSucsfCorpOfcl"
@@ -608,6 +608,19 @@
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01621269"
     },
     {
+      "title": "광명북고 체육관 전면보수공사",
+      "agency": "경기도교육청 경기도광명교육지원청",
+      "amount": 1687417500,
+      "date": "2026-10-08",
+      "winner": "(주)성보건설",
+      "ceo": "박상남",
+      "address": "경기도 구리시 동구릉로 63, 4층 (인창동,화광빌딩)",
+      "phone": "031-551-3404",
+      "bizno": "1328169135",
+      "near": true,
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01740883"
+    },
+    {
       "title": "성남외고 기숙사 전면보수공사",
       "agency": "경기도교육청 경기도성남교육지원청",
       "amount": 1670348720,
@@ -983,6 +996,19 @@
       "bizno": "1348613141",
       "near": true,
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01723361"
+    },
+    {
+      "title": "탄천센터 슬러지건조시설 취수펌프 신설 공사",
+      "agency": "서울물재생시설공단",
+      "amount": 678024640,
+      "date": "2026-10-19",
+      "winner": "주식회사 이좋은공조",
+      "ceo": "허지숙",
+      "address": "서울특별시 용산구 백범로90라길 47 (원효로1가) 4층",
+      "phone": "02-749-8944",
+      "bizno": "8218100750",
+      "near": true,
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01769053"
     },
     {
       "title": "양송이 환경제어 재배사 신축(건축, 기계)공사",
@@ -1932,32 +1958,6 @@
       "bizno": "1278134202",
       "near": true,
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01749284"
-    },
-    {
-      "title": "부산캠퍼스 사회관 개축공사",
-      "agency": "부산대학교",
-      "amount": 18958158472,
-      "date": "2026-07-28",
-      "winner": "주식회사 일창건설",
-      "ceo": "안희상",
-      "address": "충청북도 청주시 흥덕구 2순환로1340번길 8-28 (가경동) 1층",
-      "phone": "043-287-9904",
-      "bizno": "3018174971",
-      "near": false,
-      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01605447"
-    },
-    {
-      "title": "사상초등학교 공간재구조화 개축공사(계속비)",
-      "agency": "부산광역시교육청",
-      "amount": 18695598887,
-      "date": "2026-09-30",
-      "winner": "초우종합건설 주식회사",
-      "ceo": "서만재",
-      "address": "부산광역시 남구 진남로 201(문현동) 4층",
-      "phone": "051-635-0198",
-      "bizno": "1038701293",
-      "near": false,
-      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01707724"
     }
   ],
   "companies": [
@@ -2529,6 +2529,18 @@
       ]
     },
     {
+      "name": "(주)성보건설",
+      "ceo": "박상남",
+      "address": "경기도 구리시 동구릉로 63, 4층 (인창동,화광빌딩)",
+      "phone": "031-551-3404",
+      "near": true,
+      "count": 1,
+      "total": 1687417500,
+      "projects": [
+        "광명북고 체육관 전면보수공사"
+      ]
+    },
+    {
       "name": "다우산업 주식회사",
       "ceo": "윤기현",
       "address": "경기도 성남시 분당구 성남대로172번길 24, 825호(금곡동,분당미금파크)",
@@ -2854,6 +2866,18 @@
       ]
     },
     {
+      "name": "주식회사 이좋은공조",
+      "ceo": "허지숙",
+      "address": "서울특별시 용산구 백범로90라길 47 (원효로1가) 4층",
+      "phone": "02-749-8944",
+      "near": true,
+      "count": 1,
+      "total": 678024640,
+      "projects": [
+        "탄천센터 슬러지건조시설 취수펌프 신설 공사"
+      ]
+    },
+    {
       "name": "주식회사 더원",
       "ceo": "채희태",
       "address": "충청남도 홍성군 홍북읍 청사로174번길 25  1동 405호",
@@ -2899,30 +2923,6 @@
       "total": 645146700,
       "projects": [
         "관람동선 화장실 증축 및 리모델링 공사"
-      ]
-    },
-    {
-      "name": "유일테크(주)",
-      "ceo": "최태근",
-      "address": "경기도 김포시 하성면 월하로589번길 90-36",
-      "phone": "031-985-0294",
-      "near": true,
-      "count": 1,
-      "total": 639660130,
-      "projects": [
-        "산성동 행정복지센터 냉난방기(기계) 교체공사"
-      ]
-    },
-    {
-      "name": "주식회사 명성이엔씨",
-      "ceo": "유숙자",
-      "address": "경기도 부천시 원미구 길주로 350 (중동)",
-      "phone": "032-661-1204",
-      "near": true,
-      "count": 1,
-      "total": 591100000,
-      "projects": [
-        "하일초 교사동 노후교실 환경개선공사"
       ]
     }
   ]
