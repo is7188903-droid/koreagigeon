@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22T00:20+09:00",
+  "updated_at": "2026-10-22T04:26+09:00",
   "status": "정상",
   "items": [
     {
@@ -21,13 +21,6 @@
       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1KRUI0UzV0NWl3VFlXQnlvbEdSM0FGcDdnaGtkOTlPV2xHVW1KR05tdUh3clEtWUJPTHdTa29heXVwY21jWlNXR25id2xsN3ZaVXFiRTZuZ1VoQ1NKOEE1S2tFb01tcFkw0gFsQVVfeXFMUDhyY0IxdkpwWVR2TC1GRGRXQnlzYU5JVGc0WXZ5V2VPdndXVFE5RndnRF9fbEpNQ3VkYVQwdV9UWmxHZ0dQbkZENDJ1SE5YNHlvTENHTDZtUXBmWkIxcnNUUER5QnlCUm1Xa3hR?oc=5",
       "date": "2026-10-21T15:25+09:00",
       "press": "대한전문건설신문",
-      "topic": "전문건설 입찰 제도"
-    },
-    {
-      "title": "건설기술분야 눈엣가시 뿌리뽑는다…규제혁신TF ‘가동’ - 대한경제",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE82NXl2Rnl6ZC1HeTJmQ0dCb0gtTUVTNm5qV2pQN3g1cVV0THJwQy1yUlBjaUpzYWdpRWFkUF9OczFkaXJpNDIxeGZMUS02a0FacDFoQnMtZzA1a0k1c1lsdnFyX0RlWnI3X3ZyR3k0c29xdWFB?oc=5",
-      "date": "2026-10-21T06:00+09:00",
-      "press": "대한경제",
       "topic": "전문건설 입찰 제도"
     },
     {
@@ -78,6 +71,13 @@
       "date": "2026-10-15T12:50+09:00",
       "press": "위키트리",
       "topic": "학교 시설 창호 교체"
+    },
+    {
+      "title": "[가상발전소 특집]① 발전소 없이 전력을 잇는다…VPP, 예측 넘어 전력거래로 - ESG경제",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5NYVZQQnJ1UVN6cTNET3d3a1BzUDlhWnZTYzhlVEY5eDlZSnRaOXFLWUhsSmJrMXpaWEtvb3VxODhRZE40ZDdtaFhpY3ZZWjg5WFdKWDdEWGpQbTVNQS1tZzBZdDV5TWhDVmRXXw?oc=5",
+      "date": "2026-10-15T10:11+09:00",
+      "press": "ESG경제",
+      "topic": "전문건설 입찰 제도"
     },
     {
       "title": "용인 반도체 용수공급공사 ‘속도’… 2공구 이어 1·3공구 발주 - MTN 머니투데이방송",
@@ -173,7 +173,7 @@
     {
       "title": "증평 각리중·비상초, 교육부 특별교부금 2억 9천만원 확보… 노후 창호 교체 본격화 - 피디언뉴스",
       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1hMFpQRnBGUG5MS3pKNDNvSC1FR3JMR3E2amlmOW5YMG5NSzREUHQ2WjJLYmhjODNMRWYyMFdnZkNvaHQzc2p3VjlOVVg2ajc2ck9BS0FYTW1EN09H?oc=5",
-      "date": "2026-10-12T16:00+09:00",
+      "date": "2026-10-12T15:21+09:00",
       "press": "피디언뉴스",
       "topic": "학교 시설 창호 교체"
     },
