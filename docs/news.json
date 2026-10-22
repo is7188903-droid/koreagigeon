@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22T19:16+09:00",
+  "updated_at": "2026-10-23T00:23+09:00",
   "status": "정상",
   "items": [
     {
@@ -28,13 +28,6 @@
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5BNkZHQ3FNQi1CSS0tWGV3R2xRWWtGaXNqVVU1em4zcVdTR0MtTTN2WjZyS0NGS1k4c0lGQzBZU1BrNVp5a2EtVnJqVWktdEtMekRQSXBmbU5PeWdHVEFwQ2xKbmJ2bXNfZkhmYnJn0gFuQVVfeXFMTkE2RkdDcU1CLUJJLS1YZXdHbFFZa0Zpc2pVVTV6bjNxV1NHQy1NM3ZaNnJLQ0ZLWThzSUZDMFlTUGs1WnlrYS1WcmpVaS10S0x6RFBJcGZtTk95Z0dUQXBDbEpuYnZtc19mSGZicmc?oc=5",
       "date": "2026-10-20T18:17+09:00",
       "press": "울산매일 - 울산최초, 최고의 조간신문",
-      "topic": "건설 협력업체 모집"
-    },
-    {
-      "title": "인천시, 대형건설사 20곳과 지역 건설업체 협력 확대 - 매일일보",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9UM0w5YTdveU9CSmNYUTFqSHBwaTRaaXEtZGhrdzBsclR1Q1lWRWFhUmZ2UjFqUXI2T2owTkVhajVhSjllQmRwTGM5ZWhYT0J6a2xrd2w3M19fYm5uUHRiV0xMTWI?oc=5",
-      "date": "2026-10-20T13:10+09:00",
-      "press": "매일일보",
       "topic": "건설 협력업체 모집"
     },
     {
@@ -122,6 +115,13 @@
       "topic": "학교 시설 창호 교체"
     },
     {
+      "title": "창립 60주년 앞둔 금호건설, 협력사 선정 기준 강화 - 스마트비즈",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE05VzZXMHNTWVhxRHN4ZVFEWjdpRktOSjNQSHd3WXZvdWdfQmZYWDc3dk5JbmpDTGxmMUw2MmZoUzBLUkZaakxvc29rdFJtZEk3QzZ1RjJpM2VudWVWUHlfVE1FMndtWUNPbFVpaw?oc=5",
+      "date": "2026-10-13T16:00+09:00",
+      "press": "스마트비즈",
+      "topic": "건설 협력업체 모집"
+    },
+    {
       "title": "내년 창립 60주년…금호건설, 외주·자재 협력사 모집 - 뉴시스",
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9DeXIxaC1CajRvQnFpMnBoa0hnNXEtM29URlZpeEpiS2U3TGpwX3BRT1RUNkowX296bGVhWEJUSFBVS19zTUVRWDV5X3dzTUplaW1NelAzREJqZFpJT0lTRtIBeEFVX3lxTFAxdHQtMDJOa2tZU0YwVU5HODRmSF9QRHd2WjE3aDFLTjR3Y3VQNVlCT1ppTjEzMkFGZGtZU19SLURHZW9VOXVpVHBESUhidXpDa1dic0l4cGNpamVVWHNndmxId0pNcjVKeVNFYjZOdmhsR2VBTWxmVQ?oc=5",
       "date": "2026-10-13T15:40+09:00",
@@ -178,10 +178,10 @@
       "topic": "학교 시설 창호 교체"
     },
     {
-      "title": "공공공사 표준시장단가 확대? 저가수주 양산 우려 - 기계설비신문",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBJX1MwTHlsU2gxUjBtaFNHQ2VWSnhYOFhJSEZER1pjMzdxbk9XbGNhSXQ5QmlTSFg0aU16RFJHRm02RVR3UFl6ZGU0ZmlVWk13cGVYWnM0bklXdWZtMVdVRUd5Rjd2aW54LXM4MQ?oc=5",
-      "date": "2026-10-12T06:00+09:00",
-      "press": "기계설비신문",
+      "title": "경기도, ‘바른입찰 모범건설업체 선발’ 시범사업 추진 - 메이킹뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9kYnd4bG5BYzZwdkR5SkpYSnlSOWJxMmYzOGt3NWpiZUFmdk9nbU43eHdyWWRFUmVpdklkSWE1MHc5WEhGYW9La2ZWZGJxdXBpTU5MQ0FPYzc5UGVvTk5lMTR3?oc=5",
+      "date": "2026-10-12T12:19+09:00",
+      "press": "메이킹뉴스",
       "topic": "전문건설 입찰 제도"
     }
   ]
