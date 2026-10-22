@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22T08:25+09:00",
+  "updated_at": "2026-10-22T13:53+09:00",
   "status": "정상",
   "items": [
     {
@@ -14,6 +14,13 @@
       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1KRUI0UzV0NWl3VFlXQnlvbEdSM0FGcDdnaGtkOTlPV2xHVW1KR05tdUh3clEtWUJPTHdTa29heXVwY21jWlNXR25id2xsN3ZaVXFiRTZuZ1VoQ1NKOEE1S2tFb01tcFkw0gFsQVVfeXFMUDhyY0IxdkpwWVR2TC1GRGRXQnlzYU5JVGc0WXZ5V2VPdndXVFE5RndnRF9fbEpNQ3VkYVQwdV9UWmxHZ0dQbkZENDJ1SE5YNHlvTENHTDZtUXBmWkIxcnNUUER5QnlCUm1Xa3hR?oc=5",
       "date": "2026-10-21T15:25+09:00",
       "press": "대한전문건설신문",
+      "topic": "전문건설 입찰 제도"
+    },
+    {
+      "title": "건설기술분야 눈엣가시 뿌리뽑는다…규제혁신TF ‘가동’ - 대한경제",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE82NXl2Rnl6ZC1HeTJmQ0dCb0gtTUVTNm5qV2pQN3g1cVV0THJwQy1yUlBjaUpzYWdpRWFkUF9OczFkaXJpNDIxeGZMUS02a0FacDFoQnMtZzA1a0k1c1lsdnFyX0RlWnI3X3ZyR3k0c29xdWFB?oc=5",
+      "date": "2026-10-21T06:00+09:00",
+      "press": "대한경제",
       "topic": "전문건설 입찰 제도"
     },
     {
@@ -73,13 +80,6 @@
       "topic": "학교 시설 창호 교체"
     },
     {
-      "title": "[가상발전소 특집]① 발전소 없이 전력을 잇는다…VPP, 예측 넘어 전력거래로 - ESG경제",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5NYVZQQnJ1UVN6cTNET3d3a1BzUDlhWnZTYzhlVEY5eDlZSnRaOXFLWUhsSmJrMXpaWEtvb3VxODhRZE40ZDdtaFhpY3ZZWjg5WFdKWDdEWGpQbTVNQS1tZzBZdDV5TWhDVmRXXw?oc=5",
-      "date": "2026-10-15T10:11+09:00",
-      "press": "ESG경제",
-      "topic": "전문건설 입찰 제도"
-    },
-    {
       "title": "용인 반도체 용수공급공사 ‘속도’… 2공구 이어 1·3공구 발주 - MTN 머니투데이방송",
       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9yYXFqV0M4Und6NlFiaWx2cDFfUzNEM1NpRWQ3djN1c19aNVhkdFdJNVNTelBDLVo0WGFoZTg2LS16V2thRWNkSWxCTnJtRFYtMXBTV09UWUlTU3JlUFYzaHB3cUM?oc=5",
       "date": "2026-10-15T05:00+09:00",
@@ -87,11 +87,11 @@
       "topic": "금속창호 공사"
     },
     {
-      "title": "충남교육청, 학교시설 개선 특별교부금 259억 확보 - 충청헤럴드",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBMdEhoRzdaQ2ZLN1lUVnV6Yks1RFFWRFZJd3dRTmRFS2szdDVRaVVwYUhDcDF3LU5QeVZjd09GWklxNG5QbTVkcmFCWlFSZmhrcnFHaF9JX0plYjg2TmtMN0xPR2pnY3hn?oc=5",
-      "date": "2026-10-14T19:55+09:00",
-      "press": "충청헤럴드",
-      "topic": "학교 시설 창호 교체"
+      "title": "전기공사협회, 제554회 이사회 개최…주요 현안 및 제도개선 방안 논의 - 전기신문",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9fdXlFdnhzbGVyWUV5d0xuSkZDU0NSaGY0d0hVMnFubmJqVGdIM0hUVEx5bGltY2QzUnVBMF9qVFN0TEtsVEI1bmE4QXhhckxSU1gwRjZNV1oxR0pYN1d6RUhQWDFVa2YyRjNZYdIBcEFVX3lxTFBZeHI5a2gydGxZYnlZWXhGdEFYOGhJeDZkMzJfa2g2Y1hRWDRzTHBTdlBxSWtRazhQWE1nRkZ0d0didW9yWVYwbUFmVnVtTlRZZzNXYVoxMVYtVHNVMDdRWTNlcVNlTnIwNXdaU1didzI?oc=5",
+      "date": "2026-10-14T15:22+09:00",
+      "press": "전기신문",
+      "topic": "전문건설 입찰 제도"
     },
     {
       "title": "박균택 의원, 학교 교육시설 개선비 15억 5,900만 원 확보 - 뉴스21 통신",
@@ -115,6 +115,13 @@
       "topic": "건설 협력업체 모집"
     },
     {
+      "title": "이광재 의원, 하남 학교시설 개선 교육부 특교 8억3600만원 확보 - 동방일보",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9vZDRtbUpEbFF6ZmJuOUh4RlJlZDFMVkdOaUEya0Q0TXByVlhEcTR0OXhJMTFGUXNNMGx5RzJGVVNudzRJSGd6VGc0ZWNyMklCUmtFcUdpdmt5U0NsTGhPMHRZMWpmWVd6NkMxV2lVNDNGSHc?oc=5",
+      "date": "2026-10-13T16:00+09:00",
+      "press": "동방일보",
+      "topic": "학교 시설 창호 교체"
+    },
+    {
       "title": "내년 창립 60주년…금호건설, 외주·자재 협력사 모집 - 뉴시스",
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9DeXIxaC1CajRvQnFpMnBoa0hnNXEtM29URlZpeEpiS2U3TGpwX3BRT1RUNkowX296bGVhWEJUSFBVS19zTUVRWDV5X3dzTUplaW1NelAzREJqZFpJT0lTRtIBeEFVX3lxTFAxdHQtMDJOa2tZU0YwVU5HODRmSF9QRHd2WjE3aDFLTjR3Y3VQNVlCT1ppTjEzMkFGZGtZU19SLURHZW9VOXVpVHBESUhidXpDa1dic0l4cGNpamVVWHNndmxId0pNcjVKeVNFYjZOdmhsR2VBTWxmVQ?oc=5",
       "date": "2026-10-13T15:40+09:00",
@@ -122,25 +129,11 @@
       "topic": "건설 협력업체 모집"
     },
     {
-      "title": "이광재 의원, 하남 학교시설 개선 교육부 특교 8억3600만원 확보 - 동방일보",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9vZDRtbUpEbFF6ZmJuOUh4RlJlZDFMVkdOaUEya0Q0TXByVlhEcTR0OXhJMTFGUXNNMGx5RzJGVVNudzRJSGd6VGc0ZWNyMklCUmtFcUdpdmt5U0NsTGhPMHRZMWpmWVd6NkMxV2lVNDNGSHc?oc=5",
-      "date": "2026-10-13T14:36+09:00",
-      "press": "동방일보",
-      "topic": "학교 시설 창호 교체"
-    },
-    {
       "title": "금호건설, 2027년 협력사 모집…안전 평가보고서 제출 의무화 - 뉴스1",
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA1M0JlZzJ4VUFhbzE5am5Za1VOTllPSzQ2azZRSmZRb1hjMl8wMXA4Q0JlUmZmX1lWYTQ0bXQ3aHFuamR4S0ZOWHU0ckxvUnh5ZzR0MkxnV1pWOUU?oc=5",
       "date": "2026-10-13T14:35+09:00",
       "press": "뉴스1",
       "topic": "건설 협력업체 모집"
-    },
-    {
-      "title": "서울시회, 입찰참가자격 사실조사·추락재해 안전보건 교육 실시 - 대한전문건설신문",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5kSHhXMVA2UHlscllvZDhPSi02VThRd2plMnBCMVBENmRES1ROYVF2XzJ2UUgzNk5Yb3FSb2Uyc3B5bGJyejJOcXVNUm81WW5uV3FyWWVPRzhPYm9rZVFUNG1teDhIZ3FK0gFsQVVfeXFMTUdncEZvcDR5ODhCZW5zMkFSUnZqWUpzNkg3TGxyVDdhcHU3RElhSENlcXJibU1OOW9PUzRwWVpidUJJZmR2VlZJbnRxY2wtRjdqd2dwclEyVzdVc01ORHJsU1FvV1RIQTRGYjI4?oc=5",
-      "date": "2026-10-13T14:32+09:00",
-      "press": "대한전문건설신문",
-      "topic": "전문건설 입찰 제도"
     },
     {
       "title": "금호건설, 2027년도 외주·자재 협력회사 모집…'안전보건 역량 검증 강화' - 브릿지경제",
@@ -171,17 +164,24 @@
       "topic": "학교 시설 창호 교체"
     },
     {
-      "title": "경기도, ‘바른입찰 모범건설업체 선발’ 시범사업 추진 - 메이킹뉴스",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9kYnd4bG5BYzZwdkR5SkpYSnlSOWJxMmYzOGt3NWpiZUFmdk9nbU43eHdyWWRFUmVpdklkSWE1MHc5WEhGYW9La2ZWZGJxdXBpTU5MQ0FPYzc5UGVvTk5lMTR3?oc=5",
-      "date": "2026-10-12T12:19+09:00",
-      "press": "메이킹뉴스",
+      "title": "증평 각리중·비상초, 교육부 특별교부금 2억 9천만원 확보… 노후 창호 교체 본격화 - 피디언뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1hMFpQRnBGUG5MS3pKNDNvSC1FR3JMR3E2amlmOW5YMG5NSzREUHQ2WjJLYmhjODNMRWYyMFdnZkNvaHQzc2p3VjlOVVg2ajc2ck9BS0FYTW1EN09H?oc=5",
+      "date": "2026-10-12T16:00+09:00",
+      "press": "피디언뉴스",
+      "topic": "학교 시설 창호 교체"
+    },
+    {
+      "title": "경기도, 공정입찰 건설업체 10곳 선정…행정 혜택 부여 - 디스커버리뉴스(DISCOVERYNEWS)",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9jWlVEb1lrby1raWhOSnpTNTdwVUd0djJLd3VpTTRrdHdybEE1aWNZdDlYTnB6bnBmenlfTTNuM0ttWlAtTTB6SUFDMkk4WmZSMEpnd2hROXpkRV95bnhqQnNyQlZzV2NjUjFfTjViNXF6dw?oc=5",
+      "date": "2026-10-12T08:23+09:00",
+      "press": "디스커버리뉴스(DISCOVERYNEWS)",
       "topic": "전문건설 입찰 제도"
     },
     {
-      "title": "[단독] 수자원공사, AI로 재생에너지 발전량 예측…전력시장 입찰 대응 - 스트레이트뉴스",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5aTTVVTF82a21zSTl0VXFRNjJYUnp3LTFtQ0pmRXh1T1pfVHdNczFHWmx6eUtUcU1yMHJ1SERwTmhrUFhPdEQwNzQwbmUyV1RLLXVHaS0xYU9CaUVGQkNldUd5U083UlMtSDVDdm4xUWdGb2vSAXdBVV95cUxNTXVIOTF3STg4YzFoU0xicEczb1VCR3YzdG5kR0pvMlAtTF9IcE90UUhuZ2lQck1lSE5MNGVyb0hKR3k5NXFsRG8tQzdTMGpoVWQ3T0t3NWJQS3RRU0ZrRC1HR3A3YUVJbWdMbXMwM3pRekVnWm1Lcw?oc=5",
-      "date": "2026-10-08T16:11+09:00",
-      "press": "스트레이트뉴스",
+      "title": "“수주 절벽에 공사대금 회수 부담까지”…전문건설업계 ‘버티기’ 한계 - 녹색경제신문",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFAwdVkzQUxXa1Y2bVRFYmQ3bU5Bd19HNUJXM20yYnBUTE9va0hXTnZMVTdna3BKb3k1dDJtcDJRRzlyVXRlMzRuVnEyVEd0TDV3enBPbzBzUm1Sa0hxMi03NFRKQ1F5Qjk1?oc=5",
+      "date": "2026-10-08T16:00+09:00",
+      "press": "녹색경제신문",
       "topic": "전문건설 입찰 제도"
     }
   ]
