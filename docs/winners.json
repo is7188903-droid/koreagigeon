@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-10-22T13:53+09:00",
-  "status": "최근 45일 낙찰 12272건 중 건축공사 396건",
+  "updated_at": "2026-10-22T19:16+09:00",
+  "status": "최근 45일 낙찰 13268건 중 건축공사 400건",
   "diagnostics": {
-    "scanned": 12272,
-    "matched": 396,
+    "scanned": 13268,
+    "matched": 400,
     "error": "",
     "endpoint": "https://apis.data.go.kr/1230000/as/ScsbidInfoService/getScsbidListSttusCnstwk",
     "fields": "bidNtceNo,bidNtceOrd,bidClsfcNo,rbidNo,ntceDivCd,bidNtceNm,prtcptCnum,bidwinnrNm,bidwinnrBizno,bidwinnrCeoNm,bidwinnrAdrs,bidwinnrTelNo,sucsfbidAmt,sucsfbidRate,rlOpengDt,dminsttCd,dminsttNm,rgstDt,fnlSucsfDate,fnlSucsfCorpOfcl"
@@ -1232,6 +1232,19 @@
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01694450"
     },
     {
+      "title": "어업 이주노동자 쉼터건립 공사(건축·기계·토목)",
+      "agency": "경기도 김포시",
+      "amount": 565238200,
+      "date": "2026-09-16",
+      "winner": "해평종합건설 주식회사",
+      "ceo": "임현교",
+      "address": "경기도 광주시 순암로 195, 2동 203호(중대동)",
+      "phone": "031-761-1503",
+      "bizno": "3628801846",
+      "near": true,
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01719030"
+    },
+    {
       "title": "창천중 체육관 전면보수공사",
       "agency": "서울특별시교육청 서울특별시서부교육지원청",
       "amount": 555664700,
@@ -1945,19 +1958,6 @@
       "bizno": "1068197705",
       "near": true,
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01704590"
-    },
-    {
-      "title": "양천자원회수시설 가스계 소화설비 개선공사",
-      "agency": "환경에너지솔루션 주식회사",
-      "amount": 326070090,
-      "date": "2026-09-23",
-      "winner": "주식회사 엘에이치방재",
-      "ceo": "함재영",
-      "address": "경기도 군포시 고산로 166  SK벤티움 101동 601호 (당정동)",
-      "phone": "031-458-1119",
-      "bizno": "1238634660",
-      "near": true,
-      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01730990"
     }
   ],
   "companies": [
