@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-10-23T07:28+09:00",
-  "status": "최근 45일 낙찰 11167건 중 건축공사 391건",
+  "updated_at": "2026-10-23T10:38+09:00",
+  "status": "최근 45일 낙찰 11511건 중 건축공사 393건",
   "diagnostics": {
-    "scanned": 11167,
-    "matched": 391,
+    "scanned": 11511,
+    "matched": 393,
     "error": "",
     "endpoint": "https://apis.data.go.kr/1230000/as/ScsbidInfoService/getScsbidListSttusCnstwk",
     "fields": "bidNtceNo,bidNtceOrd,bidClsfcNo,rbidNo,ntceDivCd,bidNtceNm,prtcptCnum,bidwinnrNm,bidwinnrBizno,bidwinnrCeoNm,bidwinnrAdrs,bidwinnrTelNo,sucsfbidAmt,sucsfbidRate,rlOpengDt,dminsttCd,dminsttNm,rgstDt,fnlSucsfDate,fnlSucsfCorpOfcl"
@@ -1596,6 +1596,19 @@
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01693143"
     },
     {
+      "title": "신안초 교사2호동, 교사3호동 내진보강공사",
+      "agency": "경기도교육청 경기도안양과천교육지원청",
+      "amount": 415762223,
+      "date": "2026-10-12",
+      "winner": "하성종합개발(주)",
+      "ceo": "윤상익",
+      "address": "경기도 연천군 은전로 76-3 (전곡읍, (주)하성종합개발)",
+      "phone": "031-832-9121",
+      "bizno": "1278144132",
+      "near": true,
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01753442"
+    },
+    {
       "title": "행당역 등 3역 영업분야 근무환경 개선공사",
       "agency": "서울교통공사",
       "amount": 409418020,
@@ -1945,19 +1958,6 @@
       "bizno": "1238634660",
       "near": true,
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01730990"
-    },
-    {
-      "title": "2026년 생활밀착형숲(정원) 조성사업(구산동 도서관마을)",
-      "agency": "서울특별시 은평구",
-      "amount": 324832780,
-      "date": "2026-09-11",
-      "winner": "에스더블유엠 주식회사",
-      "ceo": "박서연",
-      "address": "서울특별시 강남구 테헤란로 512-0 (대치동, 신안빌딩)",
-      "phone": "02-539-1147",
-      "bizno": "1208774210",
-      "near": true,
-      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01713083"
     }
   ],
   "companies": [
