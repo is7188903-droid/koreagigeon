@@ -1,24 +1,24 @@
 {
-  "updated_at": "2026-10-23T16:32+09:00",
+  "updated_at": "2026-10-23T22:26+09:00",
   "g2b_status": "정상",
   "apartment_status": "API 원시자료 0개 · 공사명 관련 0건 (0건이면 정상 수집 미확인) · 일부 호출 오류: 창호: 응답목록 0건 / 응답필드 response / 지붕: 응답목록 0건 / 응답필드 response",
   "diagnostics": {
-    "scanned": 5154,
+    "scanned": 5307,
     "keyword_match": 74,
-    "closed": 143,
+    "closed": 145,
     "bad_deadline": 4,
-    "region_rejected": 109,
-    "region_api_ok": 135,
+    "region_rejected": 115,
+    "region_api_ok": 139,
     "region_api_fail": 0,
     "license_api_ok": 18,
     "license_api_fail": 0,
     "last_error": "",
-    "getBidPblancListInfoPrtcptPsblRgn_total": 15658,
+    "getBidPblancListInfoPrtcptPsblRgn_total": 16248,
     "getBidPblancListInfoPrtcptPsblRgn_fields": "bidNtceNo,bidNtceOrd,lmtSno,prtcptPsblRgnNm,rgstDt,bsnsDivNm",
-    "getBidPblancListInfoLicenseLimit_total": 17110,
+    "getBidPblancListInfoLicenseLimit_total": 17576,
     "getBidPblancListInfoLicenseLimit_fields": "bidNtceNo,bidNtceOrd,lmtGrpNo,lmtSno,lcnsLmtNm,permsnIndstrytyList,indstrytyMfrcFldList,rgstDt,bsnsDivNm",
-    "license_match": 208,
-    "single_calls": 18
+    "license_match": 214,
+    "single_calls": 16
   },
   "bids": [
     {
@@ -180,24 +180,6 @@
       "residency_days": 63,
       "license_status": "적합",
       "license": "금속창호ㆍ지붕건축물조립공사업, 실내건축공사업",
-      "fit": "확인필요",
-      "source": "나라장터"
-    },
-    {
-      "id": "R26BK01775599-001",
-      "title": "지붕 리모델링 공사 사업",
-      "agency": "실로암노인전문요양원. 실로암노인복지센터",
-      "category": "공공",
-      "deadline": "2026-10-23T18:00+09:00",
-      "amount": "38000000",
-      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01775599&bidPbancOrd=001",
-      "site": "경상북도 성주군",
-      "near": false,
-      "region_status": "확인필요",
-      "region": "참가지역 정보 없음 · 원문 확인",
-      "residency_days": null,
-      "license_status": "적합",
-      "license": "업종제한 없음",
       "fit": "확인필요",
       "source": "나라장터"
     },
