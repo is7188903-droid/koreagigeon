@@ -1,24 +1,24 @@
 {
-  "updated_at": "2026-10-23T10:31+09:00",
+  "updated_at": "2026-10-23T16:32+09:00",
   "g2b_status": "정상",
   "apartment_status": "API 원시자료 0개 · 공사명 관련 0건 (0건이면 정상 수집 미확인) · 일부 호출 오류: 창호: 응답목록 0건 / 응답필드 response / 지붕: 응답목록 0건 / 응답필드 response",
   "diagnostics": {
-    "scanned": 4869,
-    "keyword_match": 72,
-    "closed": 137,
+    "scanned": 5154,
+    "keyword_match": 74,
+    "closed": 143,
     "bad_deadline": 4,
-    "region_rejected": 103,
-    "region_api_ok": 127,
+    "region_rejected": 109,
+    "region_api_ok": 135,
     "region_api_fail": 0,
-    "license_api_ok": 16,
+    "license_api_ok": 18,
     "license_api_fail": 0,
     "last_error": "",
-    "getBidPblancListInfoPrtcptPsblRgn_total": 14982,
+    "getBidPblancListInfoPrtcptPsblRgn_total": 15658,
     "getBidPblancListInfoPrtcptPsblRgn_fields": "bidNtceNo,bidNtceOrd,lmtSno,prtcptPsblRgnNm,rgstDt,bsnsDivNm",
-    "getBidPblancListInfoLicenseLimit_total": 16217,
+    "getBidPblancListInfoLicenseLimit_total": 17110,
     "getBidPblancListInfoLicenseLimit_fields": "bidNtceNo,bidNtceOrd,lmtGrpNo,lmtSno,lcnsLmtNm,permsnIndstrytyList,indstrytyMfrcFldList,rgstDt,bsnsDivNm",
-    "license_match": 196,
-    "single_calls": 16
+    "license_match": 208,
+    "single_calls": 18
   },
   "bids": [
     {
@@ -238,13 +238,13 @@
       "source": "나라장터"
     },
     {
-      "id": "R26BK01782591-001",
+      "id": "R26BK01782591-003",
       "title": "울산과학기술원 108동 B101호 연구장비(이온주입장치) 하중 보강 공사",
       "agency": "울산과학기술원",
       "category": "공공",
-      "deadline": "2026-10-28T10:00+09:00",
+      "deadline": "2026-10-29T10:00+09:00",
       "amount": "34140000",
-      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01782591&bidPbancOrd=001",
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01782591&bidPbancOrd=003",
       "site": "울산광역시 울주군",
       "near": false,
       "region_status": "확인필요",
