@@ -1,7 +1,14 @@
 {
-  "updated_at": "2026-10-24T09:48+09:00",
+  "updated_at": "2026-10-24T20:04+09:00",
   "status": "정상",
   "items": [
+    {
+      "title": "인천 연수구 ‘유령회사’ 낙찰에 제동 - 뉴스피크",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE14N2NtTlk4ejAzblJOSUZtMUhhZll3cU9UdXNRNFhnVjZiajBHUGdOSm04dFBhRGNMc2diWldyeHAxUEJnY1ZlRWhPcnB1R241dU80aXZkS01qOWY5NWhwWVdzclVHSmI0?oc=5",
+      "date": "2026-10-23T15:28+09:00",
+      "press": "뉴스피크",
+      "topic": "전문건설 입찰 제도"
+    },
     {
       "title": "인천 연수구, 5억원 이상 관급공사 ‘페이퍼컴퍼니’ 현장 검증 - 매일일보",
       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBQNXZKUkM1YmhCWG9kZVRCbjVyV1FiV2RRTi1JWmNqTm9zWWNCU1RFNlZuTlNEVUkyeWp4OEtqWVc4eHhHM0s5WXdQNkttSUNxd01na3JSNTlSSkxvYWFOY1BrdXA?oc=5",
@@ -17,10 +24,10 @@
       "topic": "전문건설 입찰 제도"
     },
     {
-      "title": "[AI시대 강원경제 대도약]공사현장 어려움·현안 함께 해결…권익 보호·경영 안정 뒷받침 - 강원일보",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBaWlU1bm1fUXVVbnhTcU5RMk1sbWFUX1VJdW5PdlZ4aUZrUUVPMzdZNUZSRWlQVXFmVGl4NGoxOXB5UWFVeHltX1RlUVFVZl9yMVM2X0lRUFZ3M1E?oc=5",
-      "date": "2026-10-23T00:00+09:00",
-      "press": "강원일보",
+      "title": "“서류만 갖춘 건설사는 공사 못 딴다”…연수구, 관급공사 ‘유령회사’ 차단 - 쓰담미디어",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5FaE1Pd0gtSXM1S3YtTnQ0cWVGZE1GSWZpS3dVSVBhWERTZnlRYUxQRHJnS0pGSzVoZ1FobXhzRFcxMnRKTVFXdFlKUkJEQWtPTkc0V1FPcjFNTHBOV0N4WHotSGtCVHc?oc=5",
+      "date": "2026-10-23T10:58+09:00",
+      "press": "쓰담미디어",
       "topic": "전문건설 입찰 제도"
     },
     {
@@ -38,24 +45,10 @@
       "topic": "전문건설 입찰 제도"
     },
     {
-      "title": "건설기술분야 눈엣가시 뿌리뽑는다…규제혁신TF ‘가동’ - 대한경제",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE82NXl2Rnl6ZC1HeTJmQ0dCb0gtTUVTNm5qV2pQN3g1cVV0THJwQy1yUlBjaUpzYWdpRWFkUF9OczFkaXJpNDIxeGZMUS02a0FacDFoQnMtZzA1a0k1c1lsdnFyX0RlWnI3X3ZyR3k0c29xdWFB?oc=5",
-      "date": "2026-10-21T06:00+09:00",
-      "press": "대한경제",
-      "topic": "전문건설 입찰 제도"
-    },
-    {
-      "title": "대형건설사 12곳, 울산 지역업체 하도급 참여 확대 ‘맞손’ - 울산매일 - 울산최초, 최고의 조간신문",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5BNkZHQ3FNQi1CSS0tWGV3R2xRWWtGaXNqVVU1em4zcVdTR0MtTTN2WjZyS0NGS1k4c0lGQzBZU1BrNVp5a2EtVnJqVWktdEtMekRQSXBmbU5PeWdHVEFwQ2xKbmJ2bXNfZkhmYnJn0gFuQVVfeXFMTkE2RkdDcU1CLUJJLS1YZXdHbFFZa0Zpc2pVVTV6bjNxV1NHQy1NM3ZaNnJLQ0ZLWThzSUZDMFlTUGs1WnlrYS1WcmpVaS10S0x6RFBJcGZtTk95Z0dUQXBDbEpuYnZtc19mSGZicmc?oc=5",
-      "date": "2026-10-20T18:17+09:00",
-      "press": "울산매일 - 울산최초, 최고의 조간신문",
-      "topic": "건설 협력업체 모집"
-    },
-    {
-      "title": "[발주시장 분석] 연말 건설시장 2조3905억원 발주 예정 - 토목신문",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5jb1dGcUphWU1VajJWZ1FENkhmS2VMT1pLZ09Ma240Z1FlVERBclVITXV1Wjl0RktoZy1UWXlFbWtLclpRcG0zQnkwM1I2a0JMZkhBZnVfVmZXNURoMjhheXBvQzU3dw?oc=5",
-      "date": "2026-10-20T10:55+09:00",
-      "press": "토목신문",
+      "title": "[발주시장 분석] 연말 건설시장 2조3905억원 발주 예정 - 국토교통신문",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE83dnZ4c3V4akQtUzdfVmRqUVZSNDFWbkNXX29xOTlOQTNGUjJNdEl2MVFnYUpVM0F2N0NOWmVNaDVKYlR1clhMd3pzcGlRTFc5QVVhVEItYkdrMnVzTDdwQ0tudkdfbFZX?oc=5",
+      "date": "2026-10-20T11:06+09:00",
+      "press": "국토교통신문",
       "topic": "전문건설 입찰 제도"
     },
     {
@@ -108,13 +101,6 @@
       "topic": "학교 시설 창호 교체"
     },
     {
-      "title": "박균택 의원, 학교 교육시설 개선비 15억 5,900만 원 확보 - 뉴스21 통신",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5pdWJJWHhnT3dlYjh1cVY4cHQ5c0FBWkQxVWN4STVCcDRRWXl3UkZjclVETDA1QlNYb2M0amcxV2ZZTkc5b1BfaExkMFRFMW9uWk9zd3lR?oc=5",
-      "date": "2026-10-13T17:06+09:00",
-      "press": "뉴스21 통신",
-      "topic": "학교 시설 창호 교체"
-    },
-    {
       "title": "황정아 의원, 유성구 학교시설 개선 특별교부금 51억 확보 - 굿모닝충청",
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5UbFp4Yy04MEZmbEZIeUJHMnlON0lfeU1ST282MjdLVXEzWmliN1RlZ1dOZTJ5aTdacGRMUWVwY2NHM1hKc1hxVXpuRmlPTGFxMEQydDBWQk80Zkd6QWRBcWx3MjFoRzhEZHZHZUxtSm96Zw?oc=5",
       "date": "2026-10-13T16:00+09:00",
@@ -164,6 +150,13 @@
       "topic": "건설 협력업체 모집"
     },
     {
+      "title": "금호건설, “함께 성장할 파트너 찾는다”... 내년 외주·자재 협력회사 공모 - 글로벌경제신문",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA5MUNfVDdEVkt6QkhvWmE0a0FDTlk2R19kSUV4dm9kUjJCcjNuenhHRkNFcmw3amFtdVFpa0lRYkY5VlZTekEwbFVFalZtWVc3c28tUWdLVXZoYXRIQ3lOV1g4M0VKdlZ2MGxtM9IBcEFVX3lxTE9hR25BaGcxVDFXZ0Q4SzBUYnZjR3ZUN2c2V0xlb2NpUFpQZk5wYzMtMklvY1BmZEJiQzNHMjYzLXkyNkJfdGhISWtDbUNrZ1lNUnFmbnMwdTA1OUdnWFRCQlR1WUk4X1pYNlktcE1YYlU?oc=5",
+      "date": "2026-10-13T15:58+09:00",
+      "press": "글로벌경제신문",
+      "topic": "건설 협력업체 모집"
+    },
+    {
       "title": "금호건설, 2027년도 외주·자재 협력회사 모집…'안전보건 역량 검증 강화' - 브릿지경제",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBSU21RS25iWWtwY2F2a1ViSlpDNVNibFV1dmJ1d2VvRHRMbkQwS2l1cVRJZ0VWOGpuemJocVR0ZldGYUVGdUhzSkFIRXNZT0RsbEhiMlVoZXZ4dw?oc=5",
       "date": "2026-10-13T14:22+09:00",
@@ -176,6 +169,13 @@
       "date": "2026-10-13T13:52+09:00",
       "press": "뉴스핌",
       "topic": "건설 협력업체 모집"
+    },
+    {
+      "title": "박균택 의원, 학교 교육시설 개선비 15억 5,900만 원 확보 - 뉴스데일리",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1DMVh2SS1oUWo2OGQxS2JLSkdJMFVvNGItaHNUd1ZaUXBoanF4QmpOakJqaWpQXzJKYXNJUm44WHV3MDV2N3dJN2NBeWx2TERMWi1ZN2J6Q3RFb2FXN1VNQjNmY25jQ3o3azVj?oc=5",
+      "date": "2026-10-13T08:53+09:00",
+      "press": "뉴스데일리",
+      "topic": "학교 시설 창호 교체"
     },
     {
       "title": "광명갑 5개 학교에 국비 42억…임오경, 교육환경 개선 예산 추가 확보 - 경기신문",
