@@ -1,26 +1,12 @@
 {
-  "updated_at": "2026-10-24T07:15+09:00",
+  "updated_at": "2026-10-24T09:48+09:00",
   "status": "정상",
   "items": [
-    {
-      "title": "인천 연수구 ‘유령회사’ 낙찰에 제동 - 뉴스피크",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE14N2NtTlk4ejAzblJOSUZtMUhhZll3cU9UdXNRNFhnVjZiajBHUGdOSm04dFBhRGNMc2diWldyeHAxUEJnY1ZlRWhPcnB1R241dU80aXZkS01qOWY5NWhwWVdzclVHSmI0?oc=5",
-      "date": "2026-10-23T15:28+09:00",
-      "press": "뉴스피크",
-      "topic": "전문건설 입찰 제도"
-    },
     {
       "title": "인천 연수구, 5억원 이상 관급공사 ‘페이퍼컴퍼니’ 현장 검증 - 매일일보",
       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBQNXZKUkM1YmhCWG9kZVRCbjVyV1FiV2RRTi1JWmNqTm9zWWNCU1RFNlZuTlNEVUkyeWp4OEtqWVc4eHhHM0s5WXdQNkttSUNxd01na3JSNTlSSkxvYWFOY1BrdXA?oc=5",
       "date": "2026-10-23T13:36+09:00",
       "press": "매일일보",
-      "topic": "전문건설 입찰 제도"
-    },
-    {
-      "title": "연수구, 관급공사 페이퍼컴퍼니 입찰 차단 - 일간경기",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8xSDBHWGJoZldIaVdlaVo1MHF5aVBnNnJ0aVQtM0FIM2h0ZWZHWFpZZ0xQeXFOem5ncjNvWTFIMTVIWWRBVlBEbFRoeDluVmhWcVdvYXY5YW8wMzJMVVhVcVpaVTB4aFNX?oc=5",
-      "date": "2026-10-23T13:25+09:00",
-      "press": "일간경기",
       "topic": "전문건설 입찰 제도"
     },
     {
@@ -31,10 +17,10 @@
       "topic": "전문건설 입찰 제도"
     },
     {
-      "title": "“서류만 갖춘 건설사는 공사 못 딴다”…연수구, 관급공사 ‘유령회사’ 차단 - 쓰담미디어",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5FaE1Pd0gtSXM1S3YtTnQ0cWVGZE1GSWZpS3dVSVBhWERTZnlRYUxQRHJnS0pGSzVoZ1FobXhzRFcxMnRKTVFXdFlKUkJEQWtPTkc0V1FPcjFNTHBOV0N4WHotSGtCVHc?oc=5",
-      "date": "2026-10-23T10:58+09:00",
-      "press": "쓰담미디어",
+      "title": "[AI시대 강원경제 대도약]공사현장 어려움·현안 함께 해결…권익 보호·경영 안정 뒷받침 - 강원일보",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBaWlU1bm1fUXVVbnhTcU5RMk1sbWFUX1VJdW5PdlZ4aUZrUUVPMzdZNUZSRWlQVXFmVGl4NGoxOXB5UWFVeHltX1RlUVFVZl9yMVM2X0lRUFZ3M1E?oc=5",
+      "date": "2026-10-23T00:00+09:00",
+      "press": "강원일보",
       "topic": "전문건설 입찰 제도"
     },
     {
@@ -52,6 +38,13 @@
       "topic": "전문건설 입찰 제도"
     },
     {
+      "title": "건설기술분야 눈엣가시 뿌리뽑는다…규제혁신TF ‘가동’ - 대한경제",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE82NXl2Rnl6ZC1HeTJmQ0dCb0gtTUVTNm5qV2pQN3g1cVV0THJwQy1yUlBjaUpzYWdpRWFkUF9OczFkaXJpNDIxeGZMUS02a0FacDFoQnMtZzA1a0k1c1lsdnFyX0RlWnI3X3ZyR3k0c29xdWFB?oc=5",
+      "date": "2026-10-21T06:00+09:00",
+      "press": "대한경제",
+      "topic": "전문건설 입찰 제도"
+    },
+    {
       "title": "대형건설사 12곳, 울산 지역업체 하도급 참여 확대 ‘맞손’ - 울산매일 - 울산최초, 최고의 조간신문",
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5BNkZHQ3FNQi1CSS0tWGV3R2xRWWtGaXNqVVU1em4zcVdTR0MtTTN2WjZyS0NGS1k4c0lGQzBZU1BrNVp5a2EtVnJqVWktdEtMekRQSXBmbU5PeWdHVEFwQ2xKbmJ2bXNfZkhmYnJn0gFuQVVfeXFMTkE2RkdDcU1CLUJJLS1YZXdHbFFZa0Zpc2pVVTV6bjNxV1NHQy1NM3ZaNnJLQ0ZLWThzSUZDMFlTUGs1WnlrYS1WcmpVaS10S0x6RFBJcGZtTk95Z0dUQXBDbEpuYnZtc19mSGZicmc?oc=5",
       "date": "2026-10-20T18:17+09:00",
@@ -60,7 +53,7 @@
     },
     {
       "title": "[발주시장 분석] 연말 건설시장 2조3905억원 발주 예정 - 토목신문",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBZeGhrVC1HMF9pRFR4Tl9jT0F5aWJVc041Y1FsYTFaa2lGREJ0aHFBQmgtR0J1ZzN5ODkteE5qX0h4RzFPSklxRzNmVi1FTTNoSC0xbXZDb1BEbWwxSWpMSDRCOWx0Wldz?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5jb1dGcUphWU1VajJWZ1FENkhmS2VMT1pLZ09Ma240Z1FlVERBclVITXV1Wjl0RktoZy1UWXlFbWtLclpRcG0zQnkwM1I2a0JMZkhBZnVfVmZXNURoMjhheXBvQzU3dw?oc=5",
       "date": "2026-10-20T10:55+09:00",
       "press": "토목신문",
       "topic": "전문건설 입찰 제도"
@@ -70,6 +63,13 @@
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9fZEVxeGYyNUJrU3dzTVN4MEJ5UGlueGNONEpRRVRXazdqbTFreXM4SnU4WTdKaUZZOUo5LVlINlI0WkNSRGtFWEtIVjNkaU9BaEdJcDA2M1lXSF9hbmlXRUZkVUg0MVZwYkp4Rg?oc=5",
       "date": "2026-10-19T06:00+09:00",
       "press": "기계설비신문",
+      "topic": "전문건설 입찰 제도"
+    },
+    {
+      "title": "조달청 입찰자격 사실조사, 내년 정보통신공사로 확대 - 정보통신신문",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE85cV9sb2g5Tm1KUzhCOFlESUxEQkprMHV2QUg3SER2cEtKT3liT2JJZnY0a2U5cXFtTjJFZnRrOEQxcy1WQzdRNkV3elV4VXVOUU9xZ1kxLTVJQjBTS2l4N05xT0JHb2V30gFsQVVfeXFMTTlmQUhfdGxITjR0UDNyYWVhZEkzb3FlaU9uS2NmMjFHYWhmcGJOV0J4YWhPU18ya1ZHa1FNVHZ5emRCSG5PRV95cUVlMWJWM21aQ2oyeElpLVRZcmh3cWFXVW0tTUt1UjJLY3Zv?oc=5",
+      "date": "2026-10-15T15:11+09:00",
+      "press": "정보통신신문",
       "topic": "전문건설 입찰 제도"
     },
     {
