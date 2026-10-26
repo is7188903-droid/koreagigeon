@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-10-26T07:36+09:00",
-  "status": "최근 45일 낙찰 10575건 중 건축공사 371건",
+  "updated_at": "2026-10-26T10:14+09:00",
+  "status": "최근 45일 낙찰 10941건 중 건축공사 374건",
   "diagnostics": {
-    "scanned": 10575,
-    "matched": 371,
+    "scanned": 10941,
+    "matched": 374,
     "error": "",
     "endpoint": "https://apis.data.go.kr/1230000/as/ScsbidInfoService/getScsbidListSttusCnstwk",
     "fields": "bidNtceNo,bidNtceOrd,bidClsfcNo,rbidNo,ntceDivCd,bidNtceNm,prtcptCnum,bidwinnrNm,bidwinnrBizno,bidwinnrCeoNm,bidwinnrAdrs,bidwinnrTelNo,sucsfbidAmt,sucsfbidRate,rlOpengDt,dminsttCd,dminsttNm,rgstDt,fnlSucsfDate,fnlSucsfCorpOfcl"
@@ -1180,6 +1180,19 @@
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01730801"
     },
     {
+      "title": "고덕차량기지 주공장 전동창호 개량공사",
+      "agency": "서울교통공사",
+      "amount": 543027930,
+      "date": "2026-10-20",
+      "winner": "(주)한주휀스",
+      "ceo": "권광로",
+      "address": "서울특별시 구로구 공원로 3, 선경오피스텔 1204 (구로동)",
+      "phone": "02-861-0788",
+      "bizno": "1138170214",
+      "near": true,
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01766607"
+    },
+    {
       "title": "이동복합커뮤니티센터 2차부지 경관조성 공사",
       "agency": "경기도 포천시",
       "amount": 541472000,
@@ -1945,19 +1958,6 @@
       "bizno": "7618701589",
       "near": true,
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01702968"
-    },
-    {
-      "title": "공공한옥(계동 2-31) 증축 및 수선공사",
-      "agency": "서울주택도시개발공사",
-      "amount": 307188100,
-      "date": "2026-09-08",
-      "winner": "주식회사 다한다종합건설",
-      "ceo": "문양선",
-      "address": "서울특별시 동작구 남부순환로271길 59, 101호 (사당동, 제이파크빌)",
-      "phone": "02-581-0404",
-      "bizno": "2538100490",
-      "near": true,
-      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01704512"
     }
   ],
   "companies": [
