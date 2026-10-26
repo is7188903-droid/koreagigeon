@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-10-26T10:14+09:00",
-  "status": "최근 45일 낙찰 10941건 중 건축공사 374건",
+  "updated_at": "2026-10-26T15:17+09:00",
+  "status": "최근 45일 낙찰 12065건 중 건축공사 381건",
   "diagnostics": {
-    "scanned": 10941,
-    "matched": 374,
+    "scanned": 12065,
+    "matched": 381,
     "error": "",
     "endpoint": "https://apis.data.go.kr/1230000/as/ScsbidInfoService/getScsbidListSttusCnstwk",
     "fields": "bidNtceNo,bidNtceOrd,bidClsfcNo,rbidNo,ntceDivCd,bidNtceNm,prtcptCnum,bidwinnrNm,bidwinnrBizno,bidwinnrCeoNm,bidwinnrAdrs,bidwinnrTelNo,sucsfbidAmt,sucsfbidRate,rlOpengDt,dminsttCd,dminsttNm,rgstDt,fnlSucsfDate,fnlSucsfCorpOfcl"
@@ -60,19 +60,6 @@
       "bizno": "2048140689",
       "near": true,
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01681760"
-    },
-    {
-      "title": "(가칭)도일2초 신축공사",
-      "agency": "경기도교육청 경기도평택교육지원청",
-      "amount": 16811265000,
-      "date": "2026-07-28",
-      "winner": "(주)엠에이치건설",
-      "ceo": "김동근",
-      "address": "경기도 안양시 동안구 엘에스로 112-0 (호계동) ,두림야스카와 306호",
-      "phone": "031-427-8186",
-      "bizno": "1148708317",
-      "near": true,
-      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01609056"
     },
     {
       "title": "전곡 컬쳐스테이션 건립공사",
@@ -580,6 +567,19 @@
       "bizno": "1128137468",
       "near": true,
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01698059"
+    },
+    {
+      "title": "NH농협은행 직장어린이집 신규 조성공사",
+      "agency": "농협은행 주식회사",
+      "amount": 1746333000,
+      "date": "2026-10-15",
+      "winner": "두양건축(주)",
+      "ceo": "조성복",
+      "address": "서울특별시 강남구 역삼로37길 15-0 (역삼동)",
+      "phone": "02-3452-1222",
+      "bizno": "2088110023",
+      "near": true,
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01751005"
     },
     {
       "title": "(가칭)왕숙1유 신축 기계설비공사",
@@ -1921,6 +1921,19 @@
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01735868"
     },
     {
+      "title": "서울강남초등학교 교사동 및 체육관 옥상방수공사",
+      "agency": "서울특별시교육청 서울특별시동작관악교육지원청",
+      "amount": 321689000,
+      "date": "2026-10-21",
+      "winner": "주식회사 정훈이앤씨",
+      "ceo": "조연진",
+      "address": "서울특별시 구로구 경인로 164-0 (오류동) 대일빌딩 405호",
+      "phone": "02-6953-6326",
+      "bizno": "5088130031",
+      "near": true,
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01772181"
+    },
+    {
       "title": "서울특별시립 아동푸른센터 영유아 생활공간 개선공사(건축, 기계)",
       "agency": "서울특별시립 아동푸른센터",
       "amount": 321576550,
@@ -1945,19 +1958,6 @@
       "bizno": "2148633502",
       "near": true,
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01743217"
-    },
-    {
-      "title": "문산동중 특별교실 증축 공사",
-      "agency": "경기도파주교육청 문산동중학교",
-      "amount": 310142550,
-      "date": "2026-09-03",
-      "winner": "주식회사 미화",
-      "ceo": "황오성",
-      "address": "경기도 파주시 교하로 1257-30, 나동 2층(오도동)",
-      "phone": "031-947-0483",
-      "bizno": "7618701589",
-      "near": true,
-      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01702968"
     }
   ],
   "companies": [
@@ -2007,18 +2007,6 @@
       "total": 17640384000,
       "projects": [
         "(가칭)동탄12고 신축공사"
-      ]
-    },
-    {
-      "name": "(주)엠에이치건설",
-      "ceo": "김동근",
-      "address": "경기도 안양시 동안구 엘에스로 112-0 (호계동) ,두림야스카와 306호",
-      "phone": "031-427-8186",
-      "near": true,
-      "count": 1,
-      "total": 16811265000,
-      "projects": [
-        "(가칭)도일2초 신축공사"
       ]
     },
     {
@@ -2488,6 +2476,18 @@
       "total": 1807736100,
       "projects": [
         "(가칭)고덕6고 신축 기계설비공사"
+      ]
+    },
+    {
+      "name": "두양건축(주)",
+      "ceo": "조성복",
+      "address": "서울특별시 강남구 역삼로37길 15-0 (역삼동)",
+      "phone": "02-3452-1222",
+      "near": true,
+      "count": 1,
+      "total": 1746333000,
+      "projects": [
+        "NH농협은행 직장어린이집 신규 조성공사"
       ]
     },
     {
