@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-10-27T04:24+09:00",
-  "status": "최근 45일 낙찰 10675건 중 건축공사 380건",
+  "updated_at": "2026-10-27T08:58+09:00",
+  "status": "최근 45일 낙찰 10747건 중 건축공사 382건",
   "diagnostics": {
-    "scanned": 10675,
-    "matched": 380,
+    "scanned": 10747,
+    "matched": 382,
     "error": "",
     "endpoint": "https://apis.data.go.kr/1230000/as/ScsbidInfoService/getScsbidListSttusCnstwk",
     "fields": "bidNtceNo,bidNtceOrd,bidClsfcNo,rbidNo,ntceDivCd,bidNtceNm,prtcptCnum,bidwinnrNm,bidwinnrBizno,bidwinnrCeoNm,bidwinnrAdrs,bidwinnrTelNo,sucsfbidAmt,sucsfbidRate,rlOpengDt,dminsttCd,dminsttNm,rgstDt,fnlSucsfDate,fnlSucsfCorpOfcl"
@@ -229,6 +229,19 @@
       "bizno": "3308602596",
       "near": true,
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01657832"
+    },
+    {
+      "title": "금산 아이조아센터 조성사업 건축공사 입찰 공고",
+      "agency": "충청남도개발공사",
+      "amount": 6387076870,
+      "date": "2026-10-02",
+      "winner": "주식회사 서휘건설",
+      "ceo": "복준수",
+      "address": "충청남도 천안시 서북구 부성25길 19 , 1층 (부대동)",
+      "phone": "041-558-0909",
+      "bizno": "4568601171",
+      "near": true,
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01704092"
     },
     {
       "title": "[청강입찰 2026-05호] 청강문화산업대학교 나비센터 건축공사",
@@ -1945,19 +1958,6 @@
       "bizno": "1248607303",
       "near": true,
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01768074"
-    },
-    {
-      "title": "가락근린공원 환경개선사업",
-      "agency": "서울특별시 송파구",
-      "amount": 312000000,
-      "date": "2026-09-29",
-      "winner": "한연종합개발(주)",
-      "ceo": "김옥희",
-      "address": "서울특별시 서초구 서초중앙로2길 70, 서일빌딩 302 (서초동)",
-      "phone": "02-525-0777",
-      "bizno": "2148633502",
-      "near": true,
-      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01743217"
     }
   ],
   "companies": [
@@ -2163,6 +2163,18 @@
       "total": 6874693000,
       "projects": [
         "(가칭)천안업성2유치원 교사 신축공사"
+      ]
+    },
+    {
+      "name": "주식회사 서휘건설",
+      "ceo": "복준수",
+      "address": "충청남도 천안시 서북구 부성25길 19 , 1층 (부대동)",
+      "phone": "041-558-0909",
+      "near": true,
+      "count": 1,
+      "total": 6387076870,
+      "projects": [
+        "금산 아이조아센터 조성사업 건축공사 입찰 공고"
       ]
     },
     {
@@ -2909,18 +2921,6 @@
       "total": 665684380,
       "projects": [
         "(긴급)은혜고등학교 본관동 창호교체공사 전자입찰 공고"
-      ]
-    },
-    {
-      "name": "대승종합건설주식회사",
-      "ceo": "정재원",
-      "address": "충청남도 천안시 동남구 목천읍 삼성3길 10-9, 301호",
-      "phone": "041-522-1260",
-      "near": true,
-      "count": 1,
-      "total": 645146700,
-      "projects": [
-        "관람동선 화장실 증축 및 리모델링 공사"
       ]
     }
   ]
