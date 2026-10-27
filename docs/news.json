@@ -1,7 +1,14 @@
 {
-  "updated_at": "2026-10-27T14:10+09:00",
+  "updated_at": "2026-10-27T19:38+09:00",
   "status": "정상",
   "items": [
+    {
+      "title": "오래된 PC부터 시설 개선까지… 조명자 경기도의원, 학교 현장 집중 점검 - 경기신문",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9VS1RVb2s4TDN3SXpjU0JhVVVqd004ZXFSbDZSOHNoMGxjeWRWcThYZWd3V0pFY0drWkQ1UUhjZnVqcGExU1VNZml5LV9MZG0xalRGT0NPT3pBeVV5aTJlLWNB?oc=5",
+      "date": "2026-10-27T18:27+09:00",
+      "press": "경기신문",
+      "topic": "학교 시설 창호 교체"
+    },
     {
       "title": "[단독] 여주시 수의계약 특정업체 ‘일감 몰아주기’ 논란 - 경기신문",
       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0wdHRJX2QtNVdBNm15X2dKbDU1OVFFMU94eGFrVjR2dnlSTU9wOTYtRUtqRGo5Umg0aDE3eVlMY0sxNWJOUURibE4zejdodjlYdXZxVGEtQklzVHp6QmQ4VllB?oc=5",
@@ -38,6 +45,13 @@
       "topic": "전문건설 입찰 제도"
     },
     {
+      "title": "손명수 의원, 기흥초·한일초 교육환경 개선 예산 확보 - 용인시민신문",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBTRjctR0xFUmxBQl9mWlBZeTEtZEZuWW5mVlNYUkU5Nzl6cnp2WEpiWWg0V2lHV2cxZ1NHYXlFMGdGangzdzl6VlhPaW5PemJWUGZybG9PdFBlZ0t6eURjLXpGOXpqY0hGTGJ1bw?oc=5",
+      "date": "2026-10-23T19:26+09:00",
+      "press": "용인시민신문",
+      "topic": "학교 시설 창호 교체"
+    },
+    {
       "title": "[AI시대 강원경제 대도약]공사현장 어려움·현안 함께 해결…권익 보호·경영 안정 뒷받침 - 강원일보",
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBaWlU1bm1fUXVVbnhTcU5RMk1sbWFUX1VJdW5PdlZ4aUZrUUVPMzdZNUZSRWlQVXFmVGl4NGoxOXB5UWFVeHltX1RlUVFVZl9yMVM2X0lRUFZ3M1E?oc=5",
       "date": "2026-10-23T00:00+09:00",
@@ -59,10 +73,38 @@
       "topic": "전문건설 입찰 제도"
     },
     {
+      "title": "울산시, 지역 건설업체 하도급·공사 참여 확대 지원 - 경상일보",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1tVE1GYXFzOTNxakNuWlc5cDVkU29EMWwzRjRkZU81NGZtZ05xdkFYZkVLZmxob3RuV2lvSHg0MHQ5anlyU3hCSGh0VjE2N0J0VWl2R09lelptWkZYdlZrNC1sTFprVjlFMVpURw?oc=5",
+      "date": "2026-10-21T00:00+09:00",
+      "press": "경상일보",
+      "topic": "건설 협력업체 모집"
+    },
+    {
       "title": "대형건설사 12곳, 울산 지역업체 하도급 참여 확대 ‘맞손’ - 울산매일 - 울산최초, 최고의 조간신문",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1OQzFIc25xN3F1WUdFQ01RTE8ya3hxSFVfajAyYXJzcG4yQU83MWg5bFNneGhDTlhUdzZCVzFQczdkOE5UV3FCZlJ4akFjQmNxeGUzdU1NTDJtX1NrZUdOQ1E3N1BiY3dCenfSAW5BVV95cUxOQTZGR0NxTUItQkktLVhld0dsUVlrRmlzalVVNXpuM3FXU0dDLU0zdlo2cktDRktZOHNJRkMwWVNQazVaeWthLVZyalVpLXRLTHpEUElwZm1OT3lnR1RBcENsSm5idm1zX2ZIZmJyZw?oc=5",
       "date": "2026-10-20T18:05+09:00",
       "press": "울산매일 - 울산최초, 최고의 조간신문",
+      "topic": "건설 협력업체 모집"
+    },
+    {
+      "title": "울산 건설업체, 대형사 공사 수주 길 넓힌다…협력 시동 - 중도일보",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9GcTJROGhFNkNZSExYanZfUjVhelB6WVZhblJha0dFczZKQlVRNm5DYUJZSDFjTlI0YmUtaUxYM0Y3dEVVV3JOYWlONDNPNGVIQWdXU1R5LWpwNzl2NVFERVB2dlQ?oc=5",
+      "date": "2026-10-20T17:21+09:00",
+      "press": "중도일보",
+      "topic": "건설 협력업체 모집"
+    },
+    {
+      "title": "울산시, 대형건설사·지역업체 상생협력 강화… 지역 건설산업 활로 모색 - 울산종합일보",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1Jb25YMHB4WEFKc0FrRlk4R0ItS3lpYmJnR2MyR1VDSGVWSks1SGxvbXlxY2sxeTF5ME5IM180VFk5Y1AzNl92SUFwMDMtd2M3ODlweHdVMlJ2Skl6THN5ZVZkYWxqYVpuczRnVlRFNnp0RDg?oc=5",
+      "date": "2026-10-20T17:10+09:00",
+      "press": "울산종합일보",
+      "topic": "건설 협력업체 모집"
+    },
+    {
+      "title": "울산 건설업체 공사 참여 넓힌다…대형건설사와 협력 맞손 - 브릿지경제",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9wd3hLVThFRW5YcGh6bWtHMDRqbmp0X1JvaTJwbGh4SWszYUdtdGE1Z1dWbzBGam1xRU94M19PTjA2UDN5THFtV1pRcFlFbHI5NkMwQWJZTEhzUQ?oc=5",
+      "date": "2026-10-20T15:38+09:00",
+      "press": "브릿지경제",
       "topic": "건설 협력업체 모집"
     },
     {
@@ -73,6 +115,13 @@
       "topic": "건설 협력업체 모집"
     },
     {
+      "title": "인천시, 대형건설사-지역업체 간 ‘상생 협력 만남의 장’ 마련 - 인천뉴스",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1XbVZPMlZqcWFEazFkUTl1NHc2SGJnZzRYWjJaMExEbWlhbDFldFBXVVlRay0wU3VPWFlxNjdTYlNhTlY4QTF1Z2RxS1JEZmFDa3dlRTJXU2NtR01MRnFnejZ2dW1vUWFHb0FwdmxXbw?oc=5",
+      "date": "2026-10-20T11:14+09:00",
+      "press": "인천뉴스",
+      "topic": "건설 협력업체 모집"
+    },
+    {
       "title": "[발주시장 분석] 연말 건설시장 2조3905억원 발주 예정 - 국토교통신문",
       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE83dnZ4c3V4akQtUzdfVmRqUVZSNDFWbkNXX29xOTlOQTNGUjJNdEl2MVFnYUpVM0F2N0NOWmVNaDVKYlR1clhMd3pzcGlRTFc5QVVhVEItYkdrMnVzTDdwQ0tudkdfbFZX?oc=5",
       "date": "2026-10-20T11:06+09:00",
@@ -80,11 +129,25 @@
       "topic": "전문건설 입찰 제도"
     },
     {
+      "title": "인천시, 대형건설 협력사 만남의 날...지역 건설산업 활성화에 총력 - 미디어인천신문",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE00cDlWaUFSdFoxUV9GVnJ3TmFnSDhMZmlmdFlkR1E3YnZtbHhadVd6dWV5bmp5dUhxUUp2c1BqbkFVSUltTmZaTi1pdkd4YUp0QUZGUEQtY2VIU3A5UDNaMUlmVHRLcHRQQ240?oc=5",
+      "date": "2026-10-20T10:23+09:00",
+      "press": "미디어인천신문",
+      "topic": "건설 협력업체 모집"
+    },
+    {
       "title": "공공공사 낙찰제도 개편…전문업계 ‘기대반 우려반’ - 기계설비신문",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9fZEVxeGYyNUJrU3dzTVN4MEJ5UGlueGNONEpRRVRXazdqbTFreXM4SnU4WTdKaUZZOUo5LVlINlI0WkNSRGtFWEtIVjNkaU9BaEdJcDA2M1lXSF9hbmlXRUZkVUg0MVZwYkp4Rg?oc=5",
       "date": "2026-10-19T06:00+09:00",
       "press": "기계설비신문",
       "topic": "전문건설 입찰 제도"
+    },
+    {
+      "title": "윤영석 의원, 양산 3개 학교 특별교부금 11억 확보 - 양산뉴스파크",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE52MTQxU3VnbkhDeXJSMkFmSFNDZUZ4ZFdJdTZ2OThCNk5yUTRYWGdIMnkzX0tTSnJ4cUxrcTBTbmhIRWFtRzJpSWtNVDkxaElTYllDV2N3cjdZdThHVG1GcUdmOWp4bExP?oc=5",
+      "date": "2026-10-15T18:33+09:00",
+      "press": "양산뉴스파크",
+      "topic": "학교 시설 창호 교체"
     },
     {
       "title": "용인 반도체 용수공급공사 ‘속도’… 2공구 이어 1·3공구 발주 - MTN 머니투데이방송",
@@ -122,74 +185,11 @@
       "topic": "학교 시설 창호 교체"
     },
     {
-      "title": "황정아 의원, 유성구 학교시설 개선 특별교부금 51억 확보 - 굿모닝충청",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5UbFp4Yy04MEZmbEZIeUJHMnlON0lfeU1ST282MjdLVXEzWmliN1RlZ1dOZTJ5aTdacGRMUWVwY2NHM1hKc1hxVXpuRmlPTGFxMEQydDBWQk80Zkd6QWRBcWx3MjFoRzhEZHZHZUxtSm96Zw?oc=5",
-      "date": "2026-10-13T16:00+09:00",
-      "press": "굿모닝충청",
+      "title": "충남교육청, 72개교 시설 개선에 특별교부금 259억원 확보 - 충청뉴스",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBtQWpqNk90Rjl3RXBJQVh2T0ppOGdOdlNPRkUwMUlBWmJTeTBWeGNScERxZTFoUy1zZ0ZSVzhyWXd1WHdSLTRnRDdtaHNQNDA3OU04ZWxpdW5pZ1M1TDZ6MXBrS1hGbmZCem11cA?oc=5",
+      "date": "2026-10-14T14:58+09:00",
+      "press": "충청뉴스",
       "topic": "학교 시설 창호 교체"
-    },
-    {
-      "title": "박균택 의원, 학교 교육시설 개선비 15억 5,900만 원 확보 - 뉴스데일리",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1DMVh2SS1oUWo2OGQxS2JLSkdJMFVvNGItaHNUd1ZaUXBoanF4QmpOakJqaWpQXzJKYXNJUm44WHV3MDV2N3dJN2NBeWx2TERMWi1ZN2J6Q3RFb2FXN1VNQjNmY25jQ3o3azVj?oc=5",
-      "date": "2026-10-13T16:00+09:00",
-      "press": "뉴스데일리",
-      "topic": "학교 시설 창호 교체"
-    },
-    {
-      "title": "교육부 특별교부금 잇단 확보 ‘노후 학교시설 개선’ 탄력 - 부산일보",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5SUjFQYTRYajBRSU1TNDdlb2lueFVOV2hkVXBCQnAtMGNoa0Ftcm1LOGRMdC1BZUdXMnFRc1VjeUZZOHp2VV92VEFpU0JOUEFSc2JqenJXblFSMHQ2ZmxQRUVJNklSaXdqbFlHeERxZHlNQ0VhQmFOVg?oc=5",
-      "date": "2026-10-13T16:00+09:00",
-      "press": "부산일보",
-      "topic": "학교 시설 창호 교체"
-    },
-    {
-      "title": "이광재 의원, 하남 학교시설 개선 교육부 특교 8억3600만원 확보 - 동방일보",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9vZDRtbUpEbFF6ZmJuOUh4RlJlZDFMVkdOaUEya0Q0TXByVlhEcTR0OXhJMTFGUXNNMGx5RzJGVVNudzRJSGd6VGc0ZWNyMklCUmtFcUdpdmt5U0NsTGhPMHRZMWpmWVd6NkMxV2lVNDNGSHc?oc=5",
-      "date": "2026-10-13T16:00+09:00",
-      "press": "동방일보",
-      "topic": "학교 시설 창호 교체"
-    },
-    {
-      "title": "금호건설, 2027년 협력사 모집…안전 평가보고서 제출 의무화 - 뉴스1",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA1M0JlZzJ4VUFhbzE5am5Za1VOTllPSzQ2azZRSmZRb1hjMl8wMXA4Q0JlUmZmX1lWYTQ0bXQ3aHFuamR4S0ZOWHU0ckxvUnh5ZzR0MkxnV1pWOUU?oc=5",
-      "date": "2026-10-13T16:00+09:00",
-      "press": "뉴스1",
-      "topic": "건설 협력업체 모집"
-    },
-    {
-      "title": "“함께 성장할 파트너 찾는다”…금호건설, 외주·자재 협력회사 모집 - 매일경제",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5wWC1qRENFQWozUmtIT0ZjdUpCMUJEWllyLTJDWFRMa0FHZXhURWpPZUF3NlNYNFJ2ZVlCMVpkYWNHNWtUZjJVX2dRN1ZUZXAwRDc1aDIwQUw?oc=5",
-      "date": "2026-10-13T16:00+09:00",
-      "press": "매일경제",
-      "topic": "건설 협력업체 모집"
-    },
-    {
-      "title": "금호건설, 2027년도 외주·자재 협력회사 모집…'안전보건 역량 검증 강화' - 브릿지경제",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBSU21RS25iWWtwY2F2a1ViSlpDNVNibFV1dmJ1d2VvRHRMbkQwS2l1cVRJZ0VWOGpuemJocVR0ZldGYUVGdUhzSkFIRXNZT0RsbEhiMlVoZXZ4dw?oc=5",
-      "date": "2026-10-13T16:00+09:00",
-      "press": "브릿지경제",
-      "topic": "건설 협력업체 모집"
-    },
-    {
-      "title": "창립 60주년 앞둔 금호건설, 협력사 선정 기준 강화 - 스마트비즈",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE05VzZXMHNTWVhxRHN4ZVFEWjdpRktOSjNQSHd3WXZvdWdfQmZYWDc3dk5JbmpDTGxmMUw2MmZoUzBLUkZaakxvc29rdFJtZEk3QzZ1RjJpM2VudWVWUHlfVE1FMndtWUNPbFVpaw?oc=5",
-      "date": "2026-10-13T16:00+09:00",
-      "press": "스마트비즈",
-      "topic": "건설 협력업체 모집"
-    },
-    {
-      "title": "금호건설, ‘2027년 외주·자재 협력회사’ 공개 모집… 11월 6일까지 접수 - 조선비즈 - Chosunbiz",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQTXJJcWlMTUlMeGxHMXc1MjdMRUFyMVNLUE9iLVZOTEZjSndDTXc3Tmk1UG9ZdWhZWERGNVZGVTdac0VQYnM0d0x3SW9BZ040OHdIOVIycnhndE5wQ2tQTWpHVWcyMUhBelAyQTRWZngxZXh1dENFV3hFWTJ6VmVjd0VOWDJpUXV4YXh5REpjc1Rqb1l3WWR5NNIBrAFBVV95cUxPTU9UeXBPcDl2ZWhVZGJqYWNzY0Z3dHZ3b1ZMSGFteTdWeW9aVFdqV3ZwNEpwTVVCQ24tQmxBVE52SVB6dUd1NldSVEY0T1M0aEFIWEdxclZYMHRkcHg3MnB1cTdJMHpGR056U0VsUExkZ3NmdEZLQ2FzNkhMbVNhRUdLMFg3dnBxOGpndm1CZHlOd3dwVl9LZE11QjNaR19pRjNNb2ZDSVNnNF85?oc=5",
-      "date": "2026-10-13T16:00+09:00",
-      "press": "Chosunbiz",
-      "topic": "건설 협력업체 모집"
-    },
-    {
-      "title": "내년 창립 60주년…금호건설, 외주·자재 협력사 모집 - 뉴시스",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9DeXIxaC1CajRvQnFpMnBoa0hnNXEtM29URlZpeEpiS2U3TGpwX3BRT1RUNkowX296bGVhWEJUSFBVS19zTUVRWDV5X3dzTUplaW1NelAzREJqZFpJT0lTRtIBeEFVX3lxTFAxdHQtMDJOa2tZU0YwVU5HODRmSF9QRHd2WjE3aDFLTjR3Y3VQNVlCT1ppTjEzMkFGZGtZU19SLURHZW9VOXVpVHBESUhidXpDa1dic0l4cGNpamVVWHNndmxId0pNcjVKeVNFYjZOdmhsR2VBTWxmVQ?oc=5",
-      "date": "2026-10-13T16:00+09:00",
-      "press": "뉴시스",
-      "topic": "건설 협력업체 모집"
     }
   ]
 }

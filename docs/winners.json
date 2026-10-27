@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-10-27T14:10+09:00",
-  "status": "최근 45일 낙찰 12348건 중 건축공사 391건",
+  "updated_at": "2026-10-27T19:38+09:00",
+  "status": "최근 45일 낙찰 13562건 중 건축공사 399건",
   "diagnostics": {
-    "scanned": 12348,
-    "matched": 391,
+    "scanned": 13562,
+    "matched": 399,
     "error": "",
     "endpoint": "https://apis.data.go.kr/1230000/as/ScsbidInfoService/getScsbidListSttusCnstwk",
     "fields": "bidNtceNo,bidNtceOrd,bidClsfcNo,rbidNo,ntceDivCd,bidNtceNm,prtcptCnum,bidwinnrNm,bidwinnrBizno,bidwinnrCeoNm,bidwinnrAdrs,bidwinnrTelNo,sucsfbidAmt,sucsfbidRate,rlOpengDt,dminsttCd,dminsttNm,rgstDt,fnlSucsfDate,fnlSucsfCorpOfcl"
@@ -229,6 +229,32 @@
       "bizno": "3148157963",
       "near": true,
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01678235"
+    },
+    {
+      "title": "(가칭)대장2유 신축공사(계속비)",
+      "agency": "경기도교육청 경기도부천교육지원청",
+      "amount": 8011334800,
+      "date": "2026-09-18",
+      "winner": "일신건설 주식회사",
+      "ceo": "한직환",
+      "address": "경기도 성남시 분당구 성남대로 69, 709호 (구미동, 로드랜드이지타워)",
+      "phone": "031-712-8756",
+      "bizno": "3018116705",
+      "near": true,
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01698450"
+    },
+    {
+      "title": "평안동 행정복지센터 건립공사(긴급)",
+      "agency": "경기도 안양시",
+      "amount": 7769376900,
+      "date": "2026-10-16",
+      "winner": "렉스건설 주식회사",
+      "ceo": "유기철",
+      "address": "경기도 평택시 고덕갈평10길 63 (고덕동), 1층",
+      "phone": "031-615-4311",
+      "bizno": "4698101361",
+      "near": true,
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01763013"
     },
     {
       "title": "(가칭)천안업성2유치원 교사 신축공사",
@@ -1932,32 +1958,6 @@
       "bizno": "1238634660",
       "near": true,
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01730990"
-    },
-    {
-      "title": "2026년 생활밀착형숲(정원) 조성사업(구산동 도서관마을)",
-      "agency": "서울특별시 은평구",
-      "amount": 324832780,
-      "date": "2026-09-11",
-      "winner": "에스더블유엠 주식회사",
-      "ceo": "박서연",
-      "address": "서울특별시 강남구 테헤란로 512-0 (대치동, 신안빌딩)",
-      "phone": "02-539-1147",
-      "bizno": "1208774210",
-      "near": true,
-      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01713083"
-    },
-    {
-      "title": "충남기후환경교육원 다목적관 시설안전 개선공사",
-      "agency": "충청남도 건설본부",
-      "amount": 322058920,
-      "date": "2026-09-28",
-      "winner": "이엠씨건설 주식회사",
-      "ceo": "김민환",
-      "address": "충청남도 공주시 번영2로 48-7 , 2층 (신관동)",
-      "phone": "042-544-0570",
-      "bizno": "8168601505",
-      "near": true,
-      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01735868"
     }
   ],
   "companies": [
@@ -2163,6 +2163,30 @@
       "total": 9255654750,
       "projects": [
         "국립호남권청소년디딤센터 건립사업 건축공사"
+      ]
+    },
+    {
+      "name": "일신건설 주식회사",
+      "ceo": "한직환",
+      "address": "경기도 성남시 분당구 성남대로 69, 709호 (구미동, 로드랜드이지타워)",
+      "phone": "031-712-8756",
+      "near": true,
+      "count": 1,
+      "total": 8011334800,
+      "projects": [
+        "(가칭)대장2유 신축공사(계속비)"
+      ]
+    },
+    {
+      "name": "렉스건설 주식회사",
+      "ceo": "유기철",
+      "address": "경기도 평택시 고덕갈평10길 63 (고덕동), 1층",
+      "phone": "031-615-4311",
+      "near": true,
+      "count": 1,
+      "total": 7769376900,
+      "projects": [
+        "평안동 행정복지센터 건립공사(긴급)"
       ]
     },
     {
@@ -2897,30 +2921,6 @@
       "total": 684929900,
       "projects": [
         "연평바다역 증축 및 리모델링 공사(계속비)"
-      ]
-    },
-    {
-      "name": "(주)이순종합건설",
-      "ceo": "차재윤",
-      "address": "서울특별시 성북구 동소문로32길 7-3 (동선동3가, 위더스빌) 201호",
-      "phone": "02-2607-7797",
-      "near": true,
-      "count": 1,
-      "total": 679905900,
-      "projects": [
-        "신길종합사회복지관 수영장 환경개선 공사(건축+기계)"
-      ]
-    },
-    {
-      "name": "주식회사 이좋은공조",
-      "ceo": "허지숙",
-      "address": "서울특별시 용산구 백범로90라길 47 (원효로1가) 4층",
-      "phone": "02-749-8944",
-      "near": true,
-      "count": 1,
-      "total": 678024640,
-      "projects": [
-        "탄천센터 슬러지건조시설 취수펌프 신설 공사"
       ]
     }
   ]
