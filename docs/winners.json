@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-10-27T08:58+09:00",
-  "status": "최근 45일 낙찰 10747건 중 건축공사 382건",
+  "updated_at": "2026-10-27T14:10+09:00",
+  "status": "최근 45일 낙찰 12348건 중 건축공사 391건",
   "diagnostics": {
-    "scanned": 10747,
-    "matched": 382,
+    "scanned": 12348,
+    "matched": 391,
     "error": "",
     "endpoint": "https://apis.data.go.kr/1230000/as/ScsbidInfoService/getScsbidListSttusCnstwk",
     "fields": "bidNtceNo,bidNtceOrd,bidClsfcNo,rbidNo,ntceDivCd,bidNtceNm,prtcptCnum,bidwinnrNm,bidwinnrBizno,bidwinnrCeoNm,bidwinnrAdrs,bidwinnrTelNo,sucsfbidAmt,sucsfbidRate,rlOpengDt,dminsttCd,dminsttNm,rgstDt,fnlSucsfDate,fnlSucsfCorpOfcl"
@@ -21,6 +21,19 @@
       "bizno": "3148125874",
       "near": true,
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01560203"
+    },
+    {
+      "title": "[긴급](가칭)용마루초등학교 신축공사(계속비)",
+      "agency": "인천광역시교육청",
+      "amount": 18885660729,
+      "date": "2026-10-13",
+      "winner": "(주)영진종합건설",
+      "ceo": "유창희",
+      "address": "인천광역시 강화군 강화읍 강화대로 378-16 ()",
+      "phone": "032-933-2947",
+      "bizno": "1278117218",
+      "near": true,
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01734616"
     },
     {
       "title": "유양초 신설대체이전 신축공사",
@@ -645,6 +658,19 @@
       "bizno": "1298123910",
       "near": true,
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01756024"
+    },
+    {
+      "title": "건국대학교사범대학부속고등학교 본관동 내진보강공사(건축) 전자입찰 공고",
+      "agency": "서울특별시교육청 건국대학교사범대학부속고등학교",
+      "amount": 1606197000,
+      "date": "2026-10-15",
+      "winner": "주식회사 오푸스펄 구조기술사사무소",
+      "ceo": "이인영",
+      "address": "서울특별시 송파구 법원로11길 11, B동 1311호 (문정동, 문정현대지식산업센터))",
+      "phone": "02-3485-0900",
+      "bizno": "1208165266",
+      "near": true,
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01760273"
     },
     {
       "title": "(가칭)여주특수학교 신축 기계설비공사(계속비)",
@@ -1381,7 +1407,7 @@
       "date": "2026-10-13",
       "winner": "지제이종합건설주식회사",
       "ceo": "주재남",
-      "address": "인천광역시 서구 대평로 4-0 (연희동)2층순덕빌딩",
+      "address": "인천광역시 서해구 서곶로 323 (심곡동)3층 302호",
       "phone": "032-567-0296",
       "bizno": "1308604621",
       "near": true,
@@ -1399,6 +1425,19 @@
       "bizno": "3148116716",
       "near": true,
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01747156"
+    },
+    {
+      "title": "서면초등학교 본관 교사동 내진보강공사",
+      "agency": "충청남도교육청 충청남도서천교육지원청",
+      "amount": 456919000,
+      "date": "2026-10-26",
+      "winner": "예강토건주식회사",
+      "ceo": "김현",
+      "address": "충청남도 예산군 오가면 원천남길 47",
+      "phone": "041-333-0255",
+      "bizno": "6158700138",
+      "near": true,
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01777407"
     },
     {
       "title": "연천등기소 리모델링 공사(건축, 기계)",
@@ -1913,51 +1952,12 @@
       "amount": 322058920,
       "date": "2026-09-28",
       "winner": "이엠씨건설 주식회사",
-      "ceo": "배기호",
+      "ceo": "김민환",
       "address": "충청남도 공주시 번영2로 48-7 , 2층 (신관동)",
       "phone": "042-544-0570",
       "bizno": "8168601505",
       "near": true,
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01735868"
-    },
-    {
-      "title": "서울강남초등학교 교사동 및 체육관 옥상방수공사",
-      "agency": "서울특별시교육청 서울특별시동작관악교육지원청",
-      "amount": 321689000,
-      "date": "2026-10-21",
-      "winner": "주식회사 정훈이앤씨",
-      "ceo": "조연진",
-      "address": "서울특별시 구로구 경인로 164-0 (오류동) 대일빌딩 405호",
-      "phone": "02-6953-6326",
-      "bizno": "5088130031",
-      "near": true,
-      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01772181"
-    },
-    {
-      "title": "서울특별시립 아동푸른센터 영유아 생활공간 개선공사(건축, 기계)",
-      "agency": "서울특별시립 아동푸른센터",
-      "amount": 321576550,
-      "date": "2026-10-22",
-      "winner": "주식회사 한국건설산업",
-      "ceo": "전민규",
-      "address": "경기도 시흥시 은계남길 55 (은행동), 203,204,205,206호",
-      "phone": "031-317-9874",
-      "bizno": "6168801383",
-      "near": true,
-      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01775586"
-    },
-    {
-      "title": "[긴급]명지중학교 드라이비트 개선공사",
-      "agency": "충청남도교육청 충청남도서산교육지원청",
-      "amount": 318302790,
-      "date": "2026-10-20",
-      "winner": "경남산업개발(주)",
-      "ceo": "나승식",
-      "address": "충청남도 예산군 고덕면 예덕로 596-0",
-      "phone": "041-337-7427",
-      "bizno": "1248607303",
-      "near": true,
-      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01768074"
     }
   ],
   "companies": [
@@ -1971,6 +1971,18 @@
       "total": 37556768880,
       "projects": [
         "국도21호선 봉강교 개축공사"
+      ]
+    },
+    {
+      "name": "(주)영진종합건설",
+      "ceo": "유창희",
+      "address": "인천광역시 강화군 강화읍 강화대로 378-16 ()",
+      "phone": "032-933-2947",
+      "near": true,
+      "count": 1,
+      "total": 18885660729,
+      "projects": [
+        "[긴급](가칭)용마루초등학교 신축공사(계속비)"
       ]
     },
     {
@@ -2563,6 +2575,18 @@
       ]
     },
     {
+      "name": "주식회사 오푸스펄 구조기술사사무소",
+      "ceo": "이인영",
+      "address": "서울특별시 송파구 법원로11길 11, B동 1311호 (문정동, 문정현대지식산업센터))",
+      "phone": "02-3485-0900",
+      "near": true,
+      "count": 1,
+      "total": 1606197000,
+      "projects": [
+        "건국대학교사범대학부속고등학교 본관동 내진보강공사(건축) 전자입찰 공고"
+      ]
+    },
+    {
       "name": "주식회사 한국시스템아트",
       "ceo": "윤의중",
       "address": "경기도 남양주시 화도읍 수레로964번길 16",
@@ -2897,30 +2921,6 @@
       "total": 678024640,
       "projects": [
         "탄천센터 슬러지건조시설 취수펌프 신설 공사"
-      ]
-    },
-    {
-      "name": "주식회사 더원",
-      "ceo": "채희태",
-      "address": "충청남도 홍성군 홍북읍 청사로174번길 25  1동 405호",
-      "phone": "041-634-3246",
-      "near": true,
-      "count": 1,
-      "total": 666630500,
-      "projects": [
-        "양송이 환경제어 재배사 신축(건축, 기계)공사"
-      ]
-    },
-    {
-      "name": "초담건설 주식회사",
-      "ceo": "이명희",
-      "address": "경기도 하남시 미사대로 550 (덕풍동) 현대지식산업센터한강미사1차  C동 2-0047호",
-      "phone": "031-8027-3850",
-      "near": true,
-      "count": 1,
-      "total": 665684380,
-      "projects": [
-        "(긴급)은혜고등학교 본관동 창호교체공사 전자입찰 공고"
       ]
     }
   ]
