@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28T01:44+09:00",
+  "updated_at": "2026-10-28T06:23+09:00",
   "status": "정상",
   "items": [
     {
@@ -15,13 +15,6 @@
       "date": "2026-10-27T11:24+09:00",
       "press": "경기신문",
       "topic": "금속창호 공사"
-    },
-    {
-      "title": "대보건설, 대전 가오동 1구역 재건축 수주…2107억원 규모 - 아주경제",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5rUG1HZDZacVNaeG13UDJjSXJoX3lERUdzblJzWU5iRXpxTGJJWHlPa0kxOUxxeWJFZUJ4dWFJNDJiN2pub3dCVHVTd1RVbEY5VndMU0s2ZlbSAVhBVV95cUxOa1BtR2Q2WnFTWnhtd1AyY0lyaF95REVHc25Sc1lOYkV6cUxiSVh5T2tJMTlMcXliRWVCeHVhSTQyYjdqbm93QlR1U3dUVWxGOVZ3TFNLNmZW?oc=5",
-      "date": "2026-10-26T10:03+09:00",
-      "press": "아주경제",
-      "topic": "건설 협력업체 모집"
     },
     {
       "title": "서초구, 전문건설업 종사자 직무교육 실시 - 대한경제",
@@ -59,10 +52,10 @@
       "topic": "학교 시설 창호 교체"
     },
     {
-      "title": "인천 연수구, 내년 1월부터 5억 원 이상 관급공사 입찰업체 현장 실태조사 실시 - 경인매일",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBUSzlQaDVBb3dkVm1tNWo4UC1aV3FPOGxkNXB5ejdGY0xxVFB0bzVKM3dwb1pxdE9ENjJWMVhwUHhEcGxFWndfQll6ZFNqRzlMR1NsSnRvWTNHZmRiZm5PUnRGWEtBZVRz?oc=5",
-      "date": "2026-10-23T11:13+09:00",
-      "press": "경인매일",
+      "title": "[AI시대 강원경제 대도약]공사현장 어려움·현안 함께 해결…권익 보호·경영 안정 뒷받침 - 강원일보",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBaWlU1bm1fUXVVbnhTcU5RMk1sbWFUX1VJdW5PdlZ4aUZrUUVPMzdZNUZSRWlQVXFmVGl4NGoxOXB5UWFVeHltX1RlUVFVZl9yMVM2X0lRUFZ3M1E?oc=5",
+      "date": "2026-10-23T00:00+09:00",
+      "press": "강원일보",
       "topic": "전문건설 입찰 제도"
     },
     {
@@ -80,6 +73,13 @@
       "topic": "전문건설 입찰 제도"
     },
     {
+      "title": "울산시, 지역 건설업체 하도급·공사 참여 확대 지원 - 경상일보",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1tVE1GYXFzOTNxakNuWlc5cDVkU29EMWwzRjRkZU81NGZtZ05xdkFYZkVLZmxob3RuV2lvSHg0MHQ5anlyU3hCSGh0VjE2N0J0VWl2R09lelptWkZYdlZrNC1sTFprVjlFMVpURw?oc=5",
+      "date": "2026-10-21T00:00+09:00",
+      "press": "경상일보",
+      "topic": "건설 협력업체 모집"
+    },
+    {
       "title": "대형건설사 12곳, 울산 지역업체 하도급 참여 확대 ‘맞손’ - 울산매일 - 울산최초, 최고의 조간신문",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1OQzFIc25xN3F1WUdFQ01RTE8ya3hxSFVfajAyYXJzcG4yQU83MWg5bFNneGhDTlhUdzZCVzFQczdkOE5UV3FCZlJ4akFjQmNxeGUzdU1NTDJtX1NrZUdOQ1E3N1BiY3dCenfSAW5BVV95cUxOQTZGR0NxTUItQkktLVhld0dsUVlrRmlzalVVNXpuM3FXU0dDLU0zdlo2cktDRktZOHNJRkMwWVNQazVaeWthLVZyalVpLXRLTHpEUElwZm1OT3lnR1RBcENsSm5idm1zX2ZIZmJyZw?oc=5",
       "date": "2026-10-20T18:05+09:00",
@@ -91,6 +91,13 @@
       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9GcTJROGhFNkNZSExYanZfUjVhelB6WVZhblJha0dFczZKQlVRNm5DYUJZSDFjTlI0YmUtaUxYM0Y3dEVVV3JOYWlONDNPNGVIQWdXU1R5LWpwNzl2NVFERVB2dlQ?oc=5",
       "date": "2026-10-20T17:21+09:00",
       "press": "중도일보",
+      "topic": "건설 협력업체 모집"
+    },
+    {
+      "title": "울산시, 대형건설사·지역업체 상생협력 강화… 지역 건설산업 활로 모색 - 울산종합일보",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1Jb25YMHB4WEFKc0FrRlk4R0ItS3lpYmJnR2MyR1VDSGVWSks1SGxvbXlxY2sxeTF5ME5IM180VFk5Y1AzNl92SUFwMDMtd2M3ODlweHdVMlJ2Skl6THN5ZVZkYWxqYVpuczRnVlRFNnp0RDg?oc=5",
+      "date": "2026-10-20T17:10+09:00",
+      "press": "울산종합일보",
       "topic": "건설 협력업체 모집"
     },
     {
@@ -126,13 +133,6 @@
       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE00cDlWaUFSdFoxUV9GVnJ3TmFnSDhMZmlmdFlkR1E3YnZtbHhadVd6dWV5bmp5dUhxUUp2c1BqbkFVSUltTmZaTi1pdkd4YUp0QUZGUEQtY2VIU3A5UDNaMUlmVHRLcHRQQ240?oc=5",
       "date": "2026-10-20T10:23+09:00",
       "press": "미디어인천신문",
-      "topic": "건설 협력업체 모집"
-    },
-    {
-      "title": "울산 대형건설사·지역 업체 ‘만남의날’…공사참여 확대 협약·1대1 상담 시행 - 문화일보",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1mb0VkY0h3M0ZxTWd6dFdHcW9pcmo3eW1yT1lBVktZSmFPVmFfMHdOODQ1c21sWlJWX1FFQWhpVm5udTYyZTZWdUhCV3REMlFh?oc=5",
-      "date": "2026-10-20T09:16+09:00",
-      "press": "문화일보",
       "topic": "건설 협력업체 모집"
     },
     {
