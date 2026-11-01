@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-11-01T16:35+09:00",
-  "status": "최근 45일 낙찰 11603건 중 건축공사 408건",
+  "updated_at": "2026-11-02T00:11+09:00",
+  "status": "최근 45일 낙찰 11236건 중 건축공사 400건",
   "diagnostics": {
-    "scanned": 11603,
-    "matched": 408,
+    "scanned": 11236,
+    "matched": 400,
     "error": "",
     "endpoint": "https://apis.data.go.kr/1230000/as/ScsbidInfoService/getScsbidListSttusCnstwk",
     "fields": "bidNtceNo,bidNtceOrd,bidClsfcNo,rbidNo,ntceDivCd,bidNtceNm,prtcptCnum,bidwinnrNm,bidwinnrBizno,bidwinnrCeoNm,bidwinnrAdrs,bidwinnrTelNo,sucsfbidAmt,sucsfbidRate,rlOpengDt,dminsttCd,dminsttNm,rgstDt,fnlSucsfDate,fnlSucsfCorpOfcl"
@@ -879,19 +879,6 @@
       "bizno": "1248139076",
       "near": true,
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01760831"
-    },
-    {
-      "title": "서천군 유소년 축구장 관리동 건립공사(건축)",
-      "agency": "충청남도 서천군",
-      "amount": 1021272000,
-      "date": "2026-09-09",
-      "winner": "천공종합건설 주식회사",
-      "ceo": "최광현",
-      "address": "충청남도 천안시 서북구 성정두정로 56, 301호 (두정동)",
-      "phone": "041-523-6020",
-      "bizno": "3128155955",
-      "near": true,
-      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01693729"
     },
     {
       "title": "유니드비티플러스 군산공장 탄소무배출설비 설치공사",
@@ -1804,19 +1791,6 @@
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01749658"
     },
     {
-      "title": "성남고 실내연습장 샌드위치패널해소 공사",
-      "agency": "서울특별시교육청 성남고등학교",
-      "amount": 386463860,
-      "date": "2026-09-16",
-      "winner": "대호건축주식회사",
-      "ceo": "이준호",
-      "address": "서울특별시 마포구 양화로 115 (서교동) 천지빌딩 4층",
-      "phone": "02-6339-1230",
-      "bizno": "1148708321",
-      "near": true,
-      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01718625"
-    },
-    {
       "title": "충남체육고등학교 제2체육관 드라이비트개선공사",
       "agency": "충청남도교육청 충청남도논산계룡교육지원청",
       "amount": 384385450,
@@ -1958,6 +1932,32 @@
       "bizno": "2198114470",
       "near": true,
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01750452"
+    },
+    {
+      "title": "경기도119특수대응단 격납고 정비 창고 증축 공사(건축,기계)",
+      "agency": "경기도 경기도119특수대응단",
+      "amount": 340313700,
+      "date": "2026-09-22",
+      "winner": "태림이엔씨 주식회사",
+      "ceo": "황운재",
+      "address": "경기도 여주시 월송길 26-0 (월송동) 102호",
+      "phone": "031-881-1227",
+      "bizno": "7798701877",
+      "near": true,
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01716602"
+    },
+    {
+      "title": "서울성서초 본관 및 신관 바닥개선공사 전자입찰 공고",
+      "agency": "서울특별시교육청 서울특별시서부교육지원청",
+      "amount": 336863158,
+      "date": "2026-10-16",
+      "winner": "주식회사 디자인그림아이디앤씨",
+      "ceo": "안병욱",
+      "address": "서울특별시 마포구 월드컵로14길 29-0 (서교동)영화빌딩3층",
+      "phone": "02-2038-0934",
+      "bizno": "1058793218",
+      "near": true,
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01762416"
     }
   ],
   "companies": [
@@ -2767,18 +2767,6 @@
       ]
     },
     {
-      "name": "천공종합건설 주식회사",
-      "ceo": "최광현",
-      "address": "충청남도 천안시 서북구 성정두정로 56, 301호 (두정동)",
-      "phone": "041-523-6020",
-      "near": true,
-      "count": 1,
-      "total": 1021272000,
-      "projects": [
-        "서천군 유소년 축구장 관리동 건립공사(건축)"
-      ]
-    },
-    {
       "name": "현대글로벌 주식회사",
       "ceo": "최종윤",
       "address": "서울특별시 종로구 율곡로 194(연지동, 현대그룹빌딩 동관)",
@@ -2921,6 +2909,18 @@
       "total": 862400984,
       "projects": [
         "여주자영농고 낙농한우실습장 환경개선공사"
+      ]
+    },
+    {
+      "name": "금하개발(주)",
+      "ceo": "김명준",
+      "address": "서울특별시 동작구 현충로 153-0 2층5호 (흑석동, 외2필지 한강현대상가)",
+      "phone": "02-812-0404",
+      "near": true,
+      "count": 1,
+      "total": 858292690,
+      "projects": [
+        "2026년 임대아파트 자동확산소화기 및 단독경보형감지기 설치공사(3권역)"
       ]
     }
   ]
