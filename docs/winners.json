@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-02T04:43+09:00",
-  "status": "최근 45일 낙찰 11236건 중 건축공사 400건",
+  "updated_at": "2026-11-02T08:39+09:00",
+  "status": "최근 45일 낙찰 11266건 중 건축공사 400건",
   "diagnostics": {
-    "scanned": 11236,
+    "scanned": 11266,
     "matched": 400,
     "error": "",
     "endpoint": "https://apis.data.go.kr/1230000/as/ScsbidInfoService/getScsbidListSttusCnstwk",
