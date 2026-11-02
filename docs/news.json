@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-03T00:57+09:00",
+  "updated_at": "2026-11-03T08:34+09:00",
   "status": "정상",
   "items": [
     {
@@ -108,13 +108,6 @@
       "topic": "금속창호 공사"
     },
     {
-      "title": "영진종합건설, 협력사와 함께 무재해 선포식 개최 - 동아일보",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBucExVSzhRbWNnTUhha0lUQWNIWEVFUVhZSDZObXk2VUxDbTA0ZHdkV2dMLW5Ba0wwLVBBNW1BUUVZb2hzUW0tWFlXSHBMTXlhQUgzU3R2U194Y0RMUnJIWlFuUUlfX3RLRF9RZ3dxRW1yelN2X3fSAWZBVV95cUxQcmpWWlZwMmIya01OeFhUMFVOZXZVSkNKNGdDQ2szQm1DQ2pGcnZkZlB5UU5ReDcxMkhOUEVLQ0lXX0w3YW1lNld6QlFMZUhZMFNzVTk3bWVlM0taaVNfYmx6bjNXOGc?oc=5",
-      "date": "2026-10-27T09:00+09:00",
-      "press": "동아일보",
-      "topic": "건설 협력업체 모집"
-    },
-    {
       "title": "서초구, 전문건설업체 실무 역량 강화 나선다…29일 직무교육 실시 - 문화일보",
       "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE4wNWxGRnE2ZHRiZmxrajZSOUZySUQyWWdsUWJIY21salFzS28yT2h4SEhDUVR0V2dlYldXRTBqdl9LZlc2bV8zMUNjQi1MejBv?oc=5",
       "date": "2026-10-25T09:49+09:00",
@@ -150,13 +143,6 @@
       "topic": "건설 협력업체 모집"
     },
     {
-      "title": "울산 대형건설사·지역 업체 ‘만남의날’…공사참여 확대 협약·1대1 상담 시행 - 문화일보",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1mb0VkY0h3M0ZxTWd6dFdHcW9pcmo3eW1yT1lBVktZSmFPVmFfMHdOODQ1c21sWlJWX1FFQWhpVm5udTYyZTZWdUhCV3REMlFh?oc=5",
-      "date": "2026-10-20T16:00+09:00",
-      "press": "문화일보",
-      "topic": "건설 협력업체 모집"
-    },
-    {
       "title": "울산시, 대형건설사-지역업체 상생 협력 강화… ‘만남의 날’ 개최 - 지이코노미",
       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE93XzBGS3V3alJMTkxWbnJBbnllS2JHaHp6SmlHbVpDOWFnSm5VTFoyWDZ2TjhmQW5tWl9zWEhJcG00dzZQTGllWWQwZmpsc2lDdmptNV96S1piTWFZeGU2dXRVS3g?oc=5",
       "date": "2026-10-20T16:00+09:00",
@@ -171,10 +157,24 @@
       "topic": "건설 협력업체 모집"
     },
     {
+      "title": "울산 대형건설사·지역 업체 ‘만남의날’…공사참여 확대 협약·1대1 상담 시행 - 문화일보",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1mb0VkY0h3M0ZxTWd6dFdHcW9pcmo3eW1yT1lBVktZSmFPVmFfMHdOODQ1c21sWlJWX1FFQWhpVm5udTYyZTZWdUhCV3REMlFh?oc=5",
+      "date": "2026-10-20T16:00+09:00",
+      "press": "문화일보",
+      "topic": "건설 협력업체 모집"
+    },
+    {
       "title": "울산시, 대형건설사·지역업체 협력 행사 개최 - 한국사회복지저널",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBTb0VUeldFZWtEMDZKWjY1Ykd1X1RMWlA0VzM4d0hRa2JIbjVkbS12NEhsWjZ4d2JqekZCeWp4QThoaEhoUTZ0ZmJxOUpuMFZyVDRYM0g5YndtMEs4UXhRSEtCdm9JUmZscklDOA?oc=5",
       "date": "2026-10-20T16:00+09:00",
       "press": "한국사회복지저널",
+      "topic": "건설 협력업체 모집"
+    },
+    {
+      "title": "울산시, 대형건설사·지역업체 상생협력 강화한다 - 울산신문",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE93U214cUZ0dmhRNnhkSWNLQzA4WU1WczRURzlNdkVHaHI2d0dLdjRfcWttZ2dzdVRWOUloZHdiWnRMd19IeUNlZTBXdDVpWUR1aUJmQkRzWUdpSVBZM2hkVjJRVTVHVERuSE9GdkNR0gFyQVVfeXFMUDNkSGRWUks2UXhwQWZEOHRSbDNwVmVzUUNoNk02eU5DUlBhRUlRb2czZDhFM3JuSVNGU0ZMV0lPeUdWclExQkZSVzNILTNiZW51UVFFMlpzcUpJeElKcEJEaTU5WVRBblhELUh3Y2ppV2tR?oc=5",
+      "date": "2026-10-20T16:00+09:00",
+      "press": "울산신문",
       "topic": "건설 협력업체 모집"
     },
     {
