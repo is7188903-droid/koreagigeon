@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-11-04T06:04+09:00",
-  "status": "최근 45일 낙찰 11865건 중 건축공사 416건",
+  "updated_at": "2026-11-04T10:27+09:00",
+  "status": "최근 45일 낙찰 12359건 중 건축공사 421건",
   "diagnostics": {
-    "scanned": 11865,
-    "matched": 416,
+    "scanned": 12359,
+    "matched": 421,
     "error": "",
     "endpoint": "https://apis.data.go.kr/1230000/as/ScsbidInfoService/getScsbidListSttusCnstwk",
     "fields": "bidNtceNo,bidNtceOrd,bidClsfcNo,rbidNo,ntceDivCd,bidNtceNm,prtcptCnum,bidwinnrNm,bidwinnrBizno,bidwinnrCeoNm,bidwinnrAdrs,bidwinnrTelNo,sucsfbidAmt,sucsfbidRate,rlOpengDt,dminsttCd,dminsttNm,rgstDt,fnlSucsfDate,fnlSucsfCorpOfcl"
@@ -855,6 +855,19 @@
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01760831"
     },
     {
+      "title": "덕양노인종합복지관 증축공사(건축,기계)",
+      "agency": "경기도 고양시",
+      "amount": 1014544960,
+      "date": "2026-10-30",
+      "winner": "주식회사 디에이치에스건설",
+      "ceo": "이민환",
+      "address": "경기도 성남시 분당구 대왕판교로 291, 201호 (궁내동,궁내빌딩)",
+      "phone": "031-717-0422",
+      "bizno": "3138108998",
+      "near": true,
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01786767"
+    },
+    {
       "title": "유니드비티플러스 군산공장 탄소무배출설비 설치공사",
       "agency": "(주)유니드비티플러스(군산공장)",
       "amount": 1010690000,
@@ -879,6 +892,19 @@
       "bizno": "1078134979",
       "near": true,
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01733871"
+    },
+    {
+      "title": "2026년 임대아파트 자동확산소화기 및 단독경보형감지기 설치공사 (1권역)",
+      "agency": "서울주택도시개발공사",
+      "amount": 1003651000,
+      "date": "2026-10-20",
+      "winner": "주식회사 가델",
+      "ceo": "김성식",
+      "address": "서울특별시 서초구 신흥말길 99 (내곡동)",
+      "phone": "02-525-7722",
+      "bizno": "3128196859",
+      "near": true,
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01770694"
     },
     {
       "title": "서소문청사 후생동 강당 리모델링공사(장기계속)",
@@ -1035,6 +1061,19 @@
       "bizno": "4198602512",
       "near": true,
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01762953"
+    },
+    {
+      "title": "녹향원 증축 공사 입찰 안내 공고",
+      "agency": "대한불교조계종사회복지재단 녹향원",
+      "amount": 824814140,
+      "date": "2026-10-26",
+      "winner": "금은종합건설 주식회사",
+      "ceo": "문경민",
+      "address": "경기도 의왕시 갈미2로 40, 1동 401호(내손동, 캠퍼스프라자)",
+      "phone": "031-421-0245",
+      "bizno": "7578701917",
+      "near": true,
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01771742"
     },
     {
       "title": "예산학생수영장 지붕교체공사",
@@ -1919,45 +1958,6 @@
       "bizno": "1248617043",
       "near": true,
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01734802"
-    },
-    {
-      "title": "2026 이천선수촌 (구)생활관 리모델링 공사",
-      "agency": "대한장애인체육회",
-      "amount": 359669972,
-      "date": "2026-09-11",
-      "winner": "(주)주원공영",
-      "ceo": "이명엽",
-      "address": "경기도 성남시 중원구 산성대로 344-1 (중앙동) 주원빌딩 3층",
-      "phone": "031-734-6435",
-      "bizno": "1298610725",
-      "near": true,
-      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01684618"
-    },
-    {
-      "title": "이동초 화장실 환경개선공사",
-      "agency": "경기도교육청 경기도포천교육지원청",
-      "amount": 357747355,
-      "date": "2026-11-03",
-      "winner": "주식회사 가나종합건설",
-      "ceo": "박성훈",
-      "address": "경기도 연천군 군남면 청정로 2286-15",
-      "phone": "031-832-2949",
-      "bizno": "2228602413",
-      "near": true,
-      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01790953"
-    },
-    {
-      "title": "봉림중학교 교사동 옥상방수공사",
-      "agency": "서울특별시교육청 서울특별시동작관악교육지원청",
-      "amount": 350987000,
-      "date": "2026-10-15",
-      "winner": "그린리뉴얼 주식회사",
-      "ceo": "배혜경",
-      "address": "서울특별시 광진구 천호대로110길 34, 2층",
-      "phone": "02-446-6666",
-      "bizno": "5068177291",
-      "near": true,
-      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01762345"
     }
   ],
   "companies": [
@@ -2743,6 +2743,18 @@
       ]
     },
     {
+      "name": "주식회사 디에이치에스건설",
+      "ceo": "이민환",
+      "address": "경기도 성남시 분당구 대왕판교로 291, 201호 (궁내동,궁내빌딩)",
+      "phone": "031-717-0422",
+      "near": true,
+      "count": 1,
+      "total": 1014544960,
+      "projects": [
+        "덕양노인종합복지관 증축공사(건축,기계)"
+      ]
+    },
+    {
       "name": "현대글로벌 주식회사",
       "ceo": "최종윤",
       "address": "서울특별시 종로구 율곡로 194(연지동, 현대그룹빌딩 동관)",
@@ -2764,6 +2776,18 @@
       "total": 1006939140,
       "projects": [
         "2026년 청계벽산 외 3개 단지 임대아파트 공용부 방화문 교체공사"
+      ]
+    },
+    {
+      "name": "주식회사 가델",
+      "ceo": "김성식",
+      "address": "서울특별시 서초구 신흥말길 99 (내곡동)",
+      "phone": "02-525-7722",
+      "near": true,
+      "count": 1,
+      "total": 1003651000,
+      "projects": [
+        "2026년 임대아파트 자동확산소화기 및 단독경보형감지기 설치공사 (1권역)"
       ]
     },
     {
@@ -2897,30 +2921,6 @@
       "total": 862400984,
       "projects": [
         "여주자영농고 낙농한우실습장 환경개선공사"
-      ]
-    },
-    {
-      "name": "금하개발(주)",
-      "ceo": "김명준",
-      "address": "서울특별시 동작구 현충로 153-0 2층5호 (흑석동, 외2필지 한강현대상가)",
-      "phone": "02-812-0404",
-      "near": true,
-      "count": 1,
-      "total": 858292690,
-      "projects": [
-        "2026년 임대아파트 자동확산소화기 및 단독경보형감지기 설치공사(3권역)"
-      ]
-    },
-    {
-      "name": "주식회사 더플랜건설",
-      "ceo": "이기영",
-      "address": "서울특별시 강남구 논현로10길 16, 영재빌딩 5층 (개포동)",
-      "phone": "02-6032-3000",
-      "near": true,
-      "count": 1,
-      "total": 834750854,
-      "projects": [
-        "학생체육관 강서분관 수영장 부속시설 보수 및 기타 공사"
       ]
     }
   ]
