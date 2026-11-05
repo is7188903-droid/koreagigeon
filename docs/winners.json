@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-11-05T12:39+09:00",
-  "status": "최근 45일 낙찰 13277건 중 건축공사 434건",
+  "updated_at": "2026-11-05T21:26+09:00",
+  "status": "최근 45일 낙찰 14884건 중 건축공사 445건",
   "diagnostics": {
-    "scanned": 13277,
-    "matched": 434,
+    "scanned": 14884,
+    "matched": 445,
     "error": "",
     "endpoint": "https://apis.data.go.kr/1230000/as/ScsbidInfoService/getScsbidListSttusCnstwk",
     "fields": "bidNtceNo,bidNtceOrd,bidClsfcNo,rbidNo,ntceDivCd,bidNtceNm,prtcptCnum,bidwinnrNm,bidwinnrBizno,bidwinnrCeoNm,bidwinnrAdrs,bidwinnrTelNo,sucsfbidAmt,sucsfbidRate,rlOpengDt,dminsttCd,dminsttNm,rgstDt,fnlSucsfDate,fnlSucsfCorpOfcl"
@@ -764,6 +764,19 @@
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01745074"
     },
     {
+      "title": "서울상계 임대주택 외벽 도장공사",
+      "agency": "공무원연금공단",
+      "amount": 1262310000,
+      "date": "2026-10-06",
+      "winner": "색채산업개발 주식회사",
+      "ceo": "김성언",
+      "address": "경기도 군포시 공단로124번길 23, 303호(당정동, 한림에스타워)",
+      "phone": "031-989-1540",
+      "bizno": "1228601680",
+      "near": true,
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01751824"
+    },
+    {
       "title": "금고동위생매립장 침출수처리시설 개선공사",
       "agency": "대전도시공사",
       "amount": 1184440000,
@@ -1440,6 +1453,19 @@
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01755773"
     },
     {
+      "title": "(긴급) 오정레포츠센터 옹벽 보수 보강공사",
+      "agency": "경기도 부천시",
+      "amount": 535701150,
+      "date": "2026-11-02",
+      "winner": "태영건설주식회사",
+      "ceo": "송정섭",
+      "address": "경기도 화성시 봉담읍 삼천병마로 621 2층",
+      "phone": "031-358-9999",
+      "bizno": "1248137646",
+      "near": true,
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01794363"
+    },
+    {
       "title": "남한산성면 산성리 경로당 신축공사",
       "agency": "경기도 광주시",
       "amount": 532343087,
@@ -1628,7 +1654,7 @@
       "date": "2026-10-30",
       "winner": "동연종합건설(주)",
       "ceo": "강정선",
-      "address": "경기도 파주시 송학말길 39-45 (야당동), 1층",
+      "address": "경기도 고양시 일산서구 장자길118번길 98 (덕이동)",
       "phone": "***********",
       "bizno": "3768800259",
       "near": true,
@@ -1932,32 +1958,6 @@
       "bizno": "3118108196",
       "near": true,
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01758604"
-    },
-    {
-      "title": "보훈재활체육센터 사이클 실내 훈련장 증축 공사(건축기계)",
-      "agency": "한국보훈복지의료공단 보훈재활체육센터",
-      "amount": 381120210,
-      "date": "2026-09-16",
-      "winner": "(주)해창종합건설",
-      "ceo": "김하열",
-      "address": "경기도 안산시 단원구 광덕대로 193 , 515호 (고잔동, 신양타운)",
-      "phone": "031-414-5663",
-      "bizno": "6948702764",
-      "near": true,
-      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01715422"
-    },
-    {
-      "title": "보정초 드라이비트 개선공사(계속비)",
-      "agency": "경기도교육청 경기도용인교육지원청",
-      "amount": 374357780,
-      "date": "2026-10-30",
-      "winner": "주식회사 명승종합건설",
-      "ceo": "김명숙",
-      "address": "경기도 용인시 처인구 금령로 62, 804호(김량장동, 위너스프라자)",
-      "phone": "031-336-4585",
-      "bizno": "5768700401",
-      "near": true,
-      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01791710"
     }
   ],
   "companies": [
@@ -2671,6 +2671,18 @@
       ]
     },
     {
+      "name": "색채산업개발 주식회사",
+      "ceo": "김성언",
+      "address": "경기도 군포시 공단로124번길 23, 303호(당정동, 한림에스타워)",
+      "phone": "031-989-1540",
+      "near": true,
+      "count": 1,
+      "total": 1262310000,
+      "projects": [
+        "서울상계 임대주택 외벽 도장공사"
+      ]
+    },
+    {
       "name": "신평산업 주식회사",
       "ceo": "이재열",
       "address": "충청남도 당진시 무수동1길 25-22, 4층 (읍내동,흥환빌딩)",
@@ -2909,18 +2921,6 @@
       "total": 868363880,
       "projects": [
         "종합전산센터 제3서버실 구축 건축공사"
-      ]
-    },
-    {
-      "name": "(주)세방테크",
-      "ceo": "박계석",
-      "address": "서울특별시 송파구 법원로 128 (문정동,에스케이브이원지엘메트로시티)에이동 1201호",
-      "phone": "02-579-2945",
-      "near": true,
-      "count": 1,
-      "total": 867845560,
-      "projects": [
-        "2026년 임대아파트 자동확산소화기 및 단독경보형감지기 설치공사(7권역)"
       ]
     }
   ]
