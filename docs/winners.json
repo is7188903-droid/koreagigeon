@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-11-05T07:44+09:00",
-  "status": "최근 45일 낙찰 12356건 중 건축공사 428건",
+  "updated_at": "2026-11-05T12:39+09:00",
+  "status": "최근 45일 낙찰 13277건 중 건축공사 434건",
   "diagnostics": {
-    "scanned": 12356,
-    "matched": 428,
+    "scanned": 13277,
+    "matched": 434,
     "error": "",
     "endpoint": "https://apis.data.go.kr/1230000/as/ScsbidInfoService/getScsbidListSttusCnstwk",
     "fields": "bidNtceNo,bidNtceOrd,bidClsfcNo,rbidNo,ntceDivCd,bidNtceNm,prtcptCnum,bidwinnrNm,bidwinnrBizno,bidwinnrCeoNm,bidwinnrAdrs,bidwinnrTelNo,sucsfbidAmt,sucsfbidRate,rlOpengDt,dminsttCd,dminsttNm,rgstDt,fnlSucsfDate,fnlSucsfCorpOfcl"
@@ -1115,6 +1115,19 @@
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01771231"
     },
     {
+      "title": "어린이병원 발달센터 공간 재구성 공사(건축)",
+      "agency": "서울특별시",
+      "amount": 800717900,
+      "date": "2026-10-21",
+      "winner": "주식회사 선명",
+      "ceo": "이성범",
+      "address": "서울특별시 구로구 신도림로15길 37 (신도림동) 에스엠빌딩 3층",
+      "phone": "02-488-1010",
+      "bizno": "1388192411",
+      "near": true,
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01774203"
+    },
+    {
       "title": "[긴급]동성중 체육관(펜싱장) 전면보수공사",
       "agency": "경기도교육청 경기도수원교육지원청",
       "amount": 774894000,
@@ -1347,6 +1360,19 @@
       "bizno": "7798800797",
       "near": true,
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01757349"
+    },
+    {
+      "title": "120 경기도콜센터 인테리어 공사(건축·기계)",
+      "agency": "경기도",
+      "amount": 552932220,
+      "date": "2026-08-18",
+      "winner": "주식회사 꾸밈이엔씨",
+      "ceo": "고영숙",
+      "address": "경기도 성남시 중원구 둔촌대로 250, 1층(하대원동)",
+      "phone": "031-754-8514",
+      "bizno": "5768603487",
+      "near": true,
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01675203"
     },
     {
       "title": "태안중학교 2동교사 수선공사",
@@ -1888,7 +1914,7 @@
       "date": "2026-10-23",
       "winner": "주식회사 시티",
       "ceo": "윤선희",
-      "address": "경기도 파주시 광탄면 혜음로 1210-19",
+      "address": "경기도 파주시 새꽃로 206-2 (아동동) 광산빌딩 107호",
       "phone": "070-7797-7475",
       "bizno": "7598603215",
       "near": true,
@@ -1932,32 +1958,6 @@
       "bizno": "5768700401",
       "near": true,
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01791710"
-    },
-    {
-      "title": "경인지방병무청 본관동 외벽 리모델링 공사 (건축ㆍ기계공사)",
-      "agency": "병무청 경인지방병무청",
-      "amount": 372243000,
-      "date": "2026-10-13",
-      "winner": "주식회사 티와이",
-      "ceo": "김대관",
-      "address": "경기도 안산시 상록구 샘골로 15, 201호 (본오동)",
-      "phone": "031-411-9735",
-      "bizno": "1348650923",
-      "near": true,
-      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01755260"
-    },
-    {
-      "title": "인천루원중학교 화장실 설치 개선공사(계속비) 입찰 공고",
-      "agency": "인천광역시교육청 인천광역시서부교육지원청",
-      "amount": 368708900,
-      "date": "2026-10-21",
-      "winner": "주식회사 승인",
-      "ceo": "최경미",
-      "address": "인천광역시 연수구 센트럴로 313, 13층 제비1312호(송도동, 송도씨워크인테라스한라)",
-      "phone": "032-710-8765",
-      "bizno": "6948601598",
-      "near": true,
-      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01765558"
     }
   ],
   "companies": [
