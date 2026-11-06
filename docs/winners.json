@@ -1,27 +1,14 @@
 {
-  "updated_at": "2026-11-06T18:32+09:00",
-  "status": "최근 45일 낙찰 14518건 중 건축공사 440건",
+  "updated_at": "2026-11-07T02:37+09:00",
+  "status": "최근 45일 낙찰 12187건 중 건축공사 412건",
   "diagnostics": {
-    "scanned": 14518,
-    "matched": 440,
-    "error": "",
+    "scanned": 12187,
+    "matched": 412,
+    "error": "ScsbidInfoService: URLError <urlopen error _ssl.c:994: The handshake operation timed out>",
     "endpoint": "https://apis.data.go.kr/1230000/as/ScsbidInfoService/getScsbidListSttusCnstwk",
     "fields": "bidNtceNo,bidNtceOrd,bidClsfcNo,rbidNo,ntceDivCd,bidNtceNm,prtcptCnum,bidwinnrNm,bidwinnrBizno,bidwinnrCeoNm,bidwinnrAdrs,bidwinnrTelNo,sucsfbidAmt,sucsfbidRate,rlOpengDt,dminsttCd,dminsttNm,rgstDt,fnlSucsfDate,fnlSucsfCorpOfcl"
   },
   "projects": [
-    {
-      "title": "국도21호선 봉강교 개축공사",
-      "agency": "국토교통부 대전지방국토관리청",
-      "amount": 37556768880,
-      "date": "2026-07-23",
-      "winner": "청인건설 주식회사",
-      "ceo": "최기원",
-      "address": "충청남도 공주시 번영1로 46, 2층(신관동)",
-      "phone": "041-857-1719",
-      "bizno": "3148125874",
-      "near": true,
-      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01560203"
-    },
     {
       "title": "기초과학연구원 UNIST 캠퍼스 건립사업 건축공사",
       "agency": "기초과학연구원",
@@ -164,19 +151,6 @@
       "bizno": "4088125922",
       "near": true,
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01736373"
-    },
-    {
-      "title": "[긴급](가칭)이의8초중 신축공사[계속비]",
-      "agency": "경기도교육청 경기도수원교육지원청",
-      "amount": 10879445000,
-      "date": "2026-09-01",
-      "winner": "주식회사 원석종합건설",
-      "ceo": "박원석",
-      "address": "경기도 평택시 소사5길 113, 2층1호(소사동)",
-      "phone": "031-656-9070",
-      "bizno": "7988700898",
-      "near": true,
-      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01678178"
     },
     {
       "title": "포천고 공간재구조화 개축 및 리모델링공사",
@@ -413,32 +387,6 @@
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01755865"
     },
     {
-      "title": "하안초 교사동 내진보강 및 환경개선공사(계속비)",
-      "agency": "경기도교육청 경기도광명교육지원청",
-      "amount": 3224189520,
-      "date": "2026-09-14",
-      "winner": "주식회사차영종합건설",
-      "ceo": "차영식",
-      "address": "경기도 김포시 사우중로 19, 석신빌딩2층 (사우동)",
-      "phone": "031-998-6124",
-      "bizno": "1378174803",
-      "near": true,
-      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01700314"
-    },
-    {
-      "title": "철산중 급식실 및 식당 증축공사",
-      "agency": "경기도교육청 경기도광명교육지원청",
-      "amount": 3176961560,
-      "date": "2026-09-07",
-      "winner": "주식회사 한강이앰피",
-      "ceo": "정승훈",
-      "address": "경기도 김포시 대곶면 율생로 103-16",
-      "phone": "031-986-3838",
-      "bizno": "1218182555",
-      "near": true,
-      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01687167"
-    },
-    {
       "title": "서울어린이대공원 식물원 리모델링 건축공사 (장기계속)",
       "agency": "서울특별시 동부공원여가센터",
       "amount": 3022106780,
@@ -645,19 +593,6 @@
       "bizno": "1218117170",
       "near": true,
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01713607"
-    },
-    {
-      "title": "권역책임의료기관 외상중환자실 리모델링 공사(건축,기계)",
-      "agency": "(의료）길의료재단",
-      "amount": 1479519520,
-      "date": "2026-09-11",
-      "winner": "주식회사 한동건설",
-      "ceo": "유재근",
-      "address": "경기도 성남시 수정구 위례서일로 12, 601호 (창곡동, 우남이타워프라자)",
-      "phone": "031-711-1815",
-      "bizno": "1298654500",
-      "near": true,
-      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01713544"
     },
     {
       "title": "[긴급] 시설공사 입찰 공고(대방초 체육관 안전시설개선 및 내진보강 공사)",
@@ -1063,19 +998,6 @@
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01771742"
     },
     {
-      "title": "예산학생수영장 지붕교체공사",
-      "agency": "충청남도교육청 충청남도예산교육지원청",
-      "amount": 814764070,
-      "date": "2026-09-16",
-      "winner": "서림건영 주식회사",
-      "ceo": "석경애",
-      "address": "충청남도 서산시 남원1길 78-0 (석남동)",
-      "phone": "***********",
-      "bizno": "1848701725",
-      "near": true,
-      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01722136"
-    },
-    {
       "title": "2026년 임대아파트 자동확산소화기 및 단독경보형감지기 설치공사(6권역)",
       "agency": "서울주택도시개발공사",
       "amount": 811199008,
@@ -1427,19 +1349,6 @@
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01737495"
     },
     {
-      "title": "철산중 급식실 및 식당 증축 기계설비공사",
-      "agency": "경기도교육청 경기도광명교육지원청",
-      "amount": 523687800,
-      "date": "2026-09-02",
-      "winner": "(주)해성이엔지",
-      "ceo": "김해동",
-      "address": "경기도 고양시 덕양구 무원로6번길 12, 대흥빌딩 607호(행신동)",
-      "phone": "031-972-1636",
-      "bizno": "1288690139",
-      "near": true,
-      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01691780"
-    },
-    {
       "title": "2026년 국립중앙청소년디딤센터 외벽 보수 (사이딩 목재 교체 등) 공사",
       "agency": "국립중앙청소년디딤센터",
       "amount": 508845000,
@@ -1542,19 +1451,6 @@
       "bizno": "2218123609",
       "near": true,
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01642721"
-    },
-    {
-      "title": "홍산농공단지 실내체육관 설치사업(건축)",
-      "agency": "충청남도 부여군",
-      "amount": 474695940,
-      "date": "2026-09-02",
-      "winner": "건모토건 주식회사",
-      "ceo": "전현수",
-      "address": "충청남도 공주시 원댕이길 8-8, 202동 상가3호 (금학동, 영우마을2차아파트)",
-      "phone": "041-856-6342",
-      "bizno": "6168113371",
-      "near": true,
-      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01698134"
     },
     {
       "title": "국립공주대학교 도자문화실습관 개축공사",
@@ -1830,19 +1726,6 @@
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01755838"
     },
     {
-      "title": "현대오토에버 성수직장어린이집 설치 공사",
-      "agency": "현대오토에버 주식회사",
-      "amount": 399300000,
-      "date": "2026-09-22",
-      "winner": "주식회사 미우앤디자인",
-      "ceo": "정미운",
-      "address": "서울특별시 강남구 언주로165길 5, 5층, 6층(신사동)",
-      "phone": "02-511-5263",
-      "bizno": "7418700136",
-      "near": true,
-      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01734915"
-    },
-    {
       "title": "신정역 등 4역 영업분야 근무환경 개선공사",
       "agency": "서울교통공사",
       "amount": 395406000,
@@ -1958,21 +1841,126 @@
       "bizno": "6948601598",
       "near": true,
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01765558"
+    },
+    {
+      "title": "안산원곡초 테니스장 현대화 및 복합코트 조성공사",
+      "agency": "경기도교육청 경기도안산교육지원청 안산원곡초등학교",
+      "amount": 367183593,
+      "date": "2026-09-30",
+      "winner": "(주)한주종합건설",
+      "ceo": "성열호",
+      "address": "경기도 화성시 동탄신리천로 270 (오산동) 503호",
+      "phone": "031-373-5886",
+      "bizno": "1248617043",
+      "near": true,
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01734802"
+    },
+    {
+      "title": "인명여고 드라이비트 개선공사 소액수의 견적제출 안내 공고",
+      "agency": "인천광역시교육청 인명여자고등학교",
+      "amount": 365402000,
+      "date": "2026-11-05",
+      "winner": "주식회사국일공영",
+      "ceo": "이무년",
+      "address": "인천광역시 남동구 하촌로 34-0 (만수동) 청송빌딩 301호",
+      "phone": "032-468-6507",
+      "bizno": "1398103677",
+      "near": true,
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01797526"
+    },
+    {
+      "title": "황룡초 교사동 석면해체제거공사(계속비)",
+      "agency": "경기도교육청 경기도고양교육지원청",
+      "amount": 363936877,
+      "date": "2026-10-29",
+      "winner": "(유) 하나건설",
+      "ceo": "이현주",
+      "address": "경기도 용인시 처인구 중부대로 1390, 성일빌딩 303호  (김량장동)",
+      "phone": "031-333-2122",
+      "bizno": "3278601290",
+      "near": true,
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01781635"
+    },
+    {
+      "title": "2026 이천선수촌 (구)생활관 리모델링 공사",
+      "agency": "대한장애인체육회",
+      "amount": 359669972,
+      "date": "2026-09-11",
+      "winner": "(주)주원공영",
+      "ceo": "이명엽",
+      "address": "경기도 성남시 중원구 산성대로 344-1 (중앙동) 주원빌딩 3층",
+      "phone": "031-734-6435",
+      "bizno": "1298610725",
+      "near": true,
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01684618"
+    },
+    {
+      "title": "이동초 화장실 환경개선공사",
+      "agency": "경기도교육청 경기도포천교육지원청",
+      "amount": 357747355,
+      "date": "2026-11-03",
+      "winner": "주식회사 가나종합건설",
+      "ceo": "박성훈",
+      "address": "경기도 연천군 군남면 청정로 2286-15",
+      "phone": "031-832-2949",
+      "bizno": "2228602413",
+      "near": true,
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01790953"
+    },
+    {
+      "title": "봉림중학교 교사동 옥상방수공사",
+      "agency": "서울특별시교육청 서울특별시동작관악교육지원청",
+      "amount": 350987000,
+      "date": "2026-10-15",
+      "winner": "그린리뉴얼 주식회사",
+      "ceo": "배혜경",
+      "address": "서울특별시 광진구 천호대로110길 34, 2층",
+      "phone": "02-446-6666",
+      "bizno": "5068177291",
+      "near": true,
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01762345"
+    },
+    {
+      "title": "중동 260번지 근린생활시설(60평) 신축공사",
+      "agency": "사회복지법인 한국사회봉사회",
+      "amount": 350300000,
+      "date": "2026-10-20",
+      "winner": "주식회사 틴 건축인테리어",
+      "ceo": "오주석",
+      "address": "경기도 평택시 경기대로 1048-34 (장당동), 2층",
+      "phone": "031-618-0008",
+      "bizno": "1258184706",
+      "near": true,
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01770698"
+    },
+    {
+      "title": "2026년 산불대응센터(양주) 신축공사(건축, 기계)",
+      "agency": "산림청 북부지방산림청 서울국유림관리소",
+      "amount": 348791370,
+      "date": "2026-09-30",
+      "winner": "디엠종합건설 주식회사",
+      "ceo": "임광택",
+      "address": "경기도 화성시 남여울1길 5-12 (능동)",
+      "phone": "031-8003-4846",
+      "bizno": "1248621417",
+      "near": true,
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01742309"
+    },
+    {
+      "title": "2026년 여성기업종합지원센터 본부 시설개선 공사(건축)",
+      "agency": "재단법인 여성기업종합지원센터",
+      "amount": 347059300,
+      "date": "2026-10-29",
+      "winner": "주식회사 신성건축디자인",
+      "ceo": "박정희",
+      "address": "서울특별시 중구 퇴계로56길 46(장충동2가, 2층)",
+      "phone": "02-541-2206",
+      "bizno": "2018164076",
+      "near": true,
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01788956"
     }
   ],
   "companies": [
-    {
-      "name": "청인건설 주식회사",
-      "ceo": "최기원",
-      "address": "충청남도 공주시 번영1로 46, 2층(신관동)",
-      "phone": "041-857-1719",
-      "near": true,
-      "count": 1,
-      "total": 37556768880,
-      "projects": [
-        "국도21호선 봉강교 개축공사"
-      ]
-    },
     {
       "name": "신한빛종합건설 주식회사",
       "ceo": "이재순",
@@ -2103,18 +2091,6 @@
       "total": 12727356930,
       "projects": [
         "(가칭)거모1중 신축공사"
-      ]
-    },
-    {
-      "name": "주식회사 원석종합건설",
-      "ceo": "박원석",
-      "address": "경기도 평택시 소사5길 113, 2층1호(소사동)",
-      "phone": "031-656-9070",
-      "near": true,
-      "count": 1,
-      "total": 10879445000,
-      "projects": [
-        "[긴급](가칭)이의8초중 신축공사[계속비]"
       ]
     },
     {
@@ -2334,30 +2310,6 @@
       ]
     },
     {
-      "name": "주식회사차영종합건설",
-      "ceo": "차영식",
-      "address": "경기도 김포시 사우중로 19, 석신빌딩2층 (사우동)",
-      "phone": "031-998-6124",
-      "near": true,
-      "count": 1,
-      "total": 3224189520,
-      "projects": [
-        "하안초 교사동 내진보강 및 환경개선공사(계속비)"
-      ]
-    },
-    {
-      "name": "주식회사 한강이앰피",
-      "ceo": "정승훈",
-      "address": "경기도 김포시 대곶면 율생로 103-16",
-      "phone": "031-986-3838",
-      "near": true,
-      "count": 1,
-      "total": 3176961560,
-      "projects": [
-        "철산중 급식실 및 식당 증축공사"
-      ]
-    },
-    {
       "name": "재성건설주식회사",
       "ceo": "한만천",
       "address": "서울특별시 송파구 잠실동 336-14  3층",
@@ -2560,18 +2512,6 @@
       "total": 1480149000,
       "projects": [
         "농대 본관 등 3개동 외벽 방수공사"
-      ]
-    },
-    {
-      "name": "주식회사 한동건설",
-      "ceo": "유재근",
-      "address": "경기도 성남시 수정구 위례서일로 12, 601호 (창곡동, 우남이타워프라자)",
-      "phone": "031-711-1815",
-      "near": true,
-      "count": 1,
-      "total": 1479519520,
-      "projects": [
-        "권역책임의료기관 외상중환자실 리모델링 공사(건축,기계)"
       ]
     },
     {
@@ -2804,19 +2744,6 @@
       ]
     },
     {
-      "name": "건모토건 주식회사",
-      "ceo": "전현수",
-      "address": "충청남도 공주시 원댕이길 8-8, 202동 상가3호 (금학동, 영우마을2차아파트)",
-      "phone": "041-856-6342",
-      "near": true,
-      "count": 2,
-      "total": 961946210,
-      "projects": [
-        "제설제 보관창고(내포) 증축공사",
-        "홍산농공단지 실내체육관 설치사업(건축)"
-      ]
-    },
-    {
       "name": "남선건설(주)",
       "ceo": "이일원",
       "address": "서울특별시 송파구 중대로9길 34-0 (가락동),402호",
@@ -2922,6 +2849,78 @@
       "total": 858292690,
       "projects": [
         "2026년 임대아파트 자동확산소화기 및 단독경보형감지기 설치공사(3권역)"
+      ]
+    },
+    {
+      "name": "주식회사 더플랜건설",
+      "ceo": "이기영",
+      "address": "서울특별시 강남구 논현로10길 16, 영재빌딩 5층 (개포동)",
+      "phone": "02-6032-3000",
+      "near": true,
+      "count": 1,
+      "total": 834750854,
+      "projects": [
+        "학생체육관 강서분관 수영장 부속시설 보수 및 기타 공사"
+      ]
+    },
+    {
+      "name": "금은종합건설 주식회사",
+      "ceo": "문경민",
+      "address": "경기도 의왕시 갈미2로 40, 1동 401호(내손동, 캠퍼스프라자)",
+      "phone": "031-421-0245",
+      "near": true,
+      "count": 1,
+      "total": 824814140,
+      "projects": [
+        "녹향원 증축 공사 입찰 안내 공고"
+      ]
+    },
+    {
+      "name": "주식회사 파르이앤씨",
+      "ceo": "김종훈",
+      "address": "서울특별시 영등포구 가마산로 333 유현빌딩2층",
+      "phone": "02-849-8204",
+      "near": true,
+      "count": 1,
+      "total": 811199008,
+      "projects": [
+        "2026년 임대아파트 자동확산소화기 및 단독경보형감지기 설치공사(6권역)"
+      ]
+    },
+    {
+      "name": "주식회사 선명",
+      "ceo": "이성범",
+      "address": "서울특별시 구로구 신도림로15길 37 (신도림동) 에스엠빌딩 3층",
+      "phone": "02-488-1010",
+      "near": true,
+      "count": 1,
+      "total": 800717900,
+      "projects": [
+        "어린이병원 발달센터 공간 재구성 공사(건축)"
+      ]
+    },
+    {
+      "name": "주식회사 윤명종합건설",
+      "ceo": "윤재인",
+      "address": "경기도 평택시 안중읍 서해로 1418, B동 205호,206호",
+      "phone": "031-683-1967",
+      "near": true,
+      "count": 1,
+      "total": 774894000,
+      "projects": [
+        "[긴급]동성중 체육관(펜싱장) 전면보수공사"
+      ]
+    },
+    {
+      "name": "(주)두잉이앤엠",
+      "ceo": "이혜리",
+      "address": "경기도 성남시 분당구 판교역로 231, 에스동 712호(삼평동, 에이치스퀘어)",
+      "phone": "070-7123-3659",
+      "near": true,
+      "count": 1,
+      "total": 725608380,
+      "projects": [
+        "신성고등학교 고교사 내진보강공사"
       ]
     }
   ]
