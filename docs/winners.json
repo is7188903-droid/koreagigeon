@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-11-06T05:45+09:00",
-  "status": "최근 45일 낙찰 12483건 중 건축공사 427건",
+  "updated_at": "2026-11-06T10:43+09:00",
+  "status": "최근 45일 낙찰 12902건 중 건축공사 434건",
   "diagnostics": {
-    "scanned": 12483,
-    "matched": 427,
+    "scanned": 12902,
+    "matched": 434,
     "error": "",
     "endpoint": "https://apis.data.go.kr/1230000/as/ScsbidInfoService/getScsbidListSttusCnstwk",
     "fields": "bidNtceNo,bidNtceOrd,bidClsfcNo,rbidNo,ntceDivCd,bidNtceNm,prtcptCnum,bidwinnrNm,bidwinnrBizno,bidwinnrCeoNm,bidwinnrAdrs,bidwinnrTelNo,sucsfbidAmt,sucsfbidRate,rlOpengDt,dminsttCd,dminsttNm,rgstDt,fnlSucsfDate,fnlSucsfCorpOfcl"
@@ -697,6 +697,19 @@
       "bizno": "1228601680",
       "near": true,
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01751824"
+    },
+    {
+      "title": "서울월드컵경기장 회원실 시설개선공사",
+      "agency": "서울시설공단",
+      "amount": 1189342230,
+      "date": "2026-10-07",
+      "winner": "서원건설(주)",
+      "ceo": "홍애라",
+      "address": "충청남도 서산시 남원3길 4-0 (석남동) 2층",
+      "phone": "041-663-9981",
+      "bizno": "3108111397",
+      "near": true,
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01732834"
     },
     {
       "title": "금고동위생매립장 침출수처리시설 개선공사",
@@ -1921,6 +1934,19 @@
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01734802"
     },
     {
+      "title": "인명여고 드라이비트 개선공사 소액수의 견적제출 안내 공고",
+      "agency": "인천광역시교육청 인명여자고등학교",
+      "amount": 365402000,
+      "date": "2026-11-05",
+      "winner": "주식회사국일공영",
+      "ceo": "이무년",
+      "address": "인천광역시 남동구 하촌로 34-0 (만수동) 청송빌딩 301호",
+      "phone": "032-468-6507",
+      "bizno": "1398103677",
+      "near": true,
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01797526"
+    },
+    {
       "title": "2026 이천선수촌 (구)생활관 리모델링 공사",
       "agency": "대한장애인체육회",
       "amount": 359669972,
@@ -1932,32 +1958,6 @@
       "bizno": "1298610725",
       "near": true,
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01684618"
-    },
-    {
-      "title": "이동초 화장실 환경개선공사",
-      "agency": "경기도교육청 경기도포천교육지원청",
-      "amount": 357747355,
-      "date": "2026-11-03",
-      "winner": "주식회사 가나종합건설",
-      "ceo": "박성훈",
-      "address": "경기도 연천군 군남면 청정로 2286-15",
-      "phone": "031-832-2949",
-      "bizno": "2228602413",
-      "near": true,
-      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01790953"
-    },
-    {
-      "title": "봉림중학교 교사동 옥상방수공사",
-      "agency": "서울특별시교육청 서울특별시동작관악교육지원청",
-      "amount": 350987000,
-      "date": "2026-10-15",
-      "winner": "그린리뉴얼 주식회사",
-      "ceo": "배혜경",
-      "address": "서울특별시 광진구 천호대로110길 34, 2층",
-      "phone": "02-446-6666",
-      "bizno": "5068177291",
-      "near": true,
-      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01762345"
     }
   ],
   "companies": [
@@ -2611,6 +2611,18 @@
       ]
     },
     {
+      "name": "서원건설(주)",
+      "ceo": "홍애라",
+      "address": "충청남도 서산시 남원3길 4-0 (석남동) 2층",
+      "phone": "041-663-9981",
+      "near": true,
+      "count": 1,
+      "total": 1189342230,
+      "projects": [
+        "서울월드컵경기장 회원실 시설개선공사"
+      ]
+    },
+    {
       "name": "신평산업 주식회사",
       "ceo": "이재열",
       "address": "충청남도 당진시 무수동1길 25-22, 4층 (읍내동,흥환빌딩)",
@@ -2909,18 +2921,6 @@
       "total": 824814140,
       "projects": [
         "녹향원 증축 공사 입찰 안내 공고"
-      ]
-    },
-    {
-      "name": "서림건영 주식회사",
-      "ceo": "석경애",
-      "address": "충청남도 서산시 남원1길 78-0 (석남동)",
-      "phone": "***********",
-      "near": true,
-      "count": 1,
-      "total": 814764070,
-      "projects": [
-        "예산학생수영장 지붕교체공사"
       ]
     }
   ]
