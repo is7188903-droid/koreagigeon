@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-11-06T10:43+09:00",
-  "status": "최근 45일 낙찰 12902건 중 건축공사 434건",
+  "updated_at": "2026-11-06T18:32+09:00",
+  "status": "최근 45일 낙찰 14518건 중 건축공사 440건",
   "diagnostics": {
-    "scanned": 12902,
-    "matched": 434,
+    "scanned": 14518,
+    "matched": 440,
     "error": "",
     "endpoint": "https://apis.data.go.kr/1230000/as/ScsbidInfoService/getScsbidListSttusCnstwk",
     "fields": "bidNtceNo,bidNtceOrd,bidClsfcNo,rbidNo,ntceDivCd,bidNtceNm,prtcptCnum,bidwinnrNm,bidwinnrBizno,bidwinnrCeoNm,bidwinnrAdrs,bidwinnrTelNo,sucsfbidAmt,sucsfbidRate,rlOpengDt,dminsttCd,dminsttNm,rgstDt,fnlSucsfDate,fnlSucsfCorpOfcl"
@@ -307,6 +307,19 @@
       "bizno": "2268130070",
       "near": true,
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01750390"
+    },
+    {
+      "title": "긴급]한국삼육중·고 체육관, 급식실 및 특별교실 증축공사[건축, 토목, 설비]",
+      "agency": "서울특별시교육청 한국삼육고등학교",
+      "amount": 5502320000,
+      "date": "2026-10-08",
+      "winner": "주식회사 서도건설",
+      "ceo": "전기홍",
+      "address": "서울특별시 성동구 뚝섬로17가길 48, 제6층 제607호(성수동2가,성수에이원센터)",
+      "phone": "02-596-8838",
+      "bizno": "6108620281",
+      "near": true,
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01742861"
     },
     {
       "title": "대모초 체육관 및 급식실 증축공사(장기계속)",
@@ -892,6 +905,19 @@
       "bizno": "1188100391",
       "near": true,
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01755120"
+    },
+    {
+      "title": "하성고 기숙사 및 체육관 화장실 개선공사",
+      "agency": "경기도교육청 경기도김포교육지원청",
+      "amount": 972414050,
+      "date": "2026-10-28",
+      "winner": "주식회사 틴 건축인테리어",
+      "ceo": "오주석",
+      "address": "경기도 평택시 경기대로 1048-34 (장당동), 2층",
+      "phone": "031-618-0008",
+      "bizno": "1258184706",
+      "near": true,
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01782292"
     },
     {
       "title": "강남역(1구역) 일대 배수개선공사(우선시공분, 교대역 주변)",
@@ -1661,6 +1687,19 @@
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01724134"
     },
     {
+      "title": "서울장충초 본관동 우측 화장실 개선공사",
+      "agency": "서울특별시교육청 서울특별시중부교육지원청",
+      "amount": 434122000,
+      "date": "2026-10-29",
+      "winner": "(주)쓰리에스엔지니어링",
+      "ceo": "정현진",
+      "address": "서울특별시 성동구 아차산로 110-0 (성수동2가) 성광빌딩 201호",
+      "phone": "02-501-7213",
+      "bizno": "1208630457",
+      "near": true,
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01783842"
+    },
+    {
       "title": "규암면 반산2리 경로당 신축사업 건축공사(계약대행)",
       "agency": "충청남도 부여군",
       "amount": 427187000,
@@ -1919,45 +1958,6 @@
       "bizno": "6948601598",
       "near": true,
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01765558"
-    },
-    {
-      "title": "안산원곡초 테니스장 현대화 및 복합코트 조성공사",
-      "agency": "경기도교육청 경기도안산교육지원청 안산원곡초등학교",
-      "amount": 367183593,
-      "date": "2026-09-30",
-      "winner": "(주)한주종합건설",
-      "ceo": "성열호",
-      "address": "경기도 화성시 동탄신리천로 270 (오산동) 503호",
-      "phone": "031-373-5886",
-      "bizno": "1248617043",
-      "near": true,
-      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01734802"
-    },
-    {
-      "title": "인명여고 드라이비트 개선공사 소액수의 견적제출 안내 공고",
-      "agency": "인천광역시교육청 인명여자고등학교",
-      "amount": 365402000,
-      "date": "2026-11-05",
-      "winner": "주식회사국일공영",
-      "ceo": "이무년",
-      "address": "인천광역시 남동구 하촌로 34-0 (만수동) 청송빌딩 301호",
-      "phone": "032-468-6507",
-      "bizno": "1398103677",
-      "near": true,
-      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01797526"
-    },
-    {
-      "title": "2026 이천선수촌 (구)생활관 리모델링 공사",
-      "agency": "대한장애인체육회",
-      "amount": 359669972,
-      "date": "2026-09-11",
-      "winner": "(주)주원공영",
-      "ceo": "이명엽",
-      "address": "경기도 성남시 중원구 산성대로 344-1 (중앙동) 주원빌딩 3층",
-      "phone": "031-734-6435",
-      "bizno": "1298610725",
-      "near": true,
-      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01684618"
     }
   ],
   "companies": [
@@ -2235,6 +2235,18 @@
       "total": 5806488000,
       "projects": [
         "미륵사정보센터 건립 건축공사"
+      ]
+    },
+    {
+      "name": "주식회사 서도건설",
+      "ceo": "전기홍",
+      "address": "서울특별시 성동구 뚝섬로17가길 48, 제6층 제607호(성수동2가,성수에이원센터)",
+      "phone": "02-596-8838",
+      "near": true,
+      "count": 1,
+      "total": 5502320000,
+      "projects": [
+        "긴급]한국삼육중·고 체육관, 급식실 및 특별교실 증축공사[건축, 토목, 설비]"
       ]
     },
     {
@@ -2587,6 +2599,19 @@
       ]
     },
     {
+      "name": "주식회사 틴 건축인테리어",
+      "ceo": "오주석",
+      "address": "경기도 평택시 경기대로 1048-34 (장당동), 2층",
+      "phone": "031-618-0008",
+      "near": true,
+      "count": 2,
+      "total": 1322714050,
+      "projects": [
+        "하성고 기숙사 및 체육관 화장실 개선공사",
+        "중동 260번지 근린생활시설(60평) 신축공사"
+      ]
+    },
+    {
       "name": "효정종합건설(주)",
       "ceo": "이형규",
       "address": "경기도 화성시 효행로1039번길 23 (진안동) 201호",
@@ -2897,30 +2922,6 @@
       "total": 858292690,
       "projects": [
         "2026년 임대아파트 자동확산소화기 및 단독경보형감지기 설치공사(3권역)"
-      ]
-    },
-    {
-      "name": "주식회사 더플랜건설",
-      "ceo": "이기영",
-      "address": "서울특별시 강남구 논현로10길 16, 영재빌딩 5층 (개포동)",
-      "phone": "02-6032-3000",
-      "near": true,
-      "count": 1,
-      "total": 834750854,
-      "projects": [
-        "학생체육관 강서분관 수영장 부속시설 보수 및 기타 공사"
-      ]
-    },
-    {
-      "name": "금은종합건설 주식회사",
-      "ceo": "문경민",
-      "address": "경기도 의왕시 갈미2로 40, 1동 401호(내손동, 캠퍼스프라자)",
-      "phone": "031-421-0245",
-      "near": true,
-      "count": 1,
-      "total": 824814140,
-      "projects": [
-        "녹향원 증축 공사 입찰 안내 공고"
       ]
     }
   ]
