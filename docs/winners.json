@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-11-08T16:24+09:00",
-  "status": "최근 45일 낙찰 12259건 중 건축공사 409건",
+  "updated_at": "2026-11-09T00:15+09:00",
+  "status": "최근 45일 낙찰 12212건 중 건축공사 412건",
   "diagnostics": {
-    "scanned": 12259,
-    "matched": 409,
+    "scanned": 12212,
+    "matched": 412,
     "error": "",
     "endpoint": "https://apis.data.go.kr/1230000/as/ScsbidInfoService/getScsbidListSttusCnstwk",
     "fields": "bidNtceNo,bidNtceOrd,bidClsfcNo,rbidNo,ntceDivCd,bidNtceNm,prtcptCnum,bidwinnrNm,bidwinnrBizno,bidwinnrCeoNm,bidwinnrAdrs,bidwinnrTelNo,sucsfbidAmt,sucsfbidRate,rlOpengDt,dminsttCd,dminsttNm,rgstDt,fnlSucsfDate,fnlSucsfCorpOfcl"
@@ -1076,6 +1076,19 @@
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01711138"
     },
     {
+      "title": "신길종합사회복지관 수영장 환경개선 공사(건축+기계)",
+      "agency": "서울특별시 영등포구",
+      "amount": 679905900,
+      "date": "2026-09-18",
+      "winner": "(주)이순종합건설",
+      "ceo": "차재윤",
+      "address": "서울특별시 성북구 동소문로32길 7-3 (동선동3가, 위더스빌) 201호",
+      "phone": "02-2607-7797",
+      "bizno": "1348613141",
+      "near": true,
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01723361"
+    },
+    {
       "title": "탄천센터 슬러지건조시설 취수펌프 신설 공사",
       "agency": "서울물재생시설공단",
       "amount": 678024640,
@@ -1945,19 +1958,6 @@
       "bizno": "2018164076",
       "near": true,
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01788956"
-    },
-    {
-      "title": "구내식당 환기설비 개선공사",
-      "agency": "서울특별시 노원구",
-      "amount": 345195000,
-      "date": "2026-10-08",
-      "winner": "성원종합설비(주)",
-      "ceo": "이창수",
-      "address": "서울특별시 서초구 서운로 19, 서초월드오피스텔 612호 (서초동)",
-      "phone": "02-6289-5001",
-      "bizno": "2148773118",
-      "near": true,
-      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01751294"
     }
   ],
   "companies": [

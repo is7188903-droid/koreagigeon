@@ -1,14 +1,7 @@
 {
-  "updated_at": "2026-11-08T16:24+09:00",
+  "updated_at": "2026-11-09T00:15+09:00",
   "status": "정상",
   "items": [
-    {
-      "title": "용인 드림창, 입주·전원주택 전문 전시장 ‘숍인숍’ 공동 입주 파트너 모집 - 경기남부저널",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9VcWhTcHpDRk1NVTJST1NDcThNYWJiMWlNMndUQjh5UWhVZlNHTU96Z1c4OHpZVDJaem5iWV8tUms4ZVpwWmJCMjdQUFpCZW83ZUE3UTBybnNrd3dYSER3XzRNRExFSlZT0gFrQVVfeXFMTVlIRmtoVEhpem5UTHJyekdBRVd0Tmt2NDBGZU9mVkYxWDZBaWgybndfZGN3YXJlT1FSSGJId1R2OGsyeXlSMzltWjZNNHdvTkwwM09WSGlkOE94c0RTT0M0aHMtUlNLRHRsQ3c?oc=5",
-      "date": "2026-11-05T21:31+09:00",
-      "press": "경기남부저널",
-      "topic": "건설 협력업체 모집"
-    },
     {
       "title": "서울교육 예산 11조8014억...현장 요구 9657억 못 담았다 - 이로운넷",
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1kY2tBOVBoeFNOLXRKazJGaVh1QlF3SFQ4N0tDcVU1QTh4MWhEMXlzV2JKVzZGanM5dW8zYl80elROcUREbEtRVzJkUzRoR0Y4bEdqMnY5LWd2U3BxT1FQbU5mdExnQQ?oc=5",
@@ -80,6 +73,13 @@
       "topic": "전문건설 입찰 제도"
     },
     {
+      "title": "[중도초대석] 윤태연 전문건설협회 대전광역시회장 \"협회는 회원사를 위해 존재… 실질적 성과로 보답\" - 중도일보",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5ZMzhsSTVHS1VSQTJZc0VMeTdGbHhZREp5S3FHSXlCeGFBV01UODJUa3ZMMGt2QlkyeWxXOGZnNklNQzhNMUN6b0F2cm1kSkF0d0RDRklNbWZrZUNKc1dDZ2hObks?oc=5",
+      "date": "2026-11-02T16:35+09:00",
+      "press": "중도일보",
+      "topic": "전문건설 입찰 제도"
+    },
+    {
       "title": "건축 한파에 휘청이는 창호공사업계 - 월간 WINDOOR",
       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5MbFlSRUNacU90SHZoUUVxMlJ3RFM3Qk94cFUwdzlSNTFWTGFNWXRoX1FudmlpX2tvcThZOFFjOUxqWnk5X01HX0hXV01la0h5czFJNk9ha2trYllZRjQ0LTk0MFBjUHFvMDBN?oc=5",
       "date": "2026-11-02T11:13+09:00",
@@ -136,17 +136,24 @@
       "topic": "전문건설 입찰 제도"
     },
     {
-      "title": "원전 ‘팀코리아’ 균열…‘체코 두코바니 원전’ 시공계약 협상 결렬 - 부산일보",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9NNm1ZaGJwUktOU3FoRmZFTkR0bzVEU1RLanR3OEVFNDdpOHNveDhSZlFTcm9CclpHU0VMbFdwM25Zc3I4X2I0UGR3UlpCeU1WcXhUT21vUHV0SVdTX1lPUlJjcFdrUWRSQWlOdFZ0aW56SDRaQnY5a0tfUlI?oc=5",
-      "date": "2026-10-29T11:46+09:00",
+      "title": "조현준 “악착같고 치밀하게, 신뢰받는 효성으로”…창립 60주년 - 부산일보",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1XRHdFZW5sbksydms1UFZLWWtLak5teG1WMDhENFNBOXh5NkgyZ0hkWWtDWTNiTjI1M1NjRlR3T3lxWHIxbGstQm9rYkstRExCZFVfT2czb1dkX296MHdFMS1UVEdyaVVyUHdIZGtpTkZjNEl4MWdwNGZrZGM?oc=5",
+      "date": "2026-10-29T14:56+09:00",
       "press": "부산일보",
       "topic": "건설 협력업체 모집"
     },
     {
-      "title": "[인사] 국무조정실·국무총리비서실 - 대한전문건설신문",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBmVDdkQjRob0lBMTZibVAtaWE1Wm5zdWR3c0RGVHJjTEdfRjQ1dUF6dTBveExIV1oyM3BVV0ZZOGpOeWgzSVkzeWRVc2JYQTBTWXBjeFVrV3NpWENSa19jRVZoeXZQY21K0gFsQVVfeXFMT2ZaZ0JCcUJNRkFMRVZBM0dYN3JJMWNZNEtCQnFDS05IcU9PbkdIbFVmbmk4ZlRoMm9GWXY3WTVNUjR6QW9kcEdhakxfVzdaVV9MTzJERW5xUUoxaWZpTzg1Y2tXNHVvNnp1QVhh?oc=5",
-      "date": "2026-10-28T16:00+09:00",
+      "title": "전북도회, 전주시와 대형건설사 본사 합동 방문···하도급률 제고 건의 - 대한전문건설신문",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9ydnRRRXZSU2ltSXI3QVhqYXRXcC0tc0JZTFhsVTVlX1Q2bDdwWklXdXYzUnAtcjVXOFk2VUJRRHZpdUdDeEwzZVRIZDVyS2xfUkpDQzBuTUZQYnFleXZLS3c3SE5CTC020gFsQVVfeXFMTWlQZ29NcXNYWk5CbEVaMElQVlA0bDhCejRQOTlLVWE4eEJ5di1UNk5FSDlXMDFIb0JIUzd2Y0hkdUlRa2FPOXBqb3JiSkFzbm9Xa2c3UVd1Z0doeXhVSy1fdnoxUUZ0cEtzR3Ew?oc=5",
+      "date": "2026-10-28T14:57+09:00",
       "press": "대한전문건설신문",
+      "topic": "전문건설 입찰 제도"
+    },
+    {
+      "title": "전문건설협회·건설근로자공제회, 건설현장 인력난 해소 ‘맞손’ - 국토일보",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBkUUJ5ak9MZkxFWHpOVGJVQWtSQ29FdjhNWWQwdTFVTmp4MFZNazZOQy04QVhHa3V5Y3BqV01fakl1RjN5RmZxUEpaeVdLSFRTMEdBb0dkbzdJaGQzTEtoSjdYWQ?oc=5",
+      "date": "2026-10-28T14:51+09:00",
+      "press": "국토일보",
       "topic": "전문건설 입찰 제도"
     },
     {
@@ -178,25 +185,18 @@
       "topic": "건설 협력업체 모집"
     },
     {
+      "title": "[교육·도시정비] 현직 전문가에게 배우고 업계 네트워크까지 - 건국대 도시정비 14기 모집 - 한국도시환경헤럴드",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBnTEVSNDRNSXRVWENaaUZvVTMxNk1jSW55RXdGeHROVnBTN01zMGYzZ3E4Q3dOV2N3ZV9XYlg5dk00T3V6dHRJWlhnT2dlWkViV0h6cUtDbWs5ZWFmVjVsdGlYcTh2TXRTY1JCSdIBcEFVX3lxTFB3LXdrZkJfTmxkMWZDdkExR1JSbEZ1QkVLZWpWTV9qbVZYLVlsczlUYzN6bUg2RHBRNEo2N1BQMi1FbVVwZWRuVE9aVTUwcUxrSm9icEsySDZkZFBMSGVSUFF5akdiX1lCaHJrQnE0dUQ?oc=5",
+      "date": "2026-10-26T16:00+09:00",
+      "press": "한국도시환경헤럴드",
+      "topic": "건설 협력업체 모집"
+    },
+    {
       "title": "서명한 감액은 모두 동의한 것인가 - 문화매일신문",
       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFA0YmlRNXRzNXM4clZlZnJJbEF4NDZDV09kalIzNmEtVnlmQ0pWYmhGRnRpQVNsbHZ0NUFXbFFHdzBkTHhwM212dEc1VjZORFVlTFc3R1lTNA?oc=5",
       "date": "2026-10-26T13:18+09:00",
       "press": "문화매일신문",
       "topic": "건설 협력업체 모집"
-    },
-    {
-      "title": "서초구, 전문건설업체 실무 역량 강화 나선다…29일 직무교육 실시 - 문화일보",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE4wNWxGRnE2ZHRiZmxrajZSOUZySUQyWWdsUWJIY21salFzS28yT2h4SEhDUVR0V2dlYldXRTBqdl9LZlc2bV8zMUNjQi1MejBv?oc=5",
-      "date": "2026-10-25T16:00+09:00",
-      "press": "문화일보",
-      "topic": "전문건설 입찰 제도"
-    },
-    {
-      "title": "서초구, 29일 전문건설업 종사자 직무교육… 실무 역량 강화 - 핀포인트뉴스",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB2cmVYOUlwQ1ZGQTFSSUNBRExPWHpPdFQ3S3Q4YUZLblZzSnVrU3Exa2tSVmY3Nlh6RTVXbjRxTnpoa3BnOVN1eTJGWXFtWnNxaWVKRzRQNmhOYkxaLU5tOHpUQmVwT0V2czRsbmRoaU9QTlHSAXdBVV95cUxOUnhjc1dLQ01kamJpQlZBVE1rdTgySzBCZ0hFLTY0cGRZOHFjTjgyRmhOTmNTbU5jb0hudHVWMVFmc3dld2tydmY3R2V4LVlja0ZuYXBwZ3BtYTQxNmJSdVFWY3FWeTFBMDRaS3BQOTBnenp0OE5sUQ?oc=5",
-      "date": "2026-10-25T16:00+09:00",
-      "press": "핀포인트뉴스",
-      "topic": "전문건설 입찰 제도"
     }
   ]
 }
