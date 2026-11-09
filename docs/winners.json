@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-11-09T15:35+09:00",
-  "status": "최근 45일 낙찰 13667건 중 건축공사 424건",
+  "updated_at": "2026-11-10T02:35+09:00",
+  "status": "최근 45일 낙찰 12624건 중 건축공사 428건",
   "diagnostics": {
-    "scanned": 13667,
-    "matched": 424,
-    "error": "ScsbidInfoService: URLError <urlopen error _ssl.c:994: The handshake operation timed out>",
+    "scanned": 12624,
+    "matched": 428,
+    "error": "",
     "endpoint": "https://apis.data.go.kr/1230000/as/ScsbidInfoService/getScsbidListSttusCnstwk",
     "fields": "bidNtceNo,bidNtceOrd,bidClsfcNo,rbidNo,ntceDivCd,bidNtceNm,prtcptCnum,bidwinnrNm,bidwinnrBizno,bidwinnrCeoNm,bidwinnrAdrs,bidwinnrTelNo,sucsfbidAmt,sucsfbidRate,rlOpengDt,dminsttCd,dminsttNm,rgstDt,fnlSucsfDate,fnlSucsfCorpOfcl"
   },
@@ -1063,6 +1063,19 @@
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01771941"
     },
     {
+      "title": "이작2리 경로당 신축공사",
+      "agency": "인천광역시 옹진군",
+      "amount": 729544640,
+      "date": "2026-09-15",
+      "winner": "케이디종합건설 주식회사",
+      "ceo": "박주정",
+      "address": "인천광역시 제물포구 신포로 4 (사동, 4층)",
+      "phone": "032-760-6571",
+      "bizno": "1218136352",
+      "near": true,
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01722050"
+    },
+    {
       "title": "신성고등학교 고교사 내진보강공사",
       "agency": "경기도교육청 신성고등학교",
       "amount": 725608380,
@@ -1425,6 +1438,19 @@
       "bizno": "2538801071",
       "near": true,
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01737495"
+    },
+    {
+      "title": "서남센터 테니스장 개선사업(본공사)",
+      "agency": "서울물재생시설공단",
+      "amount": 527353000,
+      "date": "2026-11-03",
+      "winner": "주식회사 쌍합특수양회공사",
+      "ceo": "안석태",
+      "address": "서울특별시 송파구 오금로36길 21 (가락동) 3층 302호",
+      "phone": "02-448-5018",
+      "bizno": "2028142172",
+      "near": true,
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01794596"
     },
     {
       "title": "2026년 국립중앙청소년디딤센터 외벽 보수 (사이딩 목재 교체 등) 공사",
@@ -1932,32 +1958,6 @@
       "bizno": "6948601598",
       "near": true,
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01765558"
-    },
-    {
-      "title": "안산원곡초 테니스장 현대화 및 복합코트 조성공사",
-      "agency": "경기도교육청 경기도안산교육지원청 안산원곡초등학교",
-      "amount": 367183593,
-      "date": "2026-09-30",
-      "winner": "(주)한주종합건설",
-      "ceo": "성열호",
-      "address": "경기도 화성시 동탄신리천로 270 (오산동) 503호",
-      "phone": "031-373-5886",
-      "bizno": "1248617043",
-      "near": true,
-      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01734802"
-    },
-    {
-      "title": "인명여고 드라이비트 개선공사 소액수의 견적제출 안내 공고",
-      "agency": "인천광역시교육청 인명여자고등학교",
-      "amount": 365402000,
-      "date": "2026-11-05",
-      "winner": "주식회사국일공영",
-      "ceo": "이무년",
-      "address": "인천광역시 남동구 하촌로 34-0 (만수동) 청송빌딩 301호",
-      "phone": "032-468-6507",
-      "bizno": "1398103677",
-      "near": true,
-      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01797526"
     }
   ],
   "companies": [
