@@ -1,7 +1,14 @@
 {
-  "updated_at": "2026-11-10T02:35+09:00",
+  "updated_at": "2026-11-10T10:37+09:00",
   "status": "정상",
   "items": [
+    {
+      "title": "전주 건설기업 정웅테크원, 주거취약계층 집수리에 300만원 후원 - 더펜뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBSV25zUjRDZ0JJUXZub1lSNTBnamw0Z2h6Yy1ZOXE3YzdXTHlJWVJ6bEo0aFBMajZSR3czMHBXeC1FdkRxeTBBb1JDYjctbkZzVHE2Rm9WaFo5dXN6Nmlwc2F2OA?oc=5",
+      "date": "2026-11-10T09:02+09:00",
+      "press": "더펜뉴스",
+      "topic": "금속창호 공사"
+    },
     {
       "title": "[지역업체 “일감은 줄고 비용은 뛰고”⋯강원 중소업체 공공조달 수주난에 ‘한숨’ - 강원일보",
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBPN3ZVMk5yTlREVlU2RFVzTm1JM2JSTXVOXzZDRzduZnNyUG0wcU5HVmFuSGE0b0pCWjhHZl95c1VFeWluME40T185V2tFZXFyTGx5TmZVNWxGWFU?oc=5",
@@ -38,6 +45,13 @@
       "topic": "건설 협력업체 모집"
     },
     {
+      "title": "‘사실조사 포비아’ 지방계약 공사도 입찰보증금 몰수 - 대한경제",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBWZW5STHY5X3hKZ1lxM3hCUzhkQ01aRmJQbHlhNndTRFdqUHJfckY4YWl6RjRlRTVfMjVPOVhFam5YM3RQRHU5THRGRVk1aU1IenpTYTlsZ1E0ZFhYMHZKYjQ4bTdHRXdaN3BXczRWaFpMck0?oc=5",
+      "date": "2026-11-09T13:30+09:00",
+      "press": "대한경제",
+      "topic": "전문건설 입찰 제도"
+    },
+    {
       "title": "조달청, 부적격 건설업체 입찰보증금 몰수 지방공사까지 확대 - 어반톡",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1CVnQ0eVlsemgtTjJNNG9xc3BnN1VMTmVWQU9ZTnNQZjdRdWlTSjRBUE9zOWVJVm5SSnRtSUxESks2ek1wckpVbEFVSElzR0hpMjIxb3Jn?oc=5",
       "date": "2026-11-09T11:46+09:00",
@@ -49,13 +63,6 @@
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE90MS1UdlFMQVpYSDVERFVLLTBmMEM1VFZxNVlxU1MtaXVGQ1FmWDhmVzBLSFNCTk4xNU9WaDZBaWxsMGpvZXRka1FySmNLb0Zia0p3NnhoMEdxZHRnZmhfQl8xMTdSZ2FIajZSQdIBbEFVX3lxTE90MS1UdlFMQVpYSDVERFVLLTBmMEM1VFZxNVlxU1MtaXVGQ1FmWDhmVzBLSFNCTk4xNU9WaDZBaWxsMGpvZXRka1FySmNLb0Zia0p3NnhoMEdxZHRnZmhfQl8xMTdSZ2FIajZSQQ?oc=5",
       "date": "2026-11-09T11:01+09:00",
       "press": "정보통신신문",
-      "topic": "전문건설 입찰 제도"
-    },
-    {
-      "title": "대한승강기협회, 유지관리 입찰제도 개편 대응…업계 공동행동 모색 - 건설이코노미뉴스",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5PMWlFZkxxcjFVV0tvNHNHYW15c3Y4RmJiZDJFazRxSUstRGxBZk8xOEVsYUJlUmRlc2QxZEk1VkJNY25FOE9fX3FlenBUZzRPNGtDRUgxOVV3bUpsTDdJZmdna28yZw?oc=5",
-      "date": "2026-11-09T10:50+09:00",
-      "press": "건설이코노미뉴스",
       "topic": "전문건설 입찰 제도"
     },
     {
@@ -204,13 +211,6 @@
       "date": "2026-10-28T09:32+09:00",
       "press": "조세일보",
       "topic": "금속창호 공사"
-    },
-    {
-      "title": "오래된 PC부터 시설 개선까지… 조명자 경기도의원, 학교 현장 집중 점검 - 경기신문",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9VS1RVb2s4TDN3SXpjU0JhVVVqd004ZXFSbDZSOHNoMGxjeWRWcThYZWd3V0pFY0drWkQ1UUhjZnVqcGExU1VNZml5LV9MZG0xalRGT0NPT3pBeVV5aTJlLWNB?oc=5",
-      "date": "2026-10-27T16:00+09:00",
-      "press": "경기신문",
-      "topic": "학교 시설 창호 교체"
     }
   ]
 }
