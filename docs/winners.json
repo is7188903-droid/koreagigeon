@@ -1,11 +1,10 @@
 {
-  "updated_at": "2026-11-11T08:21+09:00",
+  "updated_at": "2026-11-11T15:19+09:00",
   "status": "낙찰정보 수집 실패 · 공공데이터포털에서 낙찰정보서비스 활용신청 필요할 수 있음",
   "diagnostics": {
     "scanned": 0,
     "matched": 0,
-    "error": "ScsbidInfoService: URLError <urlopen error _ssl.c:994: The handshake operation timed out>",
-    "endpoint": "https://apis.data.go.kr/1230000/as/ScsbidInfoService/getScsbidListSttusCnstwk"
+    "error": "ScsbidInfoService: HTTPError HTTP Error 400: Bad Request"
   },
   "projects": [],
   "companies": []
