@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-11-12T11:59+09:00",
-  "status": "최근 45일 낙찰 1244건 중 건축공사 56건",
+  "updated_at": "2026-11-12T20:08+09:00",
+  "status": "최근 45일 낙찰 1490건 중 건축공사 59건",
   "diagnostics": {
-    "scanned": 1244,
-    "matched": 56,
+    "scanned": 1490,
+    "matched": 59,
     "error": "",
     "endpoint": "https://apis.data.go.kr/1230000/as/ScsbidInfoService/getScsbidListSttusCnstwk",
     "fields": "bidNtceNo,bidNtceOrd,bidClsfcNo,rbidNo,ntceDivCd,bidNtceNm,prtcptCnum,bidwinnrNm,bidwinnrBizno,bidwinnrCeoNm,bidwinnrAdrs,bidwinnrTelNo,sucsfbidAmt,sucsfbidRate,rlOpengDt,dminsttCd,dminsttNm,rgstDt,fnlSucsfDate,fnlSucsfCorpOfcl"
@@ -99,6 +99,19 @@
       "bizno": "3018135454",
       "near": true,
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01686574"
+    },
+    {
+      "title": "강화갯벌센터 리모델링 건축공사(전체분,1차분)",
+      "agency": "인천광역시 강화군",
+      "amount": 2413425500,
+      "date": "2026-05-04",
+      "winner": "주식회사 이석종합건설",
+      "ceo": "이종석",
+      "address": "인천광역시 부평구 주부토로249번길 17, 상가 208호 (갈산동, 부평지웰에스테이트)",
+      "phone": "032-262-7772",
+      "bizno": "7658600168",
+      "near": true,
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01467968"
     },
     {
       "title": "강남역(1구역) 일대 배수개선공사(우선시공분, 남부터미널역 주변)",
@@ -268,6 +281,19 @@
       "bizno": "6948702764",
       "near": true,
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01715422"
+    },
+    {
+      "title": "상품초 외벽개선공사",
+      "agency": "경기도교육청 경기도여주교육지원청 상품초등학교",
+      "amount": 332855190,
+      "date": "2026-09-30",
+      "winner": "주식회사 아민종합건설",
+      "ceo": "표기선",
+      "address": "경기도 양평군 양평읍 양근로 169, 4층 401호",
+      "phone": "031-775-6046",
+      "bizno": "8208802749",
+      "near": true,
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01740696"
     },
     {
       "title": "양천자원회수시설 가스계 소화설비 개선공사",
@@ -634,6 +660,19 @@
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01731099"
     },
     {
+      "title": "국립세종도서관 장애인 편의시설 등 개선공사",
+      "agency": "문화체육관광부 국립중앙도서관 국립세종도서관",
+      "amount": 470607580,
+      "date": "2026-09-23",
+      "winner": "주식회사 다온종합건설",
+      "ceo": "김영철",
+      "address": "세종특별자치시  한누리대로 2129, 비동 307-2호(보람동)",
+      "phone": "044-868-6087",
+      "bizno": "7908802910",
+      "near": false,
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01712574"
+    },
+    {
       "title": "품질관리평가과 이전 리모델링 공사(식량원)[건축, 기계]",
       "agency": "농촌진흥청 국립식량과학원",
       "amount": 419408000,
@@ -641,7 +680,7 @@
       "winner": "유한회사행중개발",
       "ceo": "이기홍",
       "address": "전북특별자치도 정읍시 마곡안길 12-14 (수성동)",
-      "phone": "063-643-4850",
+      "phone": "***********",
       "bizno": "4048128970",
       "near": false,
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01728979"
@@ -824,6 +863,18 @@
       ]
     },
     {
+      "name": "주식회사 이석종합건설",
+      "ceo": "이종석",
+      "address": "인천광역시 부평구 주부토로249번길 17, 상가 208호 (갈산동, 부평지웰에스테이트)",
+      "phone": "032-262-7772",
+      "near": true,
+      "count": 1,
+      "total": 2413425500,
+      "projects": [
+        "강화갯벌센터 리모델링 건축공사(전체분,1차분)"
+      ]
+    },
+    {
       "name": "주식회사 윈피앤에스",
       "ceo": "정찬호",
       "address": "서울특별시 성동구 아차산로15길 19,1층 (성수동2가,우리다블유타워)",
@@ -977,6 +1028,18 @@
       "total": 381120210,
       "projects": [
         "보훈재활체육센터 사이클 실내 훈련장 증축 공사(건축기계)"
+      ]
+    },
+    {
+      "name": "주식회사 아민종합건설",
+      "ceo": "표기선",
+      "address": "경기도 양평군 양평읍 양근로 169, 4층 401호",
+      "phone": "031-775-6046",
+      "near": true,
+      "count": 1,
+      "total": 332855190,
+      "projects": [
+        "상품초 외벽개선공사"
       ]
     },
     {
@@ -1316,10 +1379,22 @@
       ]
     },
     {
+      "name": "주식회사 다온종합건설",
+      "ceo": "김영철",
+      "address": "세종특별자치시  한누리대로 2129, 비동 307-2호(보람동)",
+      "phone": "044-868-6087",
+      "near": false,
+      "count": 1,
+      "total": 470607580,
+      "projects": [
+        "국립세종도서관 장애인 편의시설 등 개선공사"
+      ]
+    },
+    {
       "name": "유한회사행중개발",
       "ceo": "이기홍",
       "address": "전북특별자치도 정읍시 마곡안길 12-14 (수성동)",
-      "phone": "063-643-4850",
+      "phone": "***********",
       "near": false,
       "count": 1,
       "total": 419408000,
