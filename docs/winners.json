@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-11-13T03:56+09:00",
-  "status": "최근 45일 낙찰 1111건 중 건축공사 47건",
+  "updated_at": "2026-11-13T09:23+09:00",
+  "status": "최근 45일 낙찰 1137건 중 건축공사 49건",
   "diagnostics": {
-    "scanned": 1111,
-    "matched": 47,
+    "scanned": 1137,
+    "matched": 49,
     "error": "",
     "endpoint": "https://apis.data.go.kr/1230000/as/ScsbidInfoService/getScsbidListSttusCnstwk",
     "fields": "bidNtceNo,bidNtceOrd,bidClsfcNo,rbidNo,ntceDivCd,bidNtceNm,prtcptCnum,bidwinnrNm,bidwinnrBizno,bidwinnrCeoNm,bidwinnrAdrs,bidwinnrTelNo,sucsfbidAmt,sucsfbidRate,rlOpengDt,dminsttCd,dminsttNm,rgstDt,fnlSucsfDate,fnlSucsfCorpOfcl"
@@ -452,6 +452,19 @@
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01721087"
     },
     {
+      "title": "청소년문화의집 복합문화센터 기능보강공사",
+      "agency": "전북특별자치도 군산시",
+      "amount": 794523125,
+      "date": "2026-09-15",
+      "winner": "건축법인 녹 엔지니어링 건축사사무소 주식회사",
+      "ceo": "빙인섭",
+      "address": "전북특별자치도 익산시 인북로 234-0 (남중동)",
+      "phone": "063-837-0508",
+      "bizno": "4038173088",
+      "near": false,
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01704305"
+    },
+    {
       "title": "(앵커)대경대학교 전용 이론강의실 구축 및 공용공간(로비) 환경개선공사",
       "agency": "대경대학산학협력단",
       "amount": 773610000,
@@ -580,6 +593,19 @@
       "bizno": "2258111503",
       "near": false,
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01742583"
+    },
+    {
+      "title": "경상북도교육청 영주선비도서관 외벽개선공사",
+      "agency": "경상북도교육청",
+      "amount": 325361460,
+      "date": "2026-09-15",
+      "winner": "(주)성안산업",
+      "ceo": "김영학",
+      "address": "경상북도 안동시 경북대로 8122-0 (수상동)",
+      "phone": "054-821-3977",
+      "bizno": "5088129801",
+      "near": false,
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01709045"
     },
     {
       "title": "2026년 국립방장산자연휴양림 숲속의집(화목동) 개축공사(건축)",
@@ -1031,6 +1057,18 @@
       ]
     },
     {
+      "name": "건축법인 녹 엔지니어링 건축사사무소 주식회사",
+      "ceo": "빙인섭",
+      "address": "전북특별자치도 익산시 인북로 234-0 (남중동)",
+      "phone": "063-837-0508",
+      "near": false,
+      "count": 1,
+      "total": 794523125,
+      "projects": [
+        "청소년문화의집 복합문화센터 기능보강공사"
+      ]
+    },
+    {
       "name": "주식회사 이오공간",
       "ceo": "서차만",
       "address": "대구광역시 수성구 알파시티1로31길 32-0 (대흥동)",
@@ -1148,6 +1186,18 @@
       "total": 331739060,
       "projects": [
         "군외 당인리 마을회관 신축공사(건축,기계)(계약대행)"
+      ]
+    },
+    {
+      "name": "(주)성안산업",
+      "ceo": "김영학",
+      "address": "경상북도 안동시 경북대로 8122-0 (수상동)",
+      "phone": "054-821-3977",
+      "near": false,
+      "count": 1,
+      "total": 325361460,
+      "projects": [
+        "경상북도교육청 영주선비도서관 외벽개선공사"
       ]
     },
     {
