@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T19:33+09:00",
+  "updated_at": "2026-11-15T02:07+09:00",
   "status": "정상",
   "items": [
     {
@@ -15,6 +15,13 @@
       "date": "2026-11-13T10:07+09:00",
       "press": "전북제일신문",
       "topic": "금속창호 공사"
+    },
+    {
+      "title": "건설협회 충북도회, 불법하도급 예방 교육 - 충청매일",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE15aE5lc2RXUlFhS1N1RkxwdkxrangwVzczTmJlN2h5dXRsSmZvYXNsLVJRNGhoU21YRHE2ektZek5sZ3RRdWpDR1NfSnBGZ2JCbkNVVHlkT2ZRb2dob0x6WGc3VXg3VDZmZkE?oc=5",
+      "date": "2026-11-12T19:05+09:00",
+      "press": "충청매일",
+      "topic": "전문건설 입찰 제도"
     },
     {
       "title": "대한건설협회 충북도회, 불법하도급 예방 교육…건설업계 260명 참석 - 중부매일",
@@ -73,20 +80,6 @@
       "topic": "금속창호 공사"
     },
     {
-      "title": "학교 책걸상 28%·냉난방기 16% 교체 기준 넘어…“땜질식 보수 넘어 선제적 관리로” - 경향신문",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5BWWItVkdaLU93S29QWWgtQ09xcnlDQlBhWTg5a09LdkFVREk3RFppcEFqbXloZUdOaVF4Z1NzbzN1VFZGTmJhR1JMUjU4V0hOUS1MeU9EWnZwQdIBX0FVX3lxTE1hc0R5MWNmU3puVm1FZXZHOUdQMjNtdW05aVQ1MFVWaGpQSHQ0UmVMNkdHbUdIN0ZRZ041N2lnV1M5U2llZE1ZU25pVzBxZnlPVnQxT29ZYXIzMHpMMG5B?oc=5",
-      "date": "2026-11-11T15:43+09:00",
-      "press": "경향신문",
-      "topic": "학교 시설 창호 교체"
-    },
-    {
-      "title": "BS한양, 협력사 상생 노력으로 동반성장지수 8년 연속 우수 등급 - 핀포인트뉴스",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1DUzV2aDYxQ3Vqb2F6SzROZUtmWVJPaFo0ZElYUjV3d2VQSFFuQjVEOGNCbVRLR0pmNHJvejd2MjdvTWRsVzhoRS0yajc4aUpMZWZKb0JLSGwybUJuaWhIa2ZJcFdza1JvY3duWDFVaHJ2cWVVcks00gF3QVVfeXFMTUNTNXZoNjFDdWpvYXpLNE5lS2ZZUk9oWjRkSVhSNXd3ZVBIUW5CNUQ4Y0JtVEtHSmY0cm96N3YyN29NZGxXOGhFLTJqNzhpSkxlZkpvQktIbDJtQm5paEhrZklwV3NrUm9jd25YMVVocnZxZVVySzQ?oc=5",
-      "date": "2026-11-11T15:28+09:00",
-      "press": "핀포인트뉴스",
-      "topic": "건설 협력업체 모집"
-    },
-    {
       "title": "BS한양, 동반성장지수 8년 연속 '우수'…협력사 자금 지원 강화 - 더트래커",
       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE55cW1TRjUxX1dadzZrSGpldFpuX2FtT0NaMFhTTmotVHdUb2NVUnZ1YmEwb3hlN0swSllsVjZ1Uk1ucVQtT1NIRjhQX1RENmZ1di1rN2w5ekQ?oc=5",
       "date": "2026-11-11T15:12+09:00",
@@ -136,6 +129,13 @@
       "topic": "학교 시설 창호 교체"
     },
     {
+      "title": "학생 수 줄어도 학교 노후화는 계속...5년간 38조9257억 필요 - 이로운넷",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5IQ0ZxSVNHcUlQdmpMa2tuc3FQVDRJMzJZdjJzSDBJMVp0a05VRDk5SjVKNjJlU0EyVVcyR1BGSmxIZmlhWjRTZVZFQ3haNlo5dHpRclZLd2JnM3NKYVBhd0h0VnpFQQ?oc=5",
+      "date": "2026-11-10T15:05+09:00",
+      "press": "이로운넷",
+      "topic": "학교 시설 창호 교체"
+    },
+    {
       "title": "교육감협의회 \"노후학교 안전·환경개선에 5년간 38조9천억 필요\" - 경북신문",
       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE81TGJLR3VDRC0yaUYwMUVIVFZodF9wQjdkOWd3YXpUM0h1aHJ5WG1BOE5Ub0VNcmhLeEhFb1I1d2dLT1AzSU9NdDBKVmF6Z1lJTFVTeG5jUDY?oc=5",
       "date": "2026-11-10T13:40+09:00",
@@ -157,13 +157,6 @@
       "topic": "전문건설 입찰 제도"
     },
     {
-      "title": "전문 건설기업 ㈜정웅테크원, 전주시 주거취약가구 맞춤형 집수리 지원 > 뉴스 - 더코리아",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5vUWpZUlRsRk9JVUgtZF9vMzBDVF9JS01RMENaN3c0OGF0WjVxMjlTMFd1VkJZcEZvZXB5R1Y0dWFVdzJDNS1Gb3A5c01GRGZjUnBLb1pvOGhzWFRTRHp5VF8zSEtDVHRVVGVMejQwYUpjQQ?oc=5",
-      "date": "2026-11-09T21:44+09:00",
-      "press": "더코리아",
-      "topic": "금속창호 공사"
-    },
-    {
       "title": "전문 건설기업 ㈜정웅테크원, 전주시 주거취약가구의 맞춤형 집수리 지원 - 전북엔비전",
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1teTN2bDF0U3c0WkVyR0ZmVVJmMHhBNEZnc3RfUi1RdlJaUGJ5U01UV25CRWxmeENOM3hyZVVRem05SHRGZllwMXJ2RnczV0hTVkNRcy1aUkdRUDRYSHJ3X1RaTng1dw?oc=5",
       "date": "2026-11-09T16:28+09:00",
@@ -171,17 +164,17 @@
       "topic": "금속창호 공사"
     },
     {
+      "title": "[기획] 반도체 클러스터 배후수요 잡아라…용인 신규 분양시장 주목 - 매일일보",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBRVU9uMnFUQjVRY0x4S1FWSEc5Y0tCREpydFoyNE5hVm5jRnpXQ3BON1VEU0h5V0EyazRBU0dEVU1nSGlsT1JQQ0ZwX1F0dXMtSmlfMzFBREE0SVFtZnZIYnRKQTU?oc=5",
+      "date": "2026-11-09T15:01+09:00",
+      "press": "매일일보",
+      "topic": "건설 협력업체 모집"
+    },
+    {
       "title": "‘사실조사 포비아’ 지방계약 공사도 입찰보증금 몰수 - 대한경제",
       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBWZW5STHY5X3hKZ1lxM3hCUzhkQ01aRmJQbHlhNndTRFdqUHJfckY4YWl6RjRlRTVfMjVPOVhFam5YM3RQRHU5THRGRVk1aU1IenpTYTlsZ1E0ZFhYMHZKYjQ4bTdHRXdaN3BXczRWaFpMck0?oc=5",
       "date": "2026-11-09T13:30+09:00",
       "press": "대한경제",
-      "topic": "전문건설 입찰 제도"
-    },
-    {
-      "title": "조달청, 부적격 건설업체 입찰보증금 몰수 지방공사까지 확대 - 어반톡",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1CVnQ0eVlsemgtTjJNNG9xc3BnN1VMTmVWQU9ZTnNQZjdRdWlTSjRBUE9zOWVJVm5SSnRtSUxESks2ek1wckpVbEFVSElzR0hpMjIxb3Jn?oc=5",
-      "date": "2026-11-09T11:46+09:00",
-      "press": "어반톡",
       "topic": "전문건설 입찰 제도"
     },
     {
