@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-11-14T12:15+09:00",
-  "status": "최근 45일 낙찰 1116건 중 건축공사 45건",
+  "updated_at": "2026-11-14T19:33+09:00",
+  "status": "최근 45일 낙찰 1117건 중 건축공사 44건",
   "diagnostics": {
-    "scanned": 1116,
-    "matched": 45,
+    "scanned": 1117,
+    "matched": 44,
     "error": "",
     "endpoint": "https://apis.data.go.kr/1230000/as/ScsbidInfoService/getScsbidListSttusCnstwk",
     "fields": "bidNtceNo,bidNtceOrd,bidClsfcNo,rbidNo,ntceDivCd,bidNtceNm,prtcptCnum,bidwinnrNm,bidwinnrBizno,bidwinnrCeoNm,bidwinnrAdrs,bidwinnrTelNo,sucsfbidAmt,sucsfbidRate,rlOpengDt,dminsttCd,dminsttNm,rgstDt,fnlSucsfDate,fnlSucsfCorpOfcl"
@@ -255,19 +255,6 @@
       "bizno": "4038178405",
       "near": false,
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01733817"
-    },
-    {
-      "title": "함열 순환경제활력센터 조성 건축공사",
-      "agency": "전북특별자치도 익산시",
-      "amount": 4129175000,
-      "date": "2026-09-10",
-      "winner": "주식회사 호겸건설",
-      "ceo": "강동수",
-      "address": "전북특별자치도 익산시 금마면 고도길 9",
-      "phone": "063-855-1310",
-      "bizno": "4038136614",
-      "near": false,
-      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01709084"
     },
     {
       "title": "새만금 자율운송 통합관제 실증지원센터 건립공사_건축",
@@ -822,18 +809,6 @@
       "total": 4857159500,
       "projects": [
         "군산의료원 본관 2~3층 리모델링 건축공사"
-      ]
-    },
-    {
-      "name": "주식회사 호겸건설",
-      "ceo": "강동수",
-      "address": "전북특별자치도 익산시 금마면 고도길 9",
-      "phone": "063-855-1310",
-      "near": false,
-      "count": 1,
-      "total": 4129175000,
-      "projects": [
-        "함열 순환경제활력센터 조성 건축공사"
       ]
     },
     {
