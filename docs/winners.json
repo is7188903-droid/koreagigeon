@@ -1,12 +1,10 @@
 {
-  "updated_at": "2026-11-17T05:28+09:00",
-  "status": "최근 45일 낙찰 24건 중 건축공사 0건",
+  "updated_at": "2026-11-17T12:53+09:00",
+  "status": "낙찰정보 수집 실패 · 공공데이터포털에서 낙찰정보서비스 활용신청 필요할 수 있음",
   "diagnostics": {
-    "scanned": 24,
+    "scanned": 0,
     "matched": 0,
-    "error": "",
-    "endpoint": "https://apis.data.go.kr/1230000/as/ScsbidInfoService/getScsbidListSttusCnstwk",
-    "fields": "bidNtceNo,bidNtceOrd,bidClsfcNo,rbidNo,ntceDivCd,bidNtceNm,prtcptCnum,bidwinnrNm,bidwinnrBizno,bidwinnrCeoNm,bidwinnrAdrs,bidwinnrTelNo,sucsfbidAmt,sucsfbidRate,rlOpengDt,dminsttCd,dminsttNm,rgstDt,fnlSucsfDate,fnlSucsfCorpOfcl"
+    "error": "ScsbidInfoService: HTTPError HTTP Error 400: Bad Request"
   },
   "projects": [],
   "companies": []
