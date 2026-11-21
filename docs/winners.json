@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-11-22T02:31+09:00",
-  "status": "최근 45일 낙찰 364건 중 건축공사 15건",
+  "updated_at": "2026-11-22T08:15+09:00",
+  "status": "최근 45일 낙찰 366건 중 건축공사 16건",
   "diagnostics": {
-    "scanned": 364,
-    "matched": 15,
+    "scanned": 366,
+    "matched": 16,
     "error": "",
     "endpoint": "https://apis.data.go.kr/1230000/as/ScsbidInfoService/getScsbidListSttusCnstwk",
     "fields": "bidNtceNo,bidNtceOrd,bidClsfcNo,rbidNo,ntceDivCd,bidNtceNm,prtcptCnum,bidwinnrNm,bidwinnrBizno,bidwinnrCeoNm,bidwinnrAdrs,bidwinnrTelNo,sucsfbidAmt,sucsfbidRate,rlOpengDt,dminsttCd,dminsttNm,rgstDt,fnlSucsfDate,fnlSucsfCorpOfcl"
@@ -21,6 +21,19 @@
       "bizno": "1148708317",
       "near": true,
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01609056"
+    },
+    {
+      "title": "(가칭)창릉5유 신축공사",
+      "agency": "경기도교육청",
+      "amount": 9622233390,
+      "date": "2026-09-18",
+      "winner": "(주)태영종합건설",
+      "ceo": "고광용",
+      "address": "경기도 의왕시 계원대학로 25-0 (내손동, 팬텀프라자)403호.404호",
+      "phone": "031-426-9033",
+      "bizno": "1388117654",
+      "near": true,
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01687266"
     },
     {
       "title": "`26년 매입임대주택 유지보수공사(건축 등, 2권역)",
@@ -216,6 +229,18 @@
       "total": 16811265000,
       "projects": [
         "(가칭)도일2초 신축공사"
+      ]
+    },
+    {
+      "name": "(주)태영종합건설",
+      "ceo": "고광용",
+      "address": "경기도 의왕시 계원대학로 25-0 (내손동, 팬텀프라자)403호.404호",
+      "phone": "031-426-9033",
+      "near": true,
+      "count": 1,
+      "total": 9622233390,
+      "projects": [
+        "(가칭)창릉5유 신축공사"
       ]
     },
     {
