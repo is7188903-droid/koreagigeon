@@ -1,14 +1,7 @@
 {
-  "updated_at": "2026-11-21T11:14+09:00",
+  "updated_at": "2026-11-21T18:52+09:00",
   "status": "정상",
   "items": [
-    {
-      "title": "[기고]원전 수출, 산업 생태계 살리는 물길 돼야 - 머니투데이 - 머니투데이",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1WaWY5MFpVVmNHdWp1dkI5bHNpalp5Nkd6SzdVbDdqQmpxdnZnaEUtUko1VHpkRVlHTXJSYXI1YXkzOTJHYWhDNnEzb09zUENRQnY2YW56dm1ydTdZN0NhdUR1VkYzby1PM1FrcUZ1VVl3N2xQZ0dKcNIBfkFVX3lxTFA3TkZhMnRtcG50bl9PVEdZbWxWZE9rNU1vRzBRZnRwOTJ1d1pUVEd1enZTUXJxNVhuZVdjQkE1bEl1STNDNkZfZXJUd2xVVDh6MVBkdlJYSUp1U2VZekR5cklRaVVsZ0FTSEtia3Q4WnQwS2NxaWJucGJlRjdfQQ?oc=5",
-      "date": "2026-11-20T05:00+09:00",
-      "press": "머니투데이",
-      "topic": "건설 협력업체 모집"
-    },
     {
       "title": "공주시, 전문건설업계와 간담회…지역업체 공사 참여 확대 논의 - 매일일보",
       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5NRjRiQkhGVTZ5bGwzMlN3Q2tjWXF4V1VxUWc2UW5uZWptSVAzRW5nU2p4Z1MtS3VQZi1YOG55Vk50REI4TV9LZVpyX21obDU0OFBvYmdKUmVoWGhkUlZJYjR5eWc?oc=5",
@@ -17,11 +10,25 @@
       "topic": "전문건설 입찰 제도"
     },
     {
+      "title": "[아유경제_부동산] DL이앤씨, ‘한숲 파트너스 데이’ 개최… 협력 업체와 동반성장 - 아유경제",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBINFR4WTdFNEUyYlhrM0l6NVdoNkpvVzB3RVZzYVNHQXlWczNLZzl0MjM5bE5Lb2l6aVQ5M1p0azNQRmFBc29JTlo4RTdPUk1ucWpXQmFhRzI0eDVPN252alprRWw0TGNx?oc=5",
+      "date": "2026-11-19T15:03+09:00",
+      "press": "아유경제",
+      "topic": "건설 협력업체 모집"
+    },
+    {
       "title": "2026년 건설업 연말 결산 자본금 점검 중요…조달청 입찰자격 사실조사 확대에 대비해야 - 유스연합",
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5oaGVpdWV4UXBUdEJ0UkNoQmR0SVN4RGVHTW11aUp6Ukwyck56OFgyVFhETlBzMVFONTF1cnVnUlJpT1loUkFIOXpYaGQwNExWRkhJ?oc=5",
       "date": "2026-11-19T10:05+09:00",
       "press": "유스연합",
       "topic": "전문건설 입찰 제도"
+    },
+    {
+      "title": "미 육군, 중동 3개국에 17개 벙커를 건설할 업체 모집 - Mezha.net",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOTUtlOEp1Q29YVTJvV3FvLVd3NnJlMHp5TnRjQ3hfYTdnMFE4Z3pXR2EyRTU0WFhULVA5QkdsRDdkQWtobUQ4Q25VZWdFdDBVdkdMYlpPUnVhTFdTQ0Z5NnVnRXdrVTkyM2o1RGtzcFhpbFNndVFyQVFBa1VFTFJmREowMEZPQkQzOFo0MUVabmQ?oc=5",
+      "date": "2026-11-18T23:18+09:00",
+      "press": "Mezha.net",
+      "topic": "건설 협력업체 모집"
     },
     {
       "title": "대구시, 지역 건설업체 하도급 수주 확대 나서 - 서울파이낸스",
@@ -38,11 +45,11 @@
       "topic": "금속창호 공사"
     },
     {
-      "title": "대형건설사 17곳·대구 전문건설업체 49곳 ‘수주 상담’ - 경북매일",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE41TzFqRHNwVEN3RUI1SVdoc1VWdUlyUTBfemtTWm5FbmxrektlaHNCeFJVU2dWYmJWaGhjSXhzOC1WV29FZ2ZsazZzbWlDQWh5aFI1Tm9Oa0ZYUQ?oc=5",
-      "date": "2026-11-17T16:10+09:00",
-      "press": "경북매일",
-      "topic": "금속창호 공사"
+      "title": "대구시, '대형 외지건설사·지역 하도급업체 매칭 교류회' 개최 - 매일일보",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1SUGttLUcydklWdjNjd2VCZmZYT1VMQ3czMHdlMUc5WmdGREYwWTdFVDN1X05UZFJrY0ZPZnpkV0FVNVRKTVVwaEV3WnVXbHBPdmJPbUFfNXBTV3pTaG9PU2dRYy0?oc=5",
+      "date": "2026-11-17T16:01+09:00",
+      "press": "매일일보",
+      "topic": "건설 협력업체 모집"
     },
     {
       "title": "대구시 `하도급 협력 교류회` 개최…`지역 건설사 수주 절벽 해소, 대형 공사 참여 확대` - 매일신문",
@@ -71,6 +78,13 @@
       "date": "2026-11-13T17:47+09:00",
       "press": "인천광역시",
       "topic": "건설 협력업체 모집"
+    },
+    {
+      "title": "㈜가온조경건설 허성준 대표, 정읍시에 고향사랑기부금 500만 원 기탁… ‘4년 연속’ 선행 - 투데이안",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8xYmc0MmpTbG1Wc3o0bzhfZlhQTlE4UnM2N1ozbjdnUXhpUHZ2UE02eHF1TmMyX1hxdGlCU0NFUGFPWU1TWExXVnZuMHptaHNiVGpwNVlKdXdJSndCZWtLa0EwZ1BxQmFocGc?oc=5",
+      "date": "2026-11-13T15:46+09:00",
+      "press": "투데이안",
+      "topic": "금속창호 공사"
     },
     {
       "title": "건설협회 충북도회, 불법하도급 예방 교육 - 충청매일",
@@ -122,13 +136,6 @@
       "topic": "건설 협력업체 모집"
     },
     {
-      "title": "BS한양, 동반성장평가지수 8년 연속 '우수' - 컨슈머치",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1XdFFBenRyV0hPVmgxaHBlSlZpV1YwbDBBVEpvM0x2TnZ1eUlpTFZxaVplWk5pdnZpaTJJZThhUDFIUjM0Wmg5T3BsRXRoWmZyXzlRSzMtN2NtUzYyOU5UaWlhUVRtS3RxYXY0?oc=5",
-      "date": "2026-11-11T16:49+09:00",
-      "press": "컨슈머치",
-      "topic": "건설 협력업체 모집"
-    },
-    {
       "title": "학교 책걸상 28%·냉난방기 16% 교체 기준 넘어…“땜질식 보수 넘어 선제적 관리로” - 경향신문",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5BWWItVkdaLU93S29QWWgtQ09xcnlDQlBhWTg5a09LdkFVREk3RFppcEFqbXloZUdOaVF4Z1NzbzN1VFZGTmJhR1JMUjU4V0hOUS1MeU9EWnZwQdIBX0FVX3lxTE1hc0R5MWNmU3puVm1FZXZHOUdQMjNtdW05aVQ1MFVWaGpQSHQ0UmVMNkdHbUdIN0ZRZ041N2lnV1M5U2llZE1ZU25pVzBxZnlPVnQxT29ZYXIzMHpMMG5B?oc=5",
       "date": "2026-11-11T15:43+09:00",
@@ -150,11 +157,11 @@
       "topic": "건설 협력업체 모집"
     },
     {
-      "title": "BS한양, 동반성장지수 8년 연속 '우수'…“상생·공정거래 체계 정착” - ER 이코노믹리뷰",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5PZmtzcG1VanpmYi0weTQ1c3pMNU5EYkVDU2FURWx0elV6UnI4ZUNqWVFFMmRpQ2lPQUpfQ2VoaVFHTGJrTHctazNJU2NoWVFyZm1rTDBXSkpjZ1FVeTYzZDRRMVlpeWpRUmVYXw?oc=5",
-      "date": "2026-11-11T14:47+09:00",
-      "press": "ER 이코노믹리뷰",
-      "topic": "건설 협력업체 모집"
+      "title": "전국 학교시설 개선에 5년간 38조 9천억 원 필요…노후학교 안전 ‘비상’ - 한국IT산업뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1JRGJoOGxxa0czV19LNHllcl9BcWtaZ0JTOGdJNUhBTnI0MDA5b2lsOG41NU1IbDk5TDVOaVFyczRMZlBaNmxXTDRKck8?oc=5",
+      "date": "2026-11-11T08:51+09:00",
+      "press": "한국IT산업뉴스",
+      "topic": "학교 시설 창호 교체"
     },
     {
       "title": "학생 줄어도 학교는 낡는다...“학교 시설개선비 39조 필요” - 더에듀",

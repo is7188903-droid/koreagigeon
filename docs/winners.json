@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-11-21T11:14+09:00",
-  "status": "최근 45일 낙찰 830건 중 건축공사 26건",
+  "updated_at": "2026-11-21T18:52+09:00",
+  "status": "최근 45일 낙찰 839건 중 건축공사 28건",
   "diagnostics": {
-    "scanned": 830,
-    "matched": 26,
+    "scanned": 839,
+    "matched": 28,
     "error": "",
     "endpoint": "https://apis.data.go.kr/1230000/as/ScsbidInfoService/getScsbidListSttusCnstwk",
     "fields": "bidNtceNo,bidNtceOrd,bidClsfcNo,rbidNo,ntceDivCd,bidNtceNm,prtcptCnum,bidwinnrNm,bidwinnrBizno,bidwinnrCeoNm,bidwinnrAdrs,bidwinnrTelNo,sucsfbidAmt,sucsfbidRate,rlOpengDt,dminsttCd,dminsttNm,rgstDt,fnlSucsfDate,fnlSucsfCorpOfcl"
@@ -88,6 +88,19 @@
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01713607"
     },
     {
+      "title": "온양온천역 광장 미관 개선공사",
+      "agency": "충청남도 아산시",
+      "amount": 1145157700,
+      "date": "2026-09-15",
+      "winner": "평산종합건설(주)",
+      "ceo": "손승재",
+      "address": "충청남도 천안시 동남구 풍세로 694, 202호(구룡동, 구룡빌딩)",
+      "phone": "041-622-8507",
+      "bizno": "3078112745",
+      "near": true,
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01717967"
+    },
+    {
       "title": "강북지사 내부 관람공간 개선공사",
       "agency": "한국마사회",
       "amount": 508120500,
@@ -151,6 +164,19 @@
       "bizno": "5068130092",
       "near": false,
       "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01660825"
+    },
+    {
+      "title": "국도28호선 경주 안강 두류 교차로 개선공사",
+      "agency": "국토교통부 부산지방국토관리청 포항국토관리사무소",
+      "amount": 4967160950,
+      "date": "2026-09-17",
+      "winner": "비지종합건설 주식회사",
+      "ceo": "양병구",
+      "address": "경상북도 구미시 구미중앙로27길 5 ()",
+      "phone": "054-472-2121",
+      "bizno": "4098146162",
+      "near": false,
+      "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01698849"
     },
     {
       "title": "율촌초 공간재구조화 본관동 개축공사",
@@ -422,6 +448,18 @@
       ]
     },
     {
+      "name": "평산종합건설(주)",
+      "ceo": "손승재",
+      "address": "충청남도 천안시 동남구 풍세로 694, 202호(구룡동, 구룡빌딩)",
+      "phone": "041-622-8507",
+      "near": true,
+      "count": 1,
+      "total": 1145157700,
+      "projects": [
+        "온양온천역 광장 미관 개선공사"
+      ]
+    },
+    {
       "name": "주식회사 에이디자인그룹",
       "ceo": "나진철",
       "address": "서울특별시 강서구 양천로 583, 에이동 1310호 (염창동)",
@@ -479,6 +517,18 @@
       "total": 6110462000,
       "projects": [
         "Ai-Edutech 융합교육센터 신축공사"
+      ]
+    },
+    {
+      "name": "비지종합건설 주식회사",
+      "ceo": "양병구",
+      "address": "경상북도 구미시 구미중앙로27길 5 ()",
+      "phone": "054-472-2121",
+      "near": false,
+      "count": 1,
+      "total": 4967160950,
+      "projects": [
+        "국도28호선 경주 안강 두류 교차로 개선공사"
       ]
     },
     {
